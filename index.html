@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HCCS Compass | Prototype</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="header" class="row justify-content-between px-4 my-4">
+            <div class="col-xs-4">
+                <a href="/"><img alt="Compass - powered by hStream" id="logo" src="http://compass.hccs.com/img/hStream_Compass_logo.png"></a>
+            </div>
+            <div class="user col-xs-4">
+                //USER//
+            </div>
+        </div><!--end header row-->
+    </div><!--end container-->
+    <nav class="navbar navbar-light" role="navigation">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-4">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Regulatory Citations <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Scope of Practice/Licensure</a>
+            </li>
+        </ul>
+        <form class="form-inline my-3 mr-4">
+            <input class="search-blue form-control search-control mr-0" type="search" placeholder="Search all fields" aria-label="Search">
+            <button class="btn btn-search" aria-label="search" type="submit"><i class="fas fa-search" alt="search"></i></button>
+        </form>
+    </nav>
+
+    <div id="filterBtns" class="btn-group mx-5 mt-3" role="group" aria-label="filter button group">
+            <button id="btnFederal" type="button" class="btn btn-federal active">Federal</button>
+
+            <div class="btn-group" role="group"><!-- #stateDropdown -->
+                <select class="selectpicker" data-style="btn-secondary" title="State" data-size="7">
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Arizona">Arizona</option> 
+                </select>
+              </div><!--end state select-->
+
+            <div class="btn-group" role="group"><!-- #careSettings -->
+              <button id="careSettings" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Care Settings
+              </button>
+              <ul id="careSettings-items" class="dropdown-menu filterDropdown px-3" aria-labelledby="careSettings">
+                    <li>
+                        <input type="text" placeholder="Search category..." id="careSettingsSearch" class="categorySearchInput"></li>
+                    </li>
+                    <div class="dropdown-divider"></div>
+                    <li class="filterCheckbox" role="checkbox" aria-checked="false">
+                    <div class="radio-btn filterCheckbox-sq">
+                        <input type="checkbox" value="settingOne">Setting One
+                    </div>
+                </li>
+                <li class="filterCheckbox" role="checkbox" aria-checked="false">
+                    <div class="radio-btn filterCheckbox-sq">
+                        <input type="checkbox" value="settingTwo">Setting Two
+                    </div>
+                </li>
+                <li class="filterCheckbox" role="checkbox" aria-checked="false">
+                    <div class="radio-btn filterCheckbox-sq">
+                        <input type="checkbox" value="settingThree">Setting Three
+                    </div>               
+                </li>
+              </ul>
+            </div><!--end careSettings-->
+
+            <div class="btn-group" role="group"><!-- #disciplines -->
+                <button id="disciplines" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Disciplines
+                </button>
+                <ul id="careSettings-items" class="dropdown-menu filterDropdown px-3" aria-labelledby="disciplines">
+                      <li>
+                          <input type="text" placeholder="Search category..." id="disciplineSearch" class="categorySearchInput"></li>
+                      </li>
+                      <div class="dropdown-divider"></div>
+                      <li class="filterCheckbox" role="checkbox" aria-checked="false">
+                      <div class="radio-btn filterCheckbox-sq">
+                          <input type="checkbox" value="settingOne">Discipline One
+                      </div>
+                  </li>
+                  <li class="filterCheckbox" role="checkbox" aria-checked="false">
+                      <div class="radio-btn filterCheckbox-sq">
+                          <input type="checkbox" value="settingTwo">Discipline Two
+                      </div>
+                  </li>
+                  <li class="filterCheckbox" role="checkbox" aria-checked="false">
+                      <div class="radio-btn filterCheckbox-sq">
+                          <input type="checkbox" value="settingThree">Discipline Three
+                      </div>               
+                  </li>
+                </ul>
+              </div><!--end disciplines-->
+
+    </div><!--end filter btn-group-->
+    <div id="footer" class="row">
+		<div class="col-sm-6">
+			<div class="copydate">&copy; <span id="currentYear">2018</span> HCCS <a href="/terms-of-use/">Terms of Use</a> | <a href="/privacy-policy/">Privacy Policy</a></div>
+		</div>
+
+		<div class="col-sm-6">
+			<div>
+				<ul class="social">
+					<li><a href="//www.healthstream.com/podcast/" target="_blank"><img alt="" src="http://compass.hccs.com//img/podcasticon_white2.png"></a></li>
+					<li><a href="https://www.facebook.com/hccshome/" target="_blank"><img alt="" src="http://compass.hccs.com//img/fb-sm.png"></a></li>
+					<li><a href="https://twitter.com/hccsinc" target="_blank"><img alt="" src="http://compass.hccs.com//img/twitter-sm.png"></a></li>
+					<li><a href="https://www.linkedin.com/company/health-care-compliance-strategies-hccs-" target="_blank"><img alt="" src="http://compass.hccs.com//img/linkedin-sm.png"></a></li>
+					<li><a href="https://plus.google.com/115368898514062126964" target="_blank"><img alt="" src="http://compass.hccs.com//img/google-sm2.png"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
+    <script src="dist/app.js"></script>    
+</body>
+
+</html>
