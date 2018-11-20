@@ -5,3 +5,4 @@ lib/node_modules
 lib/package-lock.json
 css/main.css
 css/main.css.map
+.vscode/
