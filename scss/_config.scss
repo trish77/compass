@@ -1,0 +1,41 @@
+//FONT IMPORT 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700');
+
+//Color Variables
+$lightest: #cadce6;
+$lighter: #95b9cf;
+$light: #5da6d5;
+$primary: #29719f;
+$dark: #1e5477;
+$darker: #15394f;
+$darkest: #0f2a3b;
+$dark-gray-1: #333;
+$dark-gray-2: #555;
+$light-gray: #edeef0;
+$success: #5cb85c;
+$warning: #f0ad4e;
+$danger: #c9534f;
+$info: #5bc0de;
+$accent: #9e2971;
+$focus: #719e29;
+
+//Base Styles
+html {
+    /* $rembase = 10px */
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.5rem; 
+    padding: 0;
+    color: $dark-gray-1;
+    padding: 0;
+    margin: 0;
+}
+
+#logo{
+    width: auto;
+    height: 30px;
+}
