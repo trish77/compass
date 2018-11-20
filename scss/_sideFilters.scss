@@ -1,13 +1,10 @@
 @import 'config';
 
 #sideNavFilters{
-    z-index: 200;
-}
-
-.sideFilters {
+    z-index: 200 !important;
     height: 100%; 
     width: 0; 
-    position: fixed; /* Stay in place */
+    position: absolute; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
@@ -15,40 +12,79 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; 
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
+    
+    .sideFilters-title{
+        position: absolute;
+        top: 0;
+        background-color: $light-gray;
+        color: $dark-gray-1;
+        width: 100%;
+        height: 5rem;
+        margin-bottom: 2rem;
+    }
 
-.sideFilters-title{
-    position: absolute;
-    top: 0;
-    background-color: $light-gray;
-    color: $dark-gray-1;
-    width: 100%;
-    height: 5rem;
-    margin-bottom: 1rem;
-}
+// /* The navigation menu links */
+// .sideFilters a {
+//     padding: 8px 8px 8px 32px;
+//     text-decoration: none;
+//     font-size: 25px;
+//     color: #818181;
+//     display: block;
+//     transition: 0.3s;
+// }
 
-/* The navigation menu links */
-.sideFilters a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
+// .sideFilters a:hover {
+//     color: #f1f1f1;
+// }
 
-.sideFilters a:hover {
-    color: #f1f1f1;
-}
+//** Filter Drawer **//
+
+    .filterDrawer{
+        width: 90%;
+        background-color: $light-gray;
+        color: $dark-gray-1;
+        margin: 1.2rem auto;
+        padding: 1rem;
+    }
+
+    ul{
+        padding-inline-start: 0;
+        li{
+            list-style: none;
+        }
+    }
 
 /* Position and style the close button (top right corner) */
-.closebtn {
-    position: absolute;
-    top: 1.4rem;
-    right: 2.5rem;
-    font-size: 2rem;
-    margin-left: 1rem;
-    color: $dark-gray-1;
+    .closebtn {
+        position: absolute;
+        top: 1.4rem;
+        right: 2.5rem;
+        font-size: 2rem;
+        margin-left: 1rem;
+        color: $dark-gray-1;
+    }
+
+    .sideFilters-footer{
+        background-color: $light-gray;
+        width:100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .sideNavFilters-search{
+        width: 90%;
+        margin: 5rem auto;
+        .filter-search{
+            height: 4.5rem;
+            font-style: italic;
+            width: 350px;
+            display: inline-block;
+        }
+        .btn-search{
+            font-size: 1.4rem;
+            padding: 1.1rem 1.8rem;
+        }
+    }
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */

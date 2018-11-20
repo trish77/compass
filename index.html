@@ -11,16 +11,25 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
 <body>
-    <div id="sideNavFilters" class="sideFilters">
-        <div class="sideFilters-title">
+    <section id="sideNavFilters" class="sideFilters" role="dialog" >
+        <header class="sideFilters-title"><h3 class="text-center mt-4">Filters</h3>
             <div class="closebtn"><i class="fas fa-times"></i></div>
-        </div>
-        
-        <a href="#">Placeholder 1</a>
-        <a href="#">Placeholder 2</a>
-        <a href="#">Placeholder 3</a>
-        <a href="#">Placeholder 4</a>
-    </div><!--end side nav filters-->
+        </header>
+        <ul class="filterList" role="tablist">
+            <li><div class="filterDrawer mt-5">Federal</div></li>
+            <li><div class="filterDrawer">State</div></li>
+            <li><div class="filterDrawer">Care Settings</div></li>
+            <li><div class="filterDrawer">Disciplines</div></li>
+        </ul>
+        <footer class="sideFilters-footer">
+            <form class="sideNavFilters-search">
+                <input class="search-blue form-control filter-search mr-0" type="search" placeholder="Search all fields" aria-label="Search">
+                <button class="btn btn-search" aria-label="sideNavFilters-search" type="submit"><i class="fas fa-search" alt="all filters search"></i></button>
+            </form>
+        </footer>
+    </section><!--end side nav filters-->
+
+
     <div id="cover" class="d-none"></div>
     <div id="main">
     <div class="container-fluid">
