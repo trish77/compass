@@ -1,0 +1,59 @@
+@import 'config';
+
+// Bootstrap Overrides
+.navbar-light{
+    background-color: #f3f3f3;
+}
+
+.navbar-nav{
+    flex-direction: row;
+}
+
+.nav-item{
+    margin: auto 1em;
+}
+
+input[type=checkbox]{
+    margin-right: .5rem;
+    border: 1px solid #adadac;
+    border-radius: 3px;
+    height: 2.2rem;
+    width: 2.2rem;
+    min-width: 2.2rem;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-secondary.dropdown-toggle{
+    color: $focus;
+    background-color: inherit;
+    border-color: inherit;
+}
+
+.btn:focus{
+    box-shadow: none !important;
+}
+
+// nav styles
+.search-blue{
+    border: 1px solid $primary;
+    box-shadow: 0 0 0 1px $primary;
+    min-width: 250px !important;
+}
+
+.btn-search{
+    color: #fff;
+    background-color: $primary;
+    border: 1px solid $primary;
+    box-shadow: 0 0 0 1px $primary;
+    padding: .4rem 1.3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: -3px;
+}
+
+.search-control{
+    height: calc(2.5rem + 5px);
+    line-height: 2rem;
+    font-size: 1.3rem;
+    font-style: italic;
+}
