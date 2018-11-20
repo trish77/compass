@@ -39,15 +39,17 @@
     <div id="filterBtns" class="btn-group mx-5 mt-3" role="group" aria-label="filter button group">
             <button id="btnFederal" type="button" class="btn btn-federal active">Federal</button>
 
-            <div class="btn-group" role="group"><!-- #stateDropdown -->
-                <select class="selectpicker" data-style="btn-secondary" title="State" data-size="7">
+            <!-- #stateDropdown -->
+            <div class="dropdown input-group-btn" role="button">
+                <select class="selectpicker input-group-btn" data-style="btn-state" title="State" data-size="7">
                     <option value="Alabama">Alabama</option>
                     <option value="Alaska">Alaska</option>
                     <option value="Arizona">Arizona</option> 
                 </select>
               </div><!--end state select-->
 
-            <div class="btn-group" role="group"><!-- #careSettings -->
+            <!-- #careSettings -->
+              <div class="btn-group" role="group">
               <button id="careSettings" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Care Settings
               </button>
@@ -74,7 +76,8 @@
               </ul>
             </div><!--end careSettings-->
 
-            <div class="btn-group" role="group"><!-- #disciplines -->
+            <!-- #disciplines -->
+            <div class="btn-group" role="group">
                 <button id="disciplines" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Disciplines
                 </button>
