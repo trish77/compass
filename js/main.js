@@ -15,5 +15,11 @@ $("#btnFederal").click(function(){
 $("#openSideFilters").click(function(){
     $("#sideNavFilters").css("width", "450px");
     $("#main").css("marginLeft", "450px");
-    $("body").css("backgroundColor", "rgba(0,0,0,0.4)");
+    $("#cover").removeClass("d-none");
+});
+
+$(".closebtn").click(function(){
+    $("#sideNavFilters").css("width", "0px");
+    $("#main").css("marginLeft", "0px");
+    $("#cover").addClass("d-none");
 });
