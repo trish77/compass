@@ -1,6 +1,6 @@
 "use strict";
 
-let $ = require('jquery');
+//let $ = require('jquery');
 
 // placeholder log. need to write to filter on the this ID list
 $('.categorySearchInput').keyup(function(){

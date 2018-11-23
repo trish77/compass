@@ -2,7 +2,7 @@
 dist/
 lib/.sass-cache
 lib/node_modules
+node_modules
 lib/package-lock.json
-css/main.css
-css/main.css.map
 .vscode/
+.history
