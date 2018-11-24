@@ -6,18 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HCCS Compass | Prototype</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="./node_modules/tempusdominus-bootstrap-4/build/css/tempusdominus-bootstrap-4.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/datatables.min.css" />
     <link rel="stylesheet" type="text/css" href="css/custom-checkbox.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
 
     <script type="text/javascript" src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./node_modules/moment/min/moment.min.js"></script>
     <script type="text/javascript" src="./node_modules/tempusdominus-bootstrap-4/build/js/tempusdominus-bootstrap-4.js"></script>
+    <!-- Datatables-->
+    <script type="text/javascript" src="./js/datatables.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+
+
+
 </head>
 
 <body>
@@ -35,21 +41,66 @@
                                 <h4 class="m-0 mt-2">Federal</h4>
                                 <span class="clickable"><i class="fa fa-plus"></i></span>
                             </div>
-                            <div class="card-body"></div>
+                            <div class="card-body">
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="fedCheck1">
+                                    <label class="" for="fedCheck1">
+                                        Federal
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                         <div class="card filterDrawer">
                             <div class="card-title d-flex align-items-center justify-content-between">
                                 <h4 class="m-0 mt-2">State</h4>
                                 <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
                             </div>
-                            <div class="card-body">body</div>
+                            <div class="card-body">
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="stateCheck1">
+                                    <label class="" for="stateCheck1">
+                                        Alabama
+                                    </label>
+                                </div>
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="stateCheck2">
+                                    <label class="" for="stateCheck1">
+                                        Alaska
+                                    </label>
+                                </div>
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="stateCheck3">
+                                    <label class="" for="stateCheck1">
+                                        Arizona
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                         <div class="card filterDrawer">
                             <div class="card-title d-flex align-items-center justify-content-between">
-                                <h4 class="m-0 mt-2">Core Settings</h4>
+                                <h4 class="m-0 mt-2">Care Settings</h4>
                                 <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
                             </div>
-                            <div class="card-body">body</div>
+                            <div class="card-body">
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="careCheck1">
+                                    <label class="" for="careCheck1">
+                                        Care 1
+                                    </label>
+                                </div>
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="careCheck2">
+                                    <label class="" for="careCheck2">
+                                        Care 2
+                                    </label>
+                                </div>
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="careCheck3">
+                                    <label class="" for="careCheck3">
+                                        Care 3
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                         <div class="card filterDrawer">
                             <div class="card-title d-flex align-items-center justify-content-between">
@@ -63,27 +114,27 @@
                                         Accountant and Auditor
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                                    <label class="form-check-label" for="defaultCheck2">
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="defaultCheck2">
+                                    <label class="" for="defaultCheck2">
                                         Acupuncturist
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                    <label class="form-check-label" for="defaultCheck1">
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="defaultCheck3">
+                                    <label class="" for="defaultCheck3">
                                         Administrative Assistant
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                                    <label class="form-check-label" for="defaultCheck2">
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="defaultCheck4">
+                                    <label class="" for="defaultCheck4">
                                         Administrative Services Manager
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                                    <label class="form-check-label" for="defaultCheck2">
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="defaultCheck5">
+                                    <label class="" for="defaultCheck5">
                                         Administrators
                                     </label>
                                 </div>
@@ -130,37 +181,24 @@
                                 <span class="pull-right clickable card-collapsed"><i class="fa fa-plus"></i></span>
                             </div>
                             <div class="card-body">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                    <label class="form-check-label" for="defaultCheck1">
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="governingCheck1">
+                                    <label class="" for="governingCheck1">
                                         Accountant and Auditor
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                                    <label class="form-check-label" for="defaultCheck2">
-                                        Acupuncturist
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                    <label class="form-check-label" for="defaultCheck1">
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="governingCheck2">
+                                    <label class="" for="governingCheck2">
                                         Administrative Assistant
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                                    <label class="form-check-label" for="defaultCheck2">
-                                        Administrative Services Manager
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                                    <label class="form-check-label" for="defaultCheck2">
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="governingCheck3">
+                                    <label class="" for="governingCheck3">
                                         Administrators
                                     </label>
                                 </div>
-
                             </div>
                         </div>
                         <div class="card filterDrawer">
@@ -169,33 +207,15 @@
                                 <span class="pull-right clickable card-collapsed"><i class="fa fa-plus"></i></span>
                             </div>
                             <div class="card-body">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                    <label class="form-check-label" for="defaultCheck1">
-                                        Accountant and Auditor
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                                    <label class="form-check-label" for="defaultCheck2">
-                                        Acupuncturist
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                    <label class="form-check-label" for="defaultCheck1">
-                                        Administrative Assistant
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                                    <label class="form-check-label" for="defaultCheck2">
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="reqCheck1">
+                                    <label class="" for="reqCheck1">
                                         Administrative Services Manager
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                                    <label class="form-check-label" for="defaultCheck2">
+                                <div class="checkbox checkbox-primary">
+                                    <input class="styled" type="checkbox" value="" id="reqCheck2">
+                                    <label class="" for="reqCheck2">
                                         Administrators
                                     </label>
                                 </div>
@@ -234,12 +254,12 @@
 
     <div id="cover" class="d-none"></div>
     <div id="main">
-        <div class="container-fluid">
-            <div id="header" class="row justify-content-between px-4 my-4">
-                <div class="col-xs-4">
-                    <a href="/"><img alt="Compass - powered by hStream" id="logo" src="http://compass.hccs.com/img/hStream_Compass_logo.png"></a>
-                </div>
-                <div class="user col-xs-4">
+
+            <div id="header" class="row justify-content-between  my-4">
+
+                    <a href="/" class="pl-5"><img alt="Compass - powered by hStream" id="logo" src="http://compass.hccs.com/img/hStream_Compass_logo.png"></a>
+
+                <div class="user pr-5">
                     //USER//
                 </div>
             </div>
@@ -255,101 +275,75 @@
                     <a class="nav-link disabled" href="#">Scope of Practice/Licensure</a>
                 </li>
             </ul>
-            <form class="form-inline my-3 mr-4">
-                <input class="search-blue form-control search-control mr-0" type="search" placeholder="Search all fields"
-                    aria-label="Search">
-                <button class="btn btn-search" aria-label="search" type="submit"><i class="fas fa-search" alt="search"></i></button>
-            </form>
+            <div class="download-btn"></div>
+
         </nav>
 
-        <div id="filterBtns" class="btn-group mx-5 mt-3" role="group" aria-label="filter button group">
-            <button id="btnFederal" type="button" class="btn btn-federal active">Federal</button>
 
-            <!-- #stateDropdown -->
-            <div class="dropdown btn-group" role="button">
-                <select class="selectpicker input-group-btn" data-width="fit" data-style="btn-state" title="State"
-                    data-size="7">
-                    <option value="Alabama">Alabama</option>
-                    <option value="Alaska">Alaska</option>
-                    <option value="Arizona">Arizona</option>
-                </select>
-            </div>
-            <!--end state select-->
 
-            <!-- #careSettings -->
-            <div class="btn-group" role="group">
-                <button id="careSettings" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Care Settings
-                </button>
-                <ul id="careSettings-items" class="dropdown-menu filterDropdown px-3" aria-labelledby="careSettings">
-                    <li>
-                        <input type="text" placeholder="Search category..." id="careSettingsSearch" class="categorySearchInput"></li>
-                    </li>
-                    <div class="dropdown-divider"></div>
-                    <li class="filterCheckbox" role="checkbox" aria-checked="false">
-                        <div class="radio-btn filterCheckbox-sq">
-                            <input type="checkbox" value="settingOne">Setting One
-                        </div>
-                    </li>
-                    <li class="filterCheckbox" role="checkbox" aria-checked="false">
-                        <div class="radio-btn filterCheckbox-sq">
-                            <input type="checkbox" value="settingTwo">Setting Two
-                        </div>
-                    </li>
-                    <li class="filterCheckbox" role="checkbox" aria-checked="false">
-                        <div class="radio-btn filterCheckbox-sq">
-                            <input type="checkbox" value="settingThree">Setting Three
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <!--end careSettings-->
+        <div class="container-fluid">
+            <table id="compass" class="table table-striped table-bordered dt-responsive nowrap dataTable no-footer dtr-inline collapsed"
+                     style="width: 100%;" role="grid" aria-describedby="example_info">
+                     <thead>
+                         <tr role="row">
+                             <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 73px;"
+                                 aria-label="First name: activate to sort column ascending">Regulatory Citation</th>
+                             <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 72px;"
+                                 aria-label="Last name: activate to sort column ascending">Effective Date</th>
+                             <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 100px;"
+                                 aria-label="Position: activate to sort column descending" aria-sort="ascending">Governing
+                                 Body</th>
+                             <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 80px;"
+                                 aria-label="Office: activate to sort column ascending">Required?</th>
+                             <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 29px;"
+                                 aria-label="Age: activate to sort column ascending">Training Requirements</th>
+                             <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 68px;"
+                                 aria-label="Start date: activate to sort column ascending">Notes</th>
 
-            <!-- #disciplines -->
-            <div class="btn-group" role="group">
-                <button id="disciplines" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Disciplines
-                </button>
-                <ul id="careSettings-items" class="dropdown-menu filterDropdown px-3" aria-labelledby="disciplines">
-                    <li>
-                        <input type="text" placeholder="Search category..." id="disciplineSearch" class="categorySearchInput"></li>
-                    </li>
-                    <div class="dropdown-divider"></div>
-                    <li class="filterCheckbox" role="checkbox" aria-checked="false">
-                        <div class="radio-btn filterCheckbox-sq">
-                            <input type="checkbox" value="settingOne">Discipline One
-                        </div>
-                    </li>
-                    <li class="filterCheckbox" role="checkbox" aria-checked="false">
-                        <div class="radio-btn filterCheckbox-sq">
-                            <input type="checkbox" value="settingTwo">Discipline Two
-                        </div>
-                    </li>
-                    <li class="filterCheckbox" role="checkbox" aria-checked="false">
-                        <div class="radio-btn filterCheckbox-sq">
-                            <input type="checkbox" value="settingThree">Discipline Three
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <!--end disciplines-->
 
-            <!-- #effectiveDate -->
-            <div class="btn-group" role="group">
-                <button id="effectiveDate" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Effective Date
-                </button>
-                <!--need to identify library for this dropdown. there is an existing pattern in another product-->
-            </div>
-            <!--effective date-->
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <tr role="row" class="odd">
+                             <td tabindex="0" class="">
+                                 <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
 
-            <button id="openSideFilters" type="button" class="btn btn-viewAll">View All Filters</button>
+                                 <span>Training required for direct care staff of residential care facilities for the
+                                     elderly.</span>
+                                 <a href="">[ Related Courses ]</a>
 
+                             </td>
+                             <td>January 1, 2016</td>
+                             <td class="sorting_1">
+                                 <p>California State Legislative</p>
+                                 <a href="">[ Source ]</a>
+                             </td>
+                             <td>
+                                 <p><span class="font-weight-bold">For New Hires:</span> No</p>
+                                 <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
+                                 <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
+
+                             </td>
+                             <td>
+                                 <p> <span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
+                                 <p> <span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
+                                     care.</p>
+                                 <p>After
+                                     the initial training, a four-hour in-service refresher course each year</p>
+                                 <a href="">[ View All ]</a>
+                             </td>
+                             <td>
+                                 <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
+                                     button?)</p>
+                             </td>
+                         </tr>
+
+                     </tbody>
+                 </table>
+                 <!-- end table -->
         </div>
-        <!--end filter btn-group-->
+
+
         <div id="footer" class="row">
             <div class="col-sm-6">
                 <div class="copydate">&copy; <span id="currentYear">2018</span> HCCS <a href="/terms-of-use/">Terms of
@@ -373,26 +367,9 @@
     </div>
     <!--end main container-->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
-    <script src="main.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            $('#datetimepicker7').datetimepicker();
-            $('#datetimepicker8').datetimepicker({
-                useCurrent: false
-            });
-            $("#datetimepicker7").on("change.datetimepicker", function (e) {
-                $('#datetimepicker8').datetimepicker('minDate', e.date);
-            });
-            $("#datetimepicker8").on("change.datetimepicker", function (e) {
-                $('#datetimepicker7').datetimepicker('maxDate', e.date);
-            });
-        });
-    </script>
+
 </body>
 
 </html>

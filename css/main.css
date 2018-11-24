@@ -21,6 +21,10 @@ body {
   height: 30px;
 }
 
+#header {
+  width: 100%;
+}
+
 html {
   /* $rembase = 10px */
   font-size: 62.5%;
@@ -78,7 +82,9 @@ input[type=checkbox] {
 .search-blue {
   border: 1px solid #29719f;
   box-shadow: 0 0 0 1px #29719f;
-  /* min-width: 250px !important; */
+  min-width: 250px !important;
+  max-width: 300px;
+  height: 30px;
 }
 
 .btn-search {
@@ -97,6 +103,7 @@ input[type=checkbox] {
   line-height: 2rem;
   font-size: 1.3rem;
   font-style: italic;
+  max-width: 220px;
 }
 
 .filterDropdown > a > .dropdown-item {
@@ -156,6 +163,8 @@ input[type=checkbox] {
   color: #719e29;
 }
 
+
+
 .btn-federal:active,
 #btnFederal.active {
   background-color: #15394f !important;
@@ -201,6 +210,10 @@ input[type=checkbox] {
 .filterCheckbox-sq {
   display: flex;
   align-items: center;
+}
+
+ #filterBtns .btn-federal {
+  margin: 0.5rem 0 0.5rem 0;
 }
 
 .categorySearchInput {
@@ -391,6 +404,15 @@ body {
   margin-bottom: 10px;
 }
 
+.custom-select {
+  height: calc(3.25rem + 3px);
+  margin: 0.5rem 0 0.5rem 1rem;
+  border: 2px solid #29719f;
+  background-image: url("caret-down.png");
+  background-size: 9px;
+  min-width: 100px;
+}
+
 .datetimepicker-input {
   /* margin-right: 12px; */
   font-size: 1.2rem;
@@ -406,6 +428,33 @@ body {
  padding:  1rem 1rem 1rem 3rem;
 }
 
+/* datatables */
+.dataTable div, .dataTable span, .dataTable p, .dataTable h4 {
+  white-space: normal
+}
 
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(0,0,0,.05);
+}
+
+.dataTables_length, .dataTables_paginate, .dataTables_info {
+  display: inline-block;
+}
+
+.dataTables_info, .dataTables_paginate {
+  float: right;
+}
+
+.dataTables_info {
+  margin-right: 12px;
+}
+.toolbar {
+  float: right;
+  margin-top: 10px;
+}
 
 /*# sourceMappingURL=main.css.map */
