@@ -4,9 +4,21 @@
 
 // placeholder log. need to write to filter on the this ID list
 $(document).ready(function() {
-    $('#compass').dataTable( {
-       "dom": '<"toptools"><"toolbar"><l>t<lpi>'
-    });
+    var table = $('#compass').DataTable( {
+       "dom": '<"toptools"><"toolbar"><l>t<lpi>',
+        buttons: [
+          {
+            extend: 'collection',
+            text: 'Download',
+            buttons: [
+              'copy', 'excel', 'pdf', 'print'
+            ]
+          }
+          ]
+          });
+    table.buttons().container()
+      .insertBefore( $('.toolbar', table.table().container() ) );
+
     $('.toptools').html('<div id="filterBtns" class="btn-group mt-3" role="group" aria-label="filter button group">\n' +
       '            <button id="btnFederal" type="button" class="btn btn-federal active">Federal</button>\n' +
       '\n' +
@@ -109,7 +121,6 @@ $('.categorySearchInput').keyup(function(){
 
 $("#btnFederal").click(function(){
     $(this).toggleClass("active");
-    console.log('federal toggled');
 });
 
 $("#openSideFilters").click(function(){
@@ -124,9 +135,20 @@ $(".closebtn").click(function(){
     $("#cover").addClass("d-none");
 });
 
-$('.btn-download').click(function(){
-    console.log('remember to add analytics event listener to downloads');
+$('#fedCheck1').on('click', function () {
+
+  if( $(this).is(':checked')) {
+    let $thisText = $(this).val();
+    var $btnFed = $(".pillFilter").append('<button type="button" class="btn btn-labeled btn-primary">\n' +
+      'Federal<span class="btn-label"><i class="fas fa-times text-white"></i></span></button>');
+    $('#btnFederal').addClass('active');
+  } else {
+    $btnFed.remove();
+    $('#btnFederal').removeClass('active')
+
+  }
 });
+
 
 $(document).on('click', '.clickable', function(e){
     var $this = $(this);
