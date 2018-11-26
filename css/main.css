@@ -361,7 +361,7 @@ body {
   margin: 0;
   bottom: 0;
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   height: 80px;
 }
 
@@ -434,6 +434,7 @@ body {
   background-image: url("caret-down.png");
   background-size: 9px;
   min-width: 100px;
+  font-size: 1.6rem;
 }
 
 .datetimepicker-input {
