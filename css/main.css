@@ -3,514 +3,553 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700");
 
 html {
-    /* $rembase = 10px */
-    font-size: 62.5%;
+  /* $rembase = 10px */
+  font-size: 62.5%;
 }
 
 body {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 1.4rem;
-    line-height: 2.5rem;
-    padding: 0;
-    color: #333;
-    padding: 0;
-    margin: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  padding: 0;
+  color: #333;
+  padding: 0;
+  margin: 0;
 }
 
 #logo {
-    width: auto;
-    height: 30px;
+  width: auto;
+  height: 30px;
 }
 
 #header {
-    width: 100%;
+  width: 100%;
+}
+
+.w-90 {
+  width:  90%;
 }
 
 html {
-    /* $rembase = 10px */
-    font-size: 62.5%;
+  /* $rembase = 10px */
+  font-size: 62.5%;
 }
 
 body {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 1.4rem;
-    line-height: 2.5rem;
-    padding: 0;
-    color: #333;
-    padding: 0;
-    margin: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  padding: 0;
+  color: #333;
+  padding: 0;
+  margin: 0;
 }
 
 #logo {
-    width: auto;
-    height: 30px;
+  width: auto;
+  height: 30px;
 }
 
 .navbar-light {
-    background-color: #f3f3f3;
+  background-color: #f3f3f3;
 }
 
 .navbar-nav {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .nav-item {
-    margin: auto 1em;
+  margin: auto 1em;
 }
 
 input[type=checkbox] {
-    /* margin-right: 0.5rem; */
-    /* border: 1px solid #adadac; */
-    /* border-radius: 3px; */
-    height: 1.2rem;
-    /* width: 2.2rem; */
-    /* min-width: 2.2rem; */
-    padding-bottom: 8px;
-    line-height: 18px;
+  /* margin-right: 0.5rem; */
+  /* border: 1px solid #adadac; */
+  /* border-radius: 3px; */
+  height: 1.2rem;
+  /* width: 2.2rem; */
+  /* min-width: 2.2rem; */
+  padding-bottom: 8px;
+  line-height: 18px;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active,
 .show > .btn-secondary.dropdown-toggle {
-    color: #719e29;
-    background-color: inherit;
-    border-color: inherit;
+  color: #719e29;
+  background-color: inherit;
+  border-color: inherit;
 }
 
 .btn:focus {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .search-blue {
-    border: 1px solid #29719f;
-    box-shadow: 0 0 0 1px #29719f;
-    min-width: 250px !important;
-    max-width: 300px;
-    height: 30px;
-    font-size: 1.6rem;
-    font-style: italic;
+  border: 1px solid #5da6d5;
+  box-shadow: 0 0 0 1px #5da6d5;
+  min-width: 250px !important;
+  max-width: 300px;
+  height: 30px;
+  font-size: 1.6rem;
+  font-style: italic;
 }
 
 .btn-search {
-    color: #fff;
-    background-color: #29719f;
-    border: 1px solid #29719f;
-    box-shadow: 0 0 0 1px #29719f;
-    padding: 0.4rem 1.3rem;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    margin-left: -3px;
+  color: #fff;
+  background-color: #5da6d5;
+  border: 1px solid #5da6d5;
+  box-shadow: 0 0 0 1px #5da6d5;
+  padding: 0.4rem 1.3rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-left: -3px;
 }
 
 .search-control {
-    height: calc(2.5rem + 5px);
-    line-height: 2rem;
-    font-size: 1.3rem;
-    font-style: italic;
-    max-width: 220px;
+  height: calc(2.5rem + 5px);
+  line-height: 2rem;
+  font-size: 1.3rem;
+  font-style: italic;
+  max-width: 220px;
 }
 
 .filterDropdown > a > .dropdown-item {
-    font-size: inherit;
+  font-size: inherit;
 }
 
 .filterList {
-    overflow-y: auto;
-    height: calc(100% - 200px);
+  overflow-y: auto;
+  height: calc(100% - 160px);
 }
 
 #filterBtns {
-    margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 #filterBtns .btn, #filterBtns .btn-federal, #filterBtns .btn-viewAll, #filterBtns .btn-state {
-    margin: 0.5rem 0 0.5rem 1rem;
-    padding: 0.3rem 1rem;
-    border: 2px solid #29719f;
-    border-radius: 3px;
-    background-color: #fff;
-    color: #15394f;
-    font-size: 1.6rem;
+  margin: 0.5rem 0 0.5rem 1rem;
+  padding: 0.3rem 1rem;
+  border: 2px solid #29719f;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #15394f;
+  font-size: 1.6rem;
 }
 
 .btn-download {
-    margin: 0.5rem 0 0.5rem 1rem;
-    padding: 0.3rem 1rem;
-    border: 2px solid #29719f;
-    border-radius: 3px;
-    background-color: #29719f;
-    color: white;
-    font-size: 1.6rem;
+  margin: 0.5rem 0 0.5rem 1rem;
+  padding: 0.3rem 1rem;
+  border: 2px solid #5da6d5;
+  border-radius: 3px;
+  background-color: #5da6d5;
+  color: white;
+  font-size: 1.6rem;
 }
 
 .btn-download-outline {
-    margin: 0.5rem 0 0.5rem 1rem;
-    padding: 0.3rem 1rem;
-    border: 2px solid #29719f;
-    border-radius: 3px;
-    background-color: #fff;
-    color: #29719f;
-    font-size: 1.6rem;
+  margin: 0.5rem 0 0.5rem 1rem;
+  padding: 0.3rem 1rem;
+  border: 2px solid #5da6d5;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #29719f;
+  font-size: 1.6rem;
 }
 
 .btn-download a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 #filterBtns .bootstrap-select {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 .dropdown-item {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 .dropdown-item:hover {
-    background-color: #edeef0;
-    color: #719e29;
+  background-color: #edeef0;
+  color: #719e29;
 }
 
 .btn-federal:active,
 #btnFederal.active {
-    background-color: #15394f !important;
-    color: #fff !important;
+  background-color: #15394f !important;
+  color: #fff !important;
 }
 
 #filterBtns .btn-viewAll {
-    color: #719e29 !important;
+  color: #719e29 !important;
 }
 
 .button-select {
-    display: inline-block;
-    margin: 0.5rem 1rem 0.5rem 0;
-    padding: 0.3rem 1rem;
-    border: 2px solid #29719f;
-    border-radius: 3px;
-    background-color: #fff;
-    color: #15394f;
-    font-size: 1.6rem;
-    font-weight: inherit;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    line-height: 1.5;
-    height: auto;
+  display: inline-block;
+  margin: 0.5rem 1rem 0.5rem 0;
+  padding: 0.3rem 1rem;
+  border: 2px solid #29719f;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #15394f;
+  font-size: 1.6rem;
+  font-weight: inherit;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  line-height: 1.5;
+  height: auto;
 }
 
 .filterDropdown {
-    padding: 0.8rem;
-    min-width: 250px;
-    max-height: 350px;
-    overflow-y: auto;
+  padding: 0.8rem;
+  min-width: 250px;
+  max-height: 350px;
+  overflow-y: auto;
 }
 
 .filterCheckbox {
-    font-size: 1.4rem;
-    line-height: 3rem;
+  font-size: 1.4rem;
+  line-height: 3rem;
 }
 
 .filterCheckbox-sq {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #filterBtns .btn-federal {
-    margin: 0.5rem 0 0.5rem 0;
+  margin: 0.5rem 0 0.5rem 0;
 }
 
 .categorySearchInput {
-    padding: 0.5rem 1rem;
-    border: 1px solid #edeef0;
-    width: 230px;
-    font-style: italic;
-    color: #555;
+  padding: 0.5rem 1rem;
+  border: 1px solid #edeef0;
+  width: 230px;
+  font-style: italic;
+  color: #555;
 }
 
 html {
-    /* $rembase = 10px */
-    font-size: 62.5%;
+  /* $rembase = 10px */
+  font-size: 62.5%;
 }
 
 body {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 1.4rem;
-    line-height: 2.5rem;
-    padding: 0;
-    color: #333;
-    padding: 0;
-    margin: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  padding: 0;
+  color: #333;
+  padding: 0;
+  margin: 0;
 }
 
 #logo {
-    width: auto;
-    height: 30px;
+  width: auto;
+  height: 30px;
 }
 
 #sideNavFilters {
-    z-index: 200 !important;
-    height: 100%;
-    width: 0;
-    position: absolute;
-    /* Stay in place */
-    z-index: 1;
-    /* Stay on top */
-    top: 0;
-    /* Stay at the top */
-    left: 0;
-    background-color: #0f2a3b;
-    overflow-x: hidden;
-    /* Disable horizontal scroll */
-    padding-top: 60px;
-    transition: 0.5s;
-    /* 0.5 second transition effect to slide in the sidenav */
-    /* Position and style the close button (top right corner) */
-    overflow-y: hidden;
+  z-index: 200 !important;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #0f2a3b;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+  /* Position and style the close button (top right corner) */
+  overflow-y: hidden;
 }
 
 #sideNavFilters .sideFilters-title {
-    position: absolute;
-    top: 0;
-    background-color: #edeef0;
-    color: #333;
-    width: 100%;
-    height: 5rem;
-    margin-bottom: 2rem;
+  position: absolute;
+  top: 0;
+  background-color: #edeef0;
+  color: #333;
+  width: 100%;
+  height: 5rem;
+  /* margin-bottom: 2rem; */
 }
 
 #sideNavFilters .filterDrawer {
-    /* width: 90%; */
-    background-color: #edeef0;
-    color: #333;
-    margin: 1.2rem auto;
-    /* padding: 1rem; */
-    /* text-align: center; */
+  /* width: 90%; */
+  background-color: #edeef0;
+  color: #333;
+  margin: 1.2rem auto;
+  /* padding: 1rem; */
+  /* text-align: center; */
 }
 
 #sideNavFilters ul {
-    padding-inline-start: 0;
+  padding-inline-start: 0;
 }
 
 #sideNavFilters ul li {
-    list-style: none;
+  list-style: none;
 }
 
 #sideNavFilters .closebtn {
-    position: absolute;
-    top: 1.4rem;
-    right: 2.5rem;
-    font-size: 2rem;
-    margin-left: 1rem;
-    color: #333;
+  position: absolute;
+  top: 1.4rem;
+  right: 2.5rem;
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: #333;
 }
 
 #sideNavFilters .sideFilters-footer {
-    background-color: #edeef0;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+  background-color: #edeef0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 #sideNavFilters .sideNavFilters-search {
-    width: 90%;
-    margin: 5rem auto;
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  overflow-y: auto;
 }
 
 #sideNavFilters .sideNavFilters-search .filter-search {
-    height: 4.4rem;
-    font-style: italic;
-    font-size: 1.6rem;
-    display: inline-block;
+  height: 4.4rem;
+  font-style: italic;
+  font-size: 1.6rem;
+  display: inline-block;
+  border: 2px solid #29719f;
 }
 
 #sideNavFilters .sideNavFilters-search .btn-search {
-    font-size: 1.6rem;
-    padding: 1.1rem 1.8rem;
+  font-size: 1.6rem;
+  padding: 1.1rem 1.8rem;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-    transition: margin-left 0.5s;
+  transition: margin-left 0.5s;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sideFilters {
-        padding-top: 15px;
-    }
+  .sideFilters {
+    padding-top: 15px;
+  }
 
-    .sideFilters a {
-        font-size: 18px;
-    }
+  .sideFilters a {
+    font-size: 18px;
+  }
 }
 
 #footer {
-    background-color: #333;
-    color: #999;
-    font-size: 10pt;
-    padding: 20px 40px;
-    margin: 0;
-    bottom: 0;
-    width: 100%;
-    position: absolute;
+  background-color: #333;
+  color: #999;
+  font-size: 10pt;
+  padding: 20px 40px;
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: 80px;
 }
 
 #footer a {
-    opacity: 0.5;
-    color: #ccc;
-    -o-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+  opacity: 0.5;
+  color: #ccc;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #footer a:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .copydate {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .social {
-    list-style-type: none;
-    float: right;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 0;
 }
 
 .social li {
-    float: left;
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
 }
 
 .social li img {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 #cover {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 100;
-    width: 100%;
-    height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  width: 100%;
+  height: 100%;
 }
 
 .input-group-text {
-    border: none;
-    padding: 0;
-    font-size: 2rem;
+  border: none;
+  padding: 0;
+  font-size: 2rem;
 }
 
 .input-group > .custom-file .custom-file-input:focus ~ .custom-file-label, .input-group > .custom-select:focus, .input-group > .form-control:focus {
-    z-index: 1;
+  z-index: 1;
 }
 
 .form-check-label {
-    margin-left: 18px;
-    margin-bottom: 10px;
+  margin-left: 18px;
+  margin-bottom: 10px;
 }
 
 .custom-select {
-    height: calc(3.25rem + 3px);
-    margin: 0.5rem 0 0.5rem 1rem;
-    border: 2px solid #29719f;
-    background-image: url("caret-down.png");
-    background-size: 9px;
-    min-width: 100px;
+  height: calc(3.25rem + 3px);
+  margin: 0.5rem 0 0.5rem 1rem;
+  border: 2px solid #29719f;
+  background-image: url("caret-down.png");
+  background-size: 9px;
+  min-width: 100px;
 }
 
 .datetimepicker-input {
-    /* margin-right: 12px; */
-    font-size: 1.2rem;
-    height: 3rem;
+  /* margin-right: 12px; */
+  font-size: 1.2rem;
+  height: 3rem;
 }
 
 .card-body {
-    padding: 1.8rem 1rem 1rem 4.4rem;
-    background-color: #fff;
+  padding: 1.8rem 1rem 1rem 4.4rem;
+  background-color: #fff;
 }
 
 .card-title {
-    padding: 1rem 1rem 1rem 3rem;
+  padding: 1rem 1rem 1rem 3rem;
 }
 
 /* datatables */
 .dataTable div, .dataTable span, .dataTable p, .dataTable h4 {
-    white-space: normal
+  white-space: normal
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .table-striped tbody tr:nth-of-type(even) {
-    background-color: rgba(0, 0, 0, .05);
+  background-color: rgba(0, 0, 0, .05);
 }
 
 .dataTables_length, .dataTables_paginate, .dataTables_info {
-    display: inline-block;
+  display: inline-block;
 }
 
 .dataTables_info, .dataTables_paginate {
-    float: right;
+  float: right;
 }
 
 .dataTables_info {
-    margin-right: 12px;
+  margin-right: 12px;
 }
 
 .toolbar {
-    float: right;
-    margin-top: 10px;
+  float: right;
+  margin-top: 10px;
 }
 
 .dt-buttons {
-    position: absolute;
-    right: 15px;
-    top: 128px;
+  position: absolute;
+  right: 15px;
+  top: 128px;
 }
 
 .buttons-collection {
-    color: #fff;
-    background-color: #29719f;
-    border: 1px solid #29719f;
-    box-shadow: 0 0 0 1px #29719f;
-    padding: 0.4rem 1.3rem;
-    font-size: 1.5rem;
+  color: #fff;
+  background-color: #5da6d5;
+  border: 1px solid #5da6d5;
+  box-shadow: 0 0 0 1px #5da6d5;
+  padding: 0.4rem 1.3rem;
+  font-size: 1.5rem;
 }
 
 .btn-pill {
-    border-radius: 1.4rem;
-    padding: .5rem;
+  border-radius: 1.4rem;
+  padding: .5rem;
 }
 
 .toptools {
-    margin-bottom: 25px
+  /* margin-bottom: 25px */
+}
+
+.page-item.active .page-link {
+  background-color: #5da6d5;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+  font-size: 1.4rem;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+  padding-top: 1em;
 }
 
 .btn-label {
-    position: relative;
-    right: -12px;
-    display: inline-block;
-    padding: 6px 12px;
-    border-radius: 3px 0 0 3px;
+  position: relative;
+  right: -12px;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 3px 0 0 3px;
 
 }
 
 .btn-labeled {
-    padding-top: 0;
-    padding-bottom: 0;
-    border-radius: 1.4rem;
-    font-size: 1.4rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 1.4rem;
+  font-size: 1.4rem;
+}
+
+.pillFilter {
+ margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #5da6d5;
+  padding: 0 1.3rem;
+}
+
+.btn-primary:hover {
+  background-color: #29719f;
+  padding: 0 1.3rem;
+}
+
+.dataTable h4 {
+  color: #5da6d5;
+  font-weight: bold ;
 }
 
 /*# sourceMappingURL=main.css.map */
