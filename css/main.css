@@ -45,6 +45,19 @@ body {
   margin: 0;
 }
 
+a{
+  color: #29719f;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #5da6d5;
+}
+
+.related{
+  color: #719e29;  
+}
+
 #logo {
   width: auto;
   height: 30px;
@@ -63,12 +76,9 @@ body {
 }
 
 input[type=checkbox] {
-  /* margin-right: 0.5rem; */
-  /* border: 1px solid #adadac; */
-  /* border-radius: 3px; */
-  height: 1.2rem;
-  /* width: 2.2rem; */
-  /* min-width: 2.2rem; */
+  margin-right: 0.5rem;
+  border-radius: 3px;
+  height: 3rem;
   padding-bottom: 8px;
   line-height: 18px;
 }
@@ -80,8 +90,11 @@ input[type=checkbox] {
   border-color: inherit;
 }
 
-.btn:focus {
+#filterBtns .btn:focus {
   box-shadow: none !important;
+  border-color: #719e29;
+  box-shadow: 0 0 0 0.2rem #719e2970;
+  }
 }
 
 .search-blue {
@@ -177,6 +190,7 @@ input[type=checkbox] {
 .btn-federal:active,
 #btnFederal.active {
   background-color: #15394f !important;
+  border-color: #15394f;
   color: #fff !important;
 }
 
@@ -213,12 +227,10 @@ input[type=checkbox] {
 
 .filterCheckbox {
   font-size: 1.4rem;
-  line-height: 3rem;
 }
 
 .filterCheckbox-sq {
   display: flex;
-  align-items: center;
 }
 
 #filterBtns .btn-federal {
@@ -335,6 +347,8 @@ body {
 #sideNavFilters .sideNavFilters-search .btn-search {
   font-size: 1.6rem;
   padding: 1.1rem 1.8rem;
+  border: none;
+  box-shadow: none;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -437,6 +451,11 @@ body {
   font-size: 1.6rem;
 }
 
+.custom-select:focus{
+  border-color: #719e29;
+  box-shadow: 0 0 0 0.2rem #719e2970;
+}
+
 .datetimepicker-input {
   /* margin-right: 12px; */
   font-size: 1.2rem;
@@ -530,7 +549,7 @@ div.dataTables_wrapper div.dataTables_info {
 .btn-labeled {
   padding-top: 0;
   padding-bottom: 0;
-  border-radius: 1.4rem;
+  border-radius: 3rem;
   font-size: 1.4rem;
 }
 
@@ -540,6 +559,7 @@ div.dataTables_wrapper div.dataTables_info {
 
 .btn-primary {
   background-color: #5da6d5;
+  border-color: #5da6d5;
   padding: 0 1.3rem;
 }
 
@@ -550,7 +570,30 @@ div.dataTables_wrapper div.dataTables_info {
 
 .dataTable h4 {
   color: #5da6d5;
-  font-weight: bold ;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.badge-success{
+  background-color: #719e29;
+  padding: .5rem .75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  margin-left: .5rem;
+}
+
+.page-link{
+  color: #29719f;
+}
+
+.dataTables_info{
+  font-style: italic;
+}
+
+.btn-secondary:hover{
+  background-color: #719e29;
+  border-color: #719e29
 }
 
 /*# sourceMappingURL=main.css.map */
