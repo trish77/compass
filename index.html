@@ -269,10 +269,8 @@
     <div class="user pr-5">
       //USER//
     </div>
-  </div>
-  <!--end header row-->
-</div>
-<!--end container-->
+  </div><!--end header row-->
+
 <nav class="navbar navbar-light" role="navigation">
   <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-4">
     <li class="nav-item active">
@@ -290,31 +288,21 @@
   <table id="compass"
          class="table table-striped table-bordered dt-responsive nowrap dataTable no-footer dtr-inline collapsed"
          style="width: 100%;" role="grid" aria-describedby="example_info">
-    <thead>
-    <tr role="row">
-      <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 73px;"
-          aria-label="First name: activate to sort column ascending">Regulatory Citation
-      </th>
-      <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 72px;"
-          aria-label="Last name: activate to sort column ascending">Effective Date
-      </th>
-      <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 100px;"
-          aria-label="Position: activate to sort column descending" aria-sort="ascending">Governing
-        Body
-      </th>
-      <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 80px;"
-          aria-label="Office: activate to sort column ascending">Required?
-      </th>
-      <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 29px;"
-          aria-label="Age: activate to sort column ascending">Training Requirements
-      </th>
-      <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 68px;"
-          aria-label="Start date: activate to sort column ascending">Notes
-      </th>
-
-
-    </tr>
-    </thead>
+         <thead>
+          <tr role="row">
+            <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 73px;" aria-label="Regulatory Citation: activate to sort column ascending">Regulatory Citation
+            </th>
+            <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 50px;" aria-label="Effective Date: activate to sort column ascending">Effective Date
+            </th>
+            <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 100px;" aria-label="Governing Body: activate to sort column descending" aria-sort="ascending">Governing
+              Body
+            </th>
+            <th tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 80px;" aria-label="Application Notes">Application
+            </th>
+            <th tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 29px;" aria-label="Traning Requirements">Training Requirements
+            </th>
+          </tr>
+        </thead>
     <tbody>
     <tr role="row" class="odd">
       <td tabindex="0" class="">
@@ -322,7 +310,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+        <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -331,22 +319,20 @@
         <a href="">[ Source ]</a>
       </td>
       <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
+        <p><span class="font-weight-bold">Required?:</span> No</p>
+        <p><span class="font-weight-bold">For Initial Hires:</span> No</p>
         <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
+        <p><span class="font-weight-bold">Periodically:</span> Yes</p>
+        <p><span class="font-weight-bold">After Review:</span> No</p>
+        <p><span class="font-weight-bold">After Indicent:</span> Yes</p>
+        <a href="">[ Notes ]</a>
       </td>
       <td>
         <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
         <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
+          care. After the initial training, a four-hour in-service refresher course each year</p>
+        <p><span class="font-weight-bold">Non-Compliance Penalty:</span> No penalties are specified. However, compliance is a condition of permission to order or furnish.</p>
         <a href="">[ View All ]</a>
-      </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
       </td>
     </tr>
     <tr role="row" class="even">
@@ -355,7 +341,69 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+        <a href="#" class="related">[ Related Courses ]</a>
+
+      </td>
+      <td>January 1, 2016</td>
+      <td class="sorting_1">
+        <p>California State Legislative</p>
+        <a href="">[ Source ]</a>
+      </td>
+      <td>
+          <p><span class="font-weight-bold">Required?:</span> No</p>
+          <p><span class="font-weight-bold">For Initial Hires:</span> No</p>
+          <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
+          <p><span class="font-weight-bold">Periodically:</span> Yes</p>
+          <p><span class="font-weight-bold">After Review:</span> No</p>
+          <p><span class="font-weight-bold">After Indicent:</span> Yes</p>
+          <a href="">[ Notes ]</a>
+        </td>
+        <td>
+          <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
+          <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
+            care. After the initial training, a four-hour in-service refresher course each year</p>
+          <p><span class="font-weight-bold">Non-Compliance Penalty:</span> No penalties are specified. However, compliance is a condition of permission to order or furnish.</p>
+          <a href="">[ View All ]</a>
+        </td>
+      </tr>
+    <tr role="row" class="odd">
+      <td tabindex="0" class="">
+        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
+
+        <span>Training required for direct care staff of residential care facilities for the
+                                     elderly.</span>
+        <a href="" class="related">[ Related Courses ]</a>
+
+      </td>
+      <td>January 1, 2016</td>
+      <td class="sorting_1">
+        <p>California State Legislative</p>
+        <a href="">[ Source ]</a>
+      </td>
+      <td>
+          <p><span class="font-weight-bold">Required?:</span> No</p>
+          <p><span class="font-weight-bold">For Initial Hires:</span> No</p>
+          <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
+          <p><span class="font-weight-bold">Periodically:</span> Yes</p>
+          <p><span class="font-weight-bold">After Review:</span> No</p>
+          <p><span class="font-weight-bold">After Indicent:</span> Yes</p>
+          <a href="">[ Notes ]</a>
+        </td>
+        <td>
+          <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
+          <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
+            care. After the initial training, a four-hour in-service refresher course each year</p>
+          <p><span class="font-weight-bold">Non-Compliance Penalty:</span> No penalties are specified. However, compliance is a condition of permission to order or furnish.</p>
+          <a href="">[ View All ]</a>
+        </td>
+      </tr>
+    <tr role="row" class="even">
+      <td tabindex="0" class="">
+        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
+
+        <span>Training required for direct care staff of residential care facilities for the
+                                     elderly.</span>
+                                     <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -377,10 +425,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+      
     </tr>
     <tr role="row" class="odd">
       <td tabindex="0" class="">
@@ -388,7 +433,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+                                     <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -410,10 +455,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+      
     </tr>
     <tr role="row" class="even">
       <td tabindex="0" class="">
@@ -421,7 +463,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+        <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -443,10 +485,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+  
     </tr>
     <tr role="row" class="odd">
       <td tabindex="0" class="">
@@ -454,7 +493,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+        <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -476,10 +515,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+     
     </tr>
     <tr role="row" class="even">
       <td tabindex="0" class="">
@@ -487,7 +523,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+        <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -509,10 +545,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+    
     </tr>
     <tr role="row" class="odd">
       <td tabindex="0" class="">
@@ -520,7 +553,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+        <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -542,10 +575,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+    
     </tr>
     <tr role="row" class="even">
       <td tabindex="0" class="">
@@ -553,7 +583,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+        <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -575,10 +605,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+     
     </tr>
     <tr role="row" class="odd">
       <td tabindex="0" class="">
@@ -586,7 +613,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+        <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -608,10 +635,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+    
     </tr>
     <tr role="row" class="even">
       <td tabindex="0" class="">
@@ -619,7 +643,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+        <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -641,10 +665,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+    
     </tr>
     <tr role="row" class="odd">
       <td tabindex="0" class="">
@@ -652,7 +673,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+                                     <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -674,10 +695,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+      
     </tr>
     <tr role="row" class="even">
       <td tabindex="0" class="">
@@ -685,7 +703,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+        <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -707,10 +725,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+     
     </tr>
     <tr role="row" class="odd">
       <td tabindex="0" class="">
@@ -718,7 +733,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+                                     <a href="" class="related">[ Related Courses ]</a>"
 
       </td>
       <td>January 1, 2016</td>
@@ -740,10 +755,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+    
     </tr>
     <tr role="row" class="even">
       <td tabindex="0" class="">
@@ -751,7 +763,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+                                     <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -773,10 +785,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+     
     </tr>
     <tr role="row" class="odd">
       <td tabindex="0" class="">
@@ -784,7 +793,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+        <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -806,10 +815,7 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
+  
     </tr>
     <tr role="row" class="even">
       <td tabindex="0" class="">
@@ -817,7 +823,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+                                     <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -839,18 +845,14 @@
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
       </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
-    </tr>
+        </tr>
     <tr role="row" class="odd">
       <td tabindex="0" class="">
         <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+                                     <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -871,10 +873,6 @@
         <p>After
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
-      </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
       </td>
     </tr>
     <tr role="row" class="even">
@@ -883,7 +881,7 @@
 
         <span>Training required for direct care staff of residential care facilities for the
                                      elderly.</span>
-        <a href="">[ Related Courses ]</a>
+                                     <a href="" class="related">[ Related Courses ]</a>
 
       </td>
       <td>January 1, 2016</td>
@@ -904,76 +902,6 @@
         <p>After
           the initial training, a four-hour in-service refresher course each year</p>
         <a href="">[ View All ]</a>
-      </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
-    </tr>
-    <tr role="row" class="odd">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
-      </td>
-    </tr>
-    <tr role="row" class="even">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-      <td>
-        <p>Text to be entered by organization. (Who will have rights to edit this? May need an edit
-          button?)</p>
       </td>
     </tr>
 
@@ -1014,7 +942,7 @@
 </div>
 <!--end footer-->
 
-<!--end main container-->
+</div><!--end main container-->
 
 </body>
 
