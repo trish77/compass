@@ -6,943 +6,377 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>HCCS Compass | Prototype</title>
-  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
-  <link rel="stylesheet" href="./node_modules/tempusdominus-bootstrap-4/build/css/tempusdominus-bootstrap-4.css">
-  <link rel="stylesheet" type="text/css" href="./css/datatables.min.css"/>
-  <link rel="stylesheet" type="text/css" href="css/custom-checkbox.css"/>
-  <link rel="stylesheet" type="text/css" href="css/main.css"/>
-
-  <script type="text/javascript" src="./node_modules/jquery/dist/jquery.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript" src="./node_modules/moment/min/moment.min.js"></script>
-  <script type="text/javascript"
-          src="./node_modules/tempusdominus-bootstrap-4/build/js/tempusdominus-bootstrap-4.js"></script>
-  <!-- Datatables-->
-  <script type="text/javascript" src="./js/datatables.min.js"></script>
-  <script type="text/javascript" src="./js/main.js"></script>
-
-
+  <link rel="stylesheet" type="text/css" href="./css/style.min.css" />
+  <script type="text/javascript" src="./js/script.js"></script>
 </head>
 
 <body>
-<section id="sideNavFilters" class="sideFilters" role="dialog">
-  <header class="sideFilters-title">
-    <h3 class="text-center mt-4">Filters</h3>
-    <div class="closebtn"><i class="fas fa-times"></i></div>
-  </header>
-  <form class="sideNavFilters-search">
-    <div class="filterList" role="tablist">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card filterDrawer">
-              <div class="card-title d-flex align-items-center justify-content-between">
-                <h4 class="m-0 mt-2">Federal</h4>
-                <span class="clickable"><i class="fa fa-plus"></i></span>
-              </div>
-              <div class="card-body">
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="Federal" id="fedCheck1">
-                  <label class="" for="fedCheck1">
-                    Federal
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="card filterDrawer">
-              <div class="card-title d-flex align-items-center justify-content-between">
-                <h4 class="m-0 mt-2">State</h4>
-                <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
-              </div>
-              <div class="card-body">
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="stateCheck1">
-                  <label class="" for="stateCheck1">
-                    Alabama
-                  </label>
-                </div>
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="stateCheck2">
-                  <label class="" for="stateCheck1">
-                    Alaska
-                  </label>
-                </div>
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="stateCheck3">
-                  <label class="" for="stateCheck1">
-                    Arizona
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="card filterDrawer">
-              <div class="card-title d-flex align-items-center justify-content-between">
-                <h4 class="m-0 mt-2">Care Settings</h4>
-                <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
-              </div>
-              <div class="card-body">
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="careCheck1">
-                  <label class="" for="careCheck1">
-                    Care 1
-                  </label>
-                </div>
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="careCheck2">
-                  <label class="" for="careCheck2">
-                    Care 2
-                  </label>
-                </div>
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="careCheck3">
-                  <label class="" for="careCheck3">
-                    Care 3
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="card filterDrawer">
-              <div class="card-title d-flex align-items-center justify-content-between">
-                <h4 class="m-0 mt-2">Disciplines</h4>
-                <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
-              </div>
-              <div class="card-body">
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="defaultCheck1">
-                  <label class="" for="defaultCheck1">
-                    Accountant and Auditor
-                  </label>
-                </div>
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="defaultCheck2">
-                  <label class="" for="defaultCheck2">
-                    Acupuncturist
-                  </label>
-                </div>
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="defaultCheck3">
-                  <label class="" for="defaultCheck3">
-                    Administrative Assistant
-                  </label>
-                </div>
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="defaultCheck4">
-                  <label class="" for="defaultCheck4">
-                    Administrative Services Manager
-                  </label>
-                </div>
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="defaultCheck5">
-                  <label class="" for="defaultCheck5">
-                    Administrators
-                  </label>
-                </div>
-
-              </div>
-            </div>
-            <div class="card filterDrawer">
-              <div class="card-title d-flex align-items-center justify-content-between">
-                <h4 class="m-0 mt-2">Effective Date</h4>
-                <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
-              </div>
-              <div class="card-body">
-                <div class="container">
-                  <div class='col-md-10'>
-                    <div class="form-group">
-                      <div class="input-group date" id="datetimepicker7" data-target-input="nearest">
-                        <input type="text" class="form-control datetimepicker-input"
-                               data-target="#datetimepicker7"/>
-                        <div class="input-group-append" data-target="#datetimepicker7"
-                             data-toggle="datetimepicker">
-                          <button class="btn"><i class="fa fa-calendar-alt"></i></button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='col-md-10'>
-                    <div class="form-group">
-                      <div class="input-group date" id="datetimepicker8" data-target-input="nearest">
-                        <input type="text" class="form-control datetimepicker-input"
-                               data-target="#datetimepicker8"/>
-                        <div class="input-group-append" data-target="#datetimepicker8"
-                             data-toggle="datetimepicker">
-                          <button class="btn"><i class="fa fa-calendar-alt"></i></button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card filterDrawer">
-              <div class="card-title d-flex align-items-center justify-content-between">
-                <h4 class="m-0 mt-2">Governing Body</h4>
-                <span class="pull-right clickable card-collapsed"><i class="fa fa-plus"></i></span>
-              </div>
-              <div class="card-body">
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="governingCheck1">
-                  <label class="" for="governingCheck1">
-                    Accountant and Auditor
-                  </label>
-                </div>
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="governingCheck2">
-                  <label class="" for="governingCheck2">
-                    Administrative Assistant
-                  </label>
-                </div>
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="governingCheck3">
-                  <label class="" for="governingCheck3">
-                    Administrators
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="card filterDrawer">
-              <div class="card-title d-flex align-items-center justify-content-between">
-                <h4 class="m-0 mt-2">Required</h4>
-                <span class="pull-right clickable card-collapsed"><i class="fa fa-plus"></i></span>
-              </div>
-              <div class="card-body">
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="reqCheck1">
-                  <label class="" for="reqCheck1">
-                    Administrative Services Manager
-                  </label>
-                </div>
-                <div class="checkbox checkbox-primary">
-                  <input class="styled" type="checkbox" value="" id="reqCheck2">
-                  <label class="" for="reqCheck2">
-                    Administrators
-                  </label>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <footer class="sideFilters-footer fixed-bottom">
-      <div class="my-5 mx-5">
-        <div class="input-group">
-          <input class="form-control filter-search mr-0" type="search" placeholder="Search all fields"
-                 aria-label="Search">
-          <div class="input-group-append">
-            <button class="btn btn-search" aria-label="sideNavFilters-search" type="submit">
-              <i class="fas fa-search" alt="all filters search"></i>
-            </button>
-          </div>
-        </div>
-        <div class="container p-0 mt-4">
+  <!-- //////////////////////////////////////////////////////////////////////////////////////////
+///////////////////// ********   SIDE NAV FILTERS hidden currently  ************ ////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////// -->
+  <section id="sideNavFilters" class="sideFilters" role="dialog">
+    <header class="sideFilters-title">
+      <h3 class="text-center mt-4">Filters</h3>
+      <div class="closebtn"><i class="fas fa-times"></i></div>
+    </header>
+    <form class="sideNavFilters-search">
+      <div class="filterList" role="tablist">
+        <div class="container">
           <div class="row">
-            <div class="col-6">
-              <button class="btn m-0 w-100 btn-download-outline">Clear All</button>
+            <div class="col-md-12">
+              <div class="card filterDrawer">
+                <div class="card-title d-flex align-items-center justify-content-between">
+                  <h4 class="m-0 mt-2">Federal</h4>
+                  <span class="clickable"><i class="fa fa-plus"></i></span>
+                </div>
+                <div class="card-body">
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="Federal" id="fedCheck1">
+                    <label class="" for="fedCheck1">
+                      Federal
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="card filterDrawer">
+                <div class="card-title d-flex align-items-center justify-content-between">
+                  <h4 class="m-0 mt-2">State</h4>
+                  <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
+                </div>
+                <div class="card-body">
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="stateCheck1">
+                    <label class="" for="stateCheck1">
+                      California State Legislature</p>
+                      <p>[Related Courses</p>
+                    </label>
+                  </div>
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="stateCheck2">
+                    <label class="" for="stateCheck1">
+                      Florida
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="card filterDrawer">
+                <div class="card-title d-flex align-items-center justify-content-between">
+                  <h4 class="m-0 mt-2">Care Settings</h4>
+                  <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
+                </div>
+                <div class="card-body">
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="careCheck1">
+                    <label class="" for="careCheck1">
+                      Care 1
+                    </label>
+                  </div>
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="careCheck2">
+                    <label class="" for="careCheck2">
+                      Care 2
+                    </label>
+                  </div>
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="careCheck3">
+                    <label class="" for="careCheck3">
+                      Care 3
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="card filterDrawer">
+                <div class="card-title d-flex align-items-center justify-content-between">
+                  <h4 class="m-0 mt-2">Disciplines</h4>
+                  <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
+                </div>
+                <div class="card-body">
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="defaultCheck1">
+                    <label class="" for="defaultCheck1">
+                      Accountant and Auditor
+                    </label>
+                  </div>
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="defaultCheck2">
+                    <label class="" for="defaultCheck2">
+                      Acupuncturist
+                    </label>
+                  </div>
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="defaultCheck3">
+                    <label class="" for="defaultCheck3">
+                      Administrative Assistant
+                    </label>
+                  </div>
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="defaultCheck4">
+                    <label class="" for="defaultCheck4">
+                      Administrative Services Manager
+                    </label>
+                  </div>
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="defaultCheck5">
+                    <label class="" for="defaultCheck5">
+                      Administrators
+                    </label>
+                  </div>
 
-            </div>
-            <div class="col-6">
-              <button class="btn m-0 w-100 btn-download">Apply</button>
+                </div>
+              </div>
+              <div class="card filterDrawer">
+                <div class="card-title d-flex align-items-center justify-content-between">
+                  <h4 class="m-0 mt-2">Effective Date</h4>
+                  <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
+                </div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class='col-md-10'>
+                      <div class="form-group">
+                        <div class="input-group date" id="datetimepicker7" data-target-input="nearest">
+                          <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker7" />
+                          <div class="input-group-append" data-target="#datetimepicker7" data-toggle="datetimepicker">
+                            <button class="btn"><i class="fa fa-calendar-alt"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='col-md-10'>
+                      <div class="form-group">
+                        <div class="input-group date" id="datetimepicker8" data-target-input="nearest">
+                          <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker8" />
+                          <div class="input-group-append" data-target="#datetimepicker8" data-toggle="datetimepicker">
+                            <button class="btn"><i class="fa fa-calendar-alt"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card filterDrawer">
+                <div class="card-title d-flex align-items-center justify-content-between">
+                  <h4 class="m-0 mt-2">Governing Body</h4>
+                  <span class="pull-right clickable card-collapsed"><i class="fa fa-plus"></i></span>
+                </div>
+                <div class="card-body">
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="governingCheck1">
+                    <label class="" for="governingCheck1">
+                      Accountant and Auditor
+                    </label>
+                  </div>
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="governingCheck2">
+                    <label class="" for="governingCheck2">
+                      Administrative Assistant
+                    </label>
+                  </div>
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="governingCheck3">
+                    <label class="" for="governingCheck3">
+                      Administrators
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="card filterDrawer">
+                <div class="card-title d-flex align-items-center justify-content-between">
+                  <h4 class="m-0 mt-2">Required</h4>
+                  <span class="pull-right clickable card-collapsed"><i class="fa fa-plus"></i></span>
+                </div>
+                <div class="card-body">
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="reqCheck1">
+                    <label class="" for="reqCheck1">
+                      Administrative Services Manager
+                    </label>
+                  </div>
+                  <div class="checkbox checkbox-primary">
+                    <input class="styled" type="checkbox" value="" id="reqCheck2">
+                    <label class="" for="reqCheck2">
+                      Administrators
+                    </label>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-  </form>
-</section>
-<!--end side nav filters-->
 
+      <footer class="sideFilters-footer fixed-bottom">
+        <div class="my-5 mx-5">
+          <div class="input-group">
+            <input class="form-control filter-search mr-0" type="search" placeholder="Search all fields" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-search" aria-label="sideNavFilters-search" type="submit">
+                <i class="fas fa-search" alt="all filters search"></i>
+              </button>
+            </div>
+          </div>
+          <div class="container p-0 mt-4">
+            <div class="row">
+              <div class="col-6">
+                <button class="btn m-0 w-100 btn-download-outline">Clear All</button>
 
-<div id="cover" class="d-none"></div>
-<div id="main">
+              </div>
+              <div class="col-6">
+                <button class="btn m-0 w-100 btn-download">Apply</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </form>
+  </section>
+  <!-- //////////////////////////////////////////////////////////////////////////////////////////
+///////////////////// ********  END SIDE NAV FILTERS  ************ ////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////// -->
 
-  <div id="header" class="row justify-content-between  my-4">
+  <!-- /////////////////// related modal //////////////// -->
+  <div id="modal-goal-add" class="modal fade" tabindex="-1" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-page active" id="modal-page-attach-goal" style="display: block;">
+          <div class="modal-header">
+            <button type="button" class="close float-right" data-dismiss="modal"><i class="fa fa-times"></i></button>
+            <h4 class="modal-title">Related Courses</h4>
+          </div>
+          <div class="modal-body">
+            <section class="section modal-search-results">
+              <h3>Slats</h3>
+              <div class="slat slat-callout slat-modal slat-radio">
+                <div class="slat-default">
+                  <div class="title">
+                    <form><a href="#modal-page-view-goal" data-toggle="modalpage">A Slat in a Modal</a></form>
+                  </div>
+                  <ul class="meta">
+                    <li><span class="meta-type">Individual</span></li>
+                    <li class="meta-callout"><span class="meta-label">Due:</span><span class="meta-value">Jan. 1, 2015</span></li>
+                    <li><span class="meta-label">Status:</span><span class="meta-value">In Progress</span></li>
+                  </ul>
+                  <div class="action">
+                    <a class="btn btn-sm btn-success"><i class="fa fa-check"></i></a>
+                  </div>
+                </div>
+              </div>
 
-    <a href="/" class="pl-5"><img alt="Compass - powered by hStream" id="logo"
-                                  src="http://compass.hccs.com/img/hStream_Compass_logo.png"></a>
+              <div class="slat slat-callout slat-modal slat-radio">
+                <div class="slat-default">
+                  <div class="title">
+                    <form><a href="#modal-page-view-goal" data-toggle="modalpage">Another Slat in a Modal</a></form>
+                  </div>
+                  <ul class="meta">
+                    <li><span class="meta-type">Individual</span></li>
+                    <li class="meta-callout"><span class="meta-label">Due:</span><span class="meta-value">Jan. 1, 2015</span></li>
+                    <li><span class="meta-label">Status:</span><span class="meta-value">In Progress</span></li>
+                  </ul>
+                  <div class="action">
+                    <a class="btn btn-sm btn-default"><i class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
 
-    <div class="user pr-5">
-      //USER//
+              <div class="modal-footer">
+                <a href="#modal-page-goal-new" class="btn btn-success" data-toggle="modalpage">Done</a>
+                <a href="#modal-page-goal-new" class="btn btn-default" data-toggle="modalpage">Cancel</a>
+                <div class="btn-group pull-right">
+                  <button class="btn btn-default"><i class="fa fa-chevron-left"></i></button>
+                  <button class="btn btn-default"><i class="fa fa-chevron-right"></i></button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div><!--end header row-->
-
-<nav class="navbar navbar-light" role="navigation">
-  <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-4">
-    <li class="nav-item active">
-      <a class="nav-link" href="#">Regulatory Citations <span class="sr-only"></span></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#">Scope of Practice/Licensure</a>
-    </li>
-  </ul>
-
-</nav>
-
-
-<div class="container-fluid">
-  <table id="compass"
-         class="table table-striped table-bordered dt-responsive nowrap dataTable no-footer dtr-inline collapsed"
-         style="width: 100%;" role="grid" aria-describedby="example_info">
-         <thead>
-          <tr role="row">
-            <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 73px;" aria-label="Regulatory Citation: activate to sort column ascending">Regulatory Citation
-            </th>
-            <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 50px;" aria-label="Effective Date: activate to sort column ascending">Effective Date
-            </th>
-            <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 100px;" aria-label="Governing Body: activate to sort column descending" aria-sort="ascending">Governing
-              Body
-            </th>
-            <th tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 80px;" aria-label="Application Notes">Application
-            </th>
-            <th tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 29px;" aria-label="Traning Requirements">Training Requirements
-            </th>
-          </tr>
-        </thead>
-    <tbody>
-    <tr role="row" class="odd">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Required?:</span> No</p>
-        <p><span class="font-weight-bold">For Initial Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">Periodically:</span> Yes</p>
-        <p><span class="font-weight-bold">After Review:</span> No</p>
-        <p><span class="font-weight-bold">After Indicent:</span> Yes</p>
-        <a href="">[ Notes ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care. After the initial training, a four-hour in-service refresher course each year</p>
-        <p><span class="font-weight-bold">Non-Compliance Penalty:</span> No penalties are specified. However, compliance is a condition of permission to order or furnish.</p>
-        <a href="">[ View All ]</a>
-      </td>
-    </tr>
-    <tr role="row" class="even">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="#" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-          <p><span class="font-weight-bold">Required?:</span> No</p>
-          <p><span class="font-weight-bold">For Initial Hires:</span> No</p>
-          <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-          <p><span class="font-weight-bold">Periodically:</span> Yes</p>
-          <p><span class="font-weight-bold">After Review:</span> No</p>
-          <p><span class="font-weight-bold">After Indicent:</span> Yes</p>
-          <a href="">[ Notes ]</a>
-        </td>
-        <td>
-          <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-          <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-            care. After the initial training, a four-hour in-service refresher course each year</p>
-          <p><span class="font-weight-bold">Non-Compliance Penalty:</span> No penalties are specified. However, compliance is a condition of permission to order or furnish.</p>
-          <a href="">[ View All ]</a>
-        </td>
-      </tr>
-    <tr role="row" class="odd">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-          <p><span class="font-weight-bold">Required?:</span> No</p>
-          <p><span class="font-weight-bold">For Initial Hires:</span> No</p>
-          <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-          <p><span class="font-weight-bold">Periodically:</span> Yes</p>
-          <p><span class="font-weight-bold">After Review:</span> No</p>
-          <p><span class="font-weight-bold">After Indicent:</span> Yes</p>
-          <a href="">[ Notes ]</a>
-        </td>
-        <td>
-          <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-          <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-            care. After the initial training, a four-hour in-service refresher course each year</p>
-          <p><span class="font-weight-bold">Non-Compliance Penalty:</span> No penalties are specified. However, compliance is a condition of permission to order or furnish.</p>
-          <a href="">[ View All ]</a>
-        </td>
-      </tr>
-    <tr role="row" class="even">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-                                     <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-      
-    </tr>
-    <tr role="row" class="odd">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-                                     <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-      
-    </tr>
-    <tr role="row" class="even">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-  
-    </tr>
-    <tr role="row" class="odd">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-     
-    </tr>
-    <tr role="row" class="even">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-    
-    </tr>
-    <tr role="row" class="odd">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-    
-    </tr>
-    <tr role="row" class="even">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-     
-    </tr>
-    <tr role="row" class="odd">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-    
-    </tr>
-    <tr role="row" class="even">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-    
-    </tr>
-    <tr role="row" class="odd">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-                                     <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-      
-    </tr>
-    <tr role="row" class="even">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-     
-    </tr>
-    <tr role="row" class="odd">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-                                     <a href="" class="related">[ Related Courses ]</a>"
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-    
-    </tr>
-    <tr role="row" class="even">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-                                     <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-     
-    </tr>
-    <tr role="row" class="odd">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-        <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-  
-    </tr>
-    <tr role="row" class="even">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-                                     <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-        </tr>
-    <tr role="row" class="odd">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-                                     <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-    </tr>
-    <tr role="row" class="even">
-      <td tabindex="0" class="">
-        <h4>Residential Care Facilities - Care Training <span class="badge badge-success">New</span></h4>
-
-        <span>Training required for direct care staff of residential care facilities for the
-                                     elderly.</span>
-                                     <a href="" class="related">[ Related Courses ]</a>
-
-      </td>
-      <td>January 1, 2016</td>
-      <td class="sorting_1">
-        <p>California State Legislative</p>
-        <a href="">[ Source ]</a>
-      </td>
-      <td>
-        <p><span class="font-weight-bold">For New Hires:</span> No</p>
-        <p><span class="font-weight-bold">Before Duties:</span> Yes</p>
-        <p><span class="font-weight-bold">CE Refresher:</span> Yes</p>
-
-      </td>
-      <td>
-        <p><span class="font-weight-bold">Frequency:</span> Training is required. As Needed</p>
-        <p><span class="font-weight-bold">Content Hours:</span> Four hours prior to providing
-          care.</p>
-        <p>After
-          the initial training, a four-hour in-service refresher course each year</p>
-        <a href="">[ View All ]</a>
-      </td>
-    </tr>
-
-
-    </tbody>
-  </table>
-  <!-- end table -->
-</div>
-
-
-<div id="footer" class="row navbar-fixed-bottom">
-  <div class="col-sm-6">
-    <div class="copydate">&copy; <span id="currentYear">2018</span> HCCS <a href="/terms-of-use/">Terms of
-      Use</a> | <a href="/privacy-policy/">Privacy Policy</a></div>
   </div>
+  <!--////////// end related modal //////////////////-->
 
-  <div class="col-sm-6">
-    <div>
-      <ul class="social">
-        <li><a href="//www.healthstream.com/podcast/" target="_blank"><img alt=""
-                                                                           src="http://compass.hccs.com//img/podcasticon_white2.png"></a>
+
+  <div id="cover" class="d-none"></div>
+  <div id="main">
+    <div id="header" class="row justify-content-between  my-4">
+
+      <a href="/" class="pl-5"><img alt="Compass - powered by hStream" id="logo" src="http://compass.hccs.com/img/hStream_Compass_logo.png"></a>
+
+      <div class="user pr-5">
+        //USER//
+      </div>
+    </div>
+    <!--end header row-->
+
+    <nav class="navbar navbar-light" role="navigation">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Regulatory Citations <span class="sr-only"></span></a>
         </li>
-        <li><a href="https://www.facebook.com/hccshome/" target="_blank"><img alt=""
-                                                                              src="http://compass.hccs.com//img/fb-sm.png"></a>
-        </li>
-        <li><a href="https://twitter.com/hccsinc" target="_blank"><img alt=""
-                                                                       src="http://compass.hccs.com//img/twitter-sm.png"></a>
-        </li>
-        <li><a href="https://www.linkedin.com/company/health-care-compliance-strategies-hccs-"
-               target="_blank"><img
-            alt="" src="http://compass.hccs.com//img/linkedin-sm.png"></a></li>
-        <li><a href="https://plus.google.com/115368898514062126964" target="_blank"><img alt=""
-                                                                                         src="http://compass.hccs.com//img/google-sm2.png"></a>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Scope of Practice/Licensure</a>
         </li>
       </ul>
-    </div>
-  </div>
-</div>
-<!--end footer-->
 
-</div><!--end main container-->
+    </nav>
+    <!--end nav -->
+
+    <div class="container-fluid">
+      <table id="compass" class="table table-striped table-bordered dt-responsive nowrap dataTable dtr-inline collapsed" style="width: 100%;" role="grid" aria-describedby="compass">
+        <thead>
+          <tr role="row">
+            <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Regulatory Citation: activate to sort column ascending">Regulatory Citation</th>
+            <th></th><!-- hidden column-->
+            <th>Effective Date </th>
+            <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Effective Date: activate to sort column ascending">Governing Body</th>
+            <th></th><!-- hidden column-->
+            <th></th><!-- hidden column-->
+            <th></th><!-- actions column-->
+          </tr>
+        </thead>
+
+        <tbody></tbody>
+
+        <!--  <tfoot>
+          <tr role="row">
+            <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Regulatory Citation: activate to sort column ascending">Regulatory Citation</th>
+            <th></th>&lt;!&ndash; hidden column&ndash;&gt;
+            <th>Effective Date </th>
+            <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Effective Date: activate to sort column ascending">Governing Body</th>
+            <th></th>&lt;!&ndash; hidden column&ndash;&gt;
+            <th></th>&lt;!&ndash; hidden column&ndash;&gt;
+            <th></th>&lt;!&ndash; actions column&ndash;&gt;
+          </tr>
+        </tfoot>-->
+      </table><!-- end table -->
+    </div>
+    <!--end container row-->
+
+
+    <div id="footer" class="row navbar-fixed-bottom">
+      <div class="col-sm-6">
+        <div class="copydate">&copy; <span id="currentYear">2018</span> HCCS <a href="/terms-of-use/">Terms of
+            Use</a> | <a href="/privacy-policy/">Privacy Policy</a></div>
+      </div>
+
+      <div class="col-sm-6">
+        <div>
+          <ul class="social">
+            <li><a href="//www.healthstream.com/podcast/" target="_blank"><img alt="" src="http://compass.hccs.com//img/podcasticon_white2.png"></a>
+            </li>
+            <li><a href="https://www.facebook.com/hccshome/" target="_blank"><img alt="" src="http://compass.hccs.com//img/fb-sm.png"></a>
+            </li>
+            <li><a href="https://twitter.com/hccsinc" target="_blank"><img alt="" src="http://compass.hccs.com//img/twitter-sm.png"></a>
+            </li>
+            <li><a href="https://www.linkedin.com/company/health-care-compliance-strategies-hccs-" target="_blank"><img alt="" src="http://compass.hccs.com//img/linkedin-sm.png"></a></li>
+            <li><a href="https://plus.google.com/115368898514062126964" target="_blank"><img alt="" src="http://compass.hccs.com//img/google-sm2.png"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--end footer-->
+
+  </div>
+  <!--end main container-->
 
 </body>
 

@@ -1,0 +1,4141 @@
+{
+  "data": [
+    {
+      "course_title": "Grass-roots value-added service-desk",
+      "course_summary": "In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
+      "course_activity": "convallis nulla neque libero convallis",
+      "course_citation": "nulla justo aliquam",
+      "source": "http://github.com/consequat.jpg?amet=vel&lobortis=lectus&sapien=in&sapien=quam&non=fringilla&mi=rhoncus&integer=mauris&ac=enim&neque=leo&duis=rhoncus&bibendum=sed&morbi=vestibulum&non=sit&quam=amet&nec=cursus&dui=id&luctus=turpis&rutrum=integer&nulla=aliquet&tellus=massa&in=id&sagittis=lobortis&dui=convallis&vel=tortor&nisl=risus&duis=dapibus&ac=augue&nibh=vel&fusce=accumsan&lacus=tellus&purus=nisi&aliquet=eu&at=orci&feugiat=mauris&non=lacinia&pretium=sapien&quis=quis&lectus=libero&suspendisse=nullam&potenti=sit&in=amet&eleifend=turpis&quam=elementum&a=ligula&odio=vehicula&in=consequat&hac=morbi&habitasse=a&platea=ipsum&dictumst=integer&maecenas=a&ut=nibh&massa=in&quis=quis&augue=justo&luctus=maecenas&tincidunt=rhoncus",
+      "effective_date": "7/1/2018",
+      "governing_body": "Schaefer and Sons",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": false,
+      "app_periodic": true,
+      "app_review": false,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+      "training_content-hours": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
+      "training_record-keeping": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+      "training_record-retention": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Distributed incremental frame",
+      "disciplines": [
+        {
+          "discipline": "congue risus"
+        },
+        {
+          "discipline": "ut suscipit a"
+        },
+        {
+          "discipline": "lectus pellentesque eget"
+        },
+        {
+          "discipline": "lacus morbi"
+        },
+        {
+          "discipline": "vitae nisi nam"
+        },
+        {
+          "discipline": "varius integer"
+        },
+        {
+          "discipline": "lobortis ligula sit"
+        },
+        {
+          "discipline": "augue quam sollicitudin"
+        },
+        {
+          "discipline": "accumsan odio"
+        },
+        {
+          "discipline": "quam"
+        },
+        {
+          "discipline": "quis"
+        },
+        {
+          "discipline": "habitasse platea"
+        },
+        {
+          "discipline": "erat"
+        },
+        {
+          "discipline": "duis"
+        },
+        {
+          "discipline": "ut"
+        },
+        {
+          "discipline": "auctor sed tristique"
+        },
+        {
+          "discipline": "varius ut"
+        },
+        {
+          "discipline": "ac"
+        },
+        {
+          "discipline": "sit amet"
+        },
+        {
+          "discipline": "mauris morbi non"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "iaculis diam erat"
+        },
+        {
+          "setting": "lacinia aenean sit"
+        },
+        {
+          "setting": "vel enim sit"
+        }
+      ]
+    },
+    {
+      "course_title": "Implemented stable parallelism",
+      "course_summary": "Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.",
+      "course_activity": "quam pharetra magna ac consequat",
+      "course_citation": "curabitur at",
+      "source": "https://skyrock.com/lobortis/ligula.aspx?rutrum=ante&nulla=vel&nunc=ipsum&purus=praesent&phasellus=blandit&in=lacinia&felis=erat&donec=vestibulum&semper=sed&sapien=magna&a=at&libero=nunc&nam=commodo&dui=placerat&proin=praesent&leo=blandit&odio=nam&porttitor=nulla&id=integer&consequat=pede&in=justo&consequat=lacinia&ut=eget&nulla=tincidunt&sed=eget&accumsan=tempus&felis=vel&ut=pede&at=morbi&dolor=porttitor&quis=lorem&odio=id&consequat=ligula&varius=suspendisse&integer=ornare&ac=consequat&leo=lectus&pellentesque=in&ultrices=est&mattis=risus&odio=auctor&donec=sed&vitae=tristique&nisi=in&nam=tempus&ultrices=sit&libero=amet&non=sem&mattis=fusce&pulvinar=consequat&nulla=nulla&pede=nisl&ullamcorper=nunc&augue=nisl&a=duis&suscipit=bibendum&nulla=felis&elit=sed&ac=interdum&nulla=venenatis&sed=turpis&vel=enim&enim=blandit&sit=mi&amet=in&nunc=porttitor&viverra=pede&dapibus=justo&nulla=eu&suscipit=massa&ligula=donec&in=dapibus&lacus=duis&curabitur=at&at=velit&ipsum=eu&ac=est&tellus=congue&semper=elementum&interdum=in&mauris=hac&ullamcorper=habitasse&purus=platea&sit=dictumst&amet=morbi&nulla=vestibulum&quisque=velit&arcu=id&libero=pretium&rutrum=iaculis&ac=diam",
+      "effective_date": "12/8/2017",
+      "governing_body": "Wehner-Tillman",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": true,
+      "app_periodic": false,
+      "app_review": true,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Praesent blandit lacinia erat.",
+      "training_content-hours": "In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.",
+      "training_record-keeping": "Etiam justo.",
+      "training_record-retention": "Nam nulla.",
+      "ce-required": false,
+      "frequency-scheduled": true,
+      "penalties": "Enhanced empowering functionalities",
+      "disciplines": [
+        {
+          "discipline": "aliquet at"
+        },
+        {
+          "discipline": "lacus morbi"
+        },
+        {
+          "discipline": "hendrerit at vulputate"
+        },
+        {
+          "discipline": "vitae"
+        },
+        {
+          "discipline": "molestie"
+        },
+        {
+          "discipline": "quis"
+        },
+        {
+          "discipline": "fusce"
+        },
+        {
+          "discipline": "vel nulla"
+        },
+        {
+          "discipline": "curae"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "fermentum justo nec"
+        },
+        {
+          "setting": "nisl duis"
+        },
+        {
+          "setting": "semper interdum mauris"
+        },
+        {
+          "setting": "in quam"
+        }
+      ]
+    },
+    {
+      "course_title": "Progressive hybrid time-frame",
+      "course_summary": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+      "course_activity": "pede justo lacinia eget",
+      "course_citation": "in faucibus orci",
+      "source": "https://blinklist.com/lacus/morbi/quis/tortor.aspx?dui=purus&vel=aliquet&nisl=at&duis=feugiat&ac=non&nibh=pretium&fusce=quis&lacus=lectus&purus=suspendisse&aliquet=potenti&at=in&feugiat=eleifend&non=quam&pretium=a&quis=odio&lectus=in&suspendisse=hac&potenti=habitasse&in=platea&eleifend=dictumst&quam=maecenas&a=ut&odio=massa&in=quis&hac=augue&habitasse=luctus&platea=tincidunt&dictumst=nulla&maecenas=mollis&ut=molestie&massa=lorem&quis=quisque&augue=ut&luctus=erat&tincidunt=curabitur",
+      "effective_date": "8/9/2017",
+      "governing_body": "Russel-Konopelski",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": true,
+      "app_periodic": true,
+      "app_review": true,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "In hac habitasse platea dictumst.",
+      "training_content-hours": "Proin at turpis a pede posuere nonummy. Integer non velit.",
+      "training_record-keeping": "In sagittis dui vel nisl.",
+      "training_record-retention": "Praesent blandit.",
+      "ce-required": false,
+      "frequency-scheduled": false,
+      "penalties": "Seamless cohesive productivity",
+      "disciplines": [
+        {
+          "discipline": "nisl aenean"
+        },
+        {
+          "discipline": "curabitur at ipsum"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "dapibus duis at"
+        },
+        {
+          "setting": "ut"
+        },
+        {
+          "setting": "aliquet"
+        },
+        {
+          "setting": "pede ullamcorper"
+        }
+      ]
+    },
+    {
+      "course_title": "Programmable tertiary Graphic Interface",
+      "course_summary": "Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
+      "course_activity": "id nulla ultrices aliquet maecenas leo odio condimentum",
+      "course_citation": "ipsum integer",
+      "source": "http://privacy.gov.au/aliquam/convallis/nunc/proin/at/turpis/a.xml?porttitor=augue&pede=quam&justo=sollicitudin&eu=vitae&massa=consectetuer&donec=eget&dapibus=rutrum&duis=at&at=lorem&velit=integer&eu=tincidunt&est=ante&congue=vel&elementum=ipsum&in=praesent&hac=blandit&habitasse=lacinia&platea=erat&dictumst=vestibulum&morbi=sed&vestibulum=magna&velit=at&id=nunc&pretium=commodo&iaculis=placerat&diam=praesent&erat=blandit&fermentum=nam&justo=nulla&nec=integer&condimentum=pede&neque=justo&sapien=lacinia",
+      "effective_date": "9/7/2017",
+      "governing_body": "Prohaska LLC",
+      "app_required": false,
+      "app_initial": true,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": true,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+      "training_content-hours": "Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
+      "training_record-keeping": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
+      "training_record-retention": "Fusce posuere felis sed lacus.",
+      "ce-required": true,
+      "frequency-scheduled": true,
+      "penalties": "Grass-roots high-level architecture",
+      "disciplines": [
+        {
+          "discipline": "risus"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "sociis"
+        },
+        {
+          "setting": "et"
+        },
+        {
+          "setting": "hac"
+        }
+      ]
+    },
+    {
+      "course_title": "Networked solution-oriented software",
+      "course_summary": "Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
+      "course_activity": "a libero nam",
+      "course_citation": "justo lacinia eget tincidunt eget",
+      "source": "https://who.int/accumsan/felis/ut/at.html?platea=eget&dictumst=vulputate&etiam=ut&faucibus=ultrices&cursus=vel&urna=augue&ut=vestibulum&tellus=ante&nulla=ipsum&ut=primis&erat=in&id=faucibus&mauris=orci&vulputate=luctus&elementum=et&nullam=ultrices&varius=posuere&nulla=cubilia&facilisi=curae&cras=donec&non=pharetra&velit=magna&nec=vestibulum&nisi=aliquet&vulputate=ultrices&nonummy=erat&maecenas=tortor&tincidunt=sollicitudin&lacus=mi&at=sit&velit=amet&vivamus=lobortis&vel=sapien&nulla=sapien&eget=non&eros=mi&elementum=integer&pellentesque=ac&quisque=neque&porta=duis&volutpat=bibendum&erat=morbi&quisque=non&erat=quam&eros=nec&viverra=dui&eget=luctus&congue=rutrum&eget=nulla&semper=tellus&rutrum=in&nulla=sagittis&nunc=dui&purus=vel&phasellus=nisl&in=duis&felis=ac&donec=nibh&semper=fusce&sapien=lacus&a=purus&libero=aliquet&nam=at&dui=feugiat&proin=non&leo=pretium&odio=quis&porttitor=lectus&id=suspendisse&consequat=potenti&in=in&consequat=eleifend&ut=quam",
+      "effective_date": "7/10/2018",
+      "governing_body": "Ferry-Muller",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "In hac habitasse platea dictumst.",
+      "training_content-hours": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+      "training_record-keeping": "Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
+      "training_record-retention": "Nulla facilisi.",
+      "ce-required": false,
+      "frequency-scheduled": true,
+      "penalties": "Reverse-engineered intangible hub",
+      "disciplines": [
+        {
+          "discipline": "vestibulum sit"
+        },
+        {
+          "discipline": "lacinia nisi venenatis"
+        },
+        {
+          "discipline": "venenatis"
+        },
+        {
+          "discipline": "ac"
+        },
+        {
+          "discipline": "justo in"
+        },
+        {
+          "discipline": "amet nunc"
+        },
+        {
+          "discipline": "scelerisque quam"
+        },
+        {
+          "discipline": "orci"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "vel augue"
+        },
+        {
+          "setting": "massa"
+        },
+        {
+          "setting": "ligula nec sem"
+        },
+        {
+          "setting": "ac enim in"
+        }
+      ]
+    },
+    {
+      "course_title": "Inverse uniform ability",
+      "course_summary": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+      "course_activity": "nam nulla integer",
+      "course_citation": "rutrum nulla nunc purus",
+      "source": "https://mapy.cz/adipiscing/elit/proin/interdum/mauris/non.jpg?ut=metus&volutpat=vitae&sapien=ipsum&arcu=aliquam&sed=non&augue=mauris&aliquam=morbi&erat=non&volutpat=lectus&in=aliquam&congue=sit&etiam=amet&justo=diam&etiam=in&pretium=magna&iaculis=bibendum&justo=imperdiet&in=nullam&hac=orci&habitasse=pede&platea=venenatis&dictumst=non&etiam=sodales&faucibus=sed&cursus=tincidunt&urna=eu&ut=felis&tellus=fusce&nulla=posuere&ut=felis&erat=sed&id=lacus&mauris=morbi&vulputate=sem&elementum=mauris&nullam=laoreet&varius=ut&nulla=rhoncus&facilisi=aliquet&cras=pulvinar&non=sed&velit=nisl&nec=nunc&nisi=rhoncus&vulputate=dui&nonummy=vel&maecenas=sem&tincidunt=sed&lacus=sagittis&at=nam&velit=congue&vivamus=risus&vel=semper&nulla=porta&eget=volutpat&eros=quam&elementum=pede&pellentesque=lobortis&quisque=ligula&porta=sit&volutpat=amet&erat=eleifend&quisque=pede&erat=libero&eros=quis&viverra=orci&eget=nullam&congue=molestie&eget=nibh&semper=in&rutrum=lectus&nulla=pellentesque&nunc=at&purus=nulla&phasellus=suspendisse&in=potenti&felis=cras&donec=in&semper=purus&sapien=eu&a=magna&libero=vulputate&nam=luctus&dui=cum&proin=sociis&leo=natoque&odio=penatibus&porttitor=et&id=magnis&consequat=dis&in=parturient",
+      "effective_date": "1/26/2018",
+      "governing_body": "Jacobi, Dooley and Mills",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": true,
+      "app_periodic": true,
+      "app_review": false,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Ut tellus.",
+      "training_content-hours": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+      "training_record-keeping": "Etiam pretium iaculis justo.",
+      "training_record-retention": "Fusce consequat.",
+      "ce-required": false,
+      "frequency-scheduled": true,
+      "penalties": "Compatible value-added service-desk",
+      "disciplines": [
+        {
+          "discipline": "nullam orci pede"
+        },
+        {
+          "discipline": "cursus urna ut"
+        },
+        {
+          "discipline": "natoque penatibus et"
+        },
+        {
+          "discipline": "nulla neque"
+        },
+        {
+          "discipline": "id ligula"
+        },
+        {
+          "discipline": "pulvinar nulla pede"
+        },
+        {
+          "discipline": "dui maecenas tristique"
+        },
+        {
+          "discipline": "est phasellus"
+        },
+        {
+          "discipline": "neque duis bibendum"
+        },
+        {
+          "discipline": "sed"
+        },
+        {
+          "discipline": "praesent blandit"
+        },
+        {
+          "discipline": "curabitur in"
+        },
+        {
+          "discipline": "natoque penatibus"
+        },
+        {
+          "discipline": "quis turpis"
+        },
+        {
+          "discipline": "dui nec nisi"
+        },
+        {
+          "discipline": "consequat lectus in"
+        },
+        {
+          "discipline": "donec ut"
+        },
+        {
+          "discipline": "hac"
+        },
+        {
+          "discipline": "amet"
+        },
+        {
+          "discipline": "in faucibus orci"
+        },
+        {
+          "discipline": "ac"
+        },
+        {
+          "discipline": "massa"
+        },
+        {
+          "discipline": "purus sit amet"
+        },
+        {
+          "discipline": "nulla integer pede"
+        },
+        {
+          "discipline": "pede justo eu"
+        },
+        {
+          "discipline": "nec"
+        },
+        {
+          "discipline": "libero quis orci"
+        },
+        {
+          "discipline": "eget congue eget"
+        },
+        {
+          "discipline": "pellentesque eget nunc"
+        },
+        {
+          "discipline": "platea dictumst maecenas"
+        },
+        {
+          "discipline": "morbi porttitor lorem"
+        },
+        {
+          "discipline": "consequat"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "morbi"
+        },
+        {
+          "setting": "hac"
+        },
+        {
+          "setting": "mauris sit amet"
+        }
+      ]
+    },
+    {
+      "course_title": "Extended analyzing process improvement",
+      "course_summary": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+      "course_activity": "condimentum id luctus nec molestie sed justo pellentesque",
+      "course_citation": "velit id pretium",
+      "source": "https://google.de/nulla/ultrices/aliquet/maecenas.js?curabitur=vitae&convallis=nisl&duis=aenean&consequat=lectus&dui=pellentesque&nec=eget&nisi=nunc&volutpat=donec&eleifend=quis&donec=orci&ut=eget&dolor=orci&morbi=vehicula&vel=condimentum&lectus=curabitur&in=in&quam=libero&fringilla=ut&rhoncus=massa&mauris=volutpat&enim=convallis&leo=morbi&rhoncus=odio&sed=odio&vestibulum=elementum&sit=eu&amet=interdum&cursus=eu&id=tincidunt&turpis=in&integer=leo&aliquet=maecenas&massa=pulvinar&id=lobortis&lobortis=est&convallis=phasellus&tortor=sit&risus=amet&dapibus=erat&augue=nulla&vel=tempus&accumsan=vivamus&tellus=in&nisi=felis&eu=eu&orci=sapien&mauris=cursus&lacinia=vestibulum&sapien=proin&quis=eu&libero=mi&nullam=nulla&sit=ac&amet=enim&turpis=in&elementum=tempor",
+      "effective_date": "4/10/2018",
+      "governing_body": "Haley-Gutkowski",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": true,
+      "app_periodic": true,
+      "app_review": true,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "In hac habitasse platea dictumst.",
+      "training_content-hours": "Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
+      "training_record-keeping": "Integer non velit.",
+      "training_record-retention": "Pellentesque ultrices mattis odio.",
+      "ce-required": false,
+      "frequency-scheduled": false,
+      "penalties": "Organized secondary website",
+      "disciplines": [
+        {
+          "discipline": "lacus"
+        },
+        {
+          "discipline": "in magna"
+        },
+        {
+          "discipline": "consequat dui nec"
+        },
+        {
+          "discipline": "at"
+        },
+        {
+          "discipline": "imperdiet sapien"
+        },
+        {
+          "discipline": "etiam"
+        },
+        {
+          "discipline": "pede justo"
+        },
+        {
+          "discipline": "erat volutpat in"
+        },
+        {
+          "discipline": "nisl nunc rhoncus"
+        },
+        {
+          "discipline": "volutpat erat"
+        },
+        {
+          "discipline": "eu"
+        },
+        {
+          "discipline": "tortor id nulla"
+        },
+        {
+          "discipline": "et magnis"
+        },
+        {
+          "discipline": "nonummy integer"
+        },
+        {
+          "discipline": "arcu libero rutrum"
+        },
+        {
+          "discipline": "volutpat dui maecenas"
+        },
+        {
+          "discipline": "dui vel sem"
+        },
+        {
+          "discipline": "sed sagittis"
+        },
+        {
+          "discipline": "etiam"
+        },
+        {
+          "discipline": "ligula suspendisse"
+        },
+        {
+          "discipline": "augue vestibulum ante"
+        },
+        {
+          "discipline": "pellentesque"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "vestibulum"
+        },
+        {
+          "setting": "aliquam non"
+        },
+        {
+          "setting": "faucibus orci luctus"
+        },
+        {
+          "setting": "penatibus et magnis"
+        },
+        {
+          "setting": "nec"
+        }
+      ]
+    },
+    {
+      "course_title": "Diverse systemic solution",
+      "course_summary": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+      "course_activity": "molestie lorem quisque ut",
+      "course_citation": "consectetuer adipiscing elit proin risus",
+      "source": "https://bbc.co.uk/nulla/sed/vel.html?vivamus=rhoncus&vestibulum=aliquam&sagittis=lacus&sapien=morbi&cum=quis&sociis=tortor&natoque=id&penatibus=nulla&et=ultrices&magnis=aliquet&dis=maecenas&parturient=leo&montes=odio&nascetur=condimentum&ridiculus=id&mus=luctus&etiam=nec&vel=molestie&augue=sed&vestibulum=justo&rutrum=pellentesque&rutrum=viverra&neque=pede&aenean=ac&auctor=diam&gravida=cras&sem=pellentesque&praesent=volutpat&id=dui&massa=maecenas&id=tristique&nisl=est&venenatis=et&lacinia=tempus&aenean=semper&sit=est&amet=quam&justo=pharetra&morbi=magna&ut=ac&odio=consequat&cras=metus&mi=sapien&pede=ut&malesuada=nunc&in=vestibulum&imperdiet=ante&et=ipsum&commodo=primis&vulputate=in&justo=faucibus&in=orci&blandit=luctus&ultrices=et&enim=ultrices&lorem=posuere&ipsum=cubilia&dolor=curae&sit=mauris&amet=viverra&consectetuer=diam&adipiscing=vitae&elit=quam",
+      "effective_date": "4/12/2018",
+      "governing_body": "Conroy and Sons",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": false,
+      "app_periodic": true,
+      "app_review": false,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Phasellus id sapien in sapien iaculis congue.",
+      "training_content-hours": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+      "training_record-keeping": "Proin at turpis a pede posuere nonummy.",
+      "training_record-retention": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Automated interactive hub",
+      "disciplines": [
+        {
+          "discipline": "ultrices"
+        },
+        {
+          "discipline": "lectus aliquam sit"
+        },
+        {
+          "discipline": "ipsum"
+        },
+        {
+          "discipline": "eleifend donec ut"
+        },
+        {
+          "discipline": "sociis natoque penatibus"
+        },
+        {
+          "discipline": "ante ipsum"
+        },
+        {
+          "discipline": "in"
+        },
+        {
+          "discipline": "nascetur ridiculus"
+        },
+        {
+          "discipline": "nisl nunc rhoncus"
+        },
+        {
+          "discipline": "nisi vulputate nonummy"
+        },
+        {
+          "discipline": "at turpis"
+        },
+        {
+          "discipline": "lacinia aenean"
+        },
+        {
+          "discipline": "quam turpis adipiscing"
+        },
+        {
+          "discipline": "praesent lectus"
+        },
+        {
+          "discipline": "nibh in"
+        },
+        {
+          "discipline": "vestibulum vestibulum ante"
+        },
+        {
+          "discipline": "sapien"
+        },
+        {
+          "discipline": "nulla"
+        },
+        {
+          "discipline": "proin"
+        },
+        {
+          "discipline": "at"
+        },
+        {
+          "discipline": "at velit"
+        },
+        {
+          "discipline": "tortor risus"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "duis bibendum felis"
+        },
+        {
+          "setting": "tincidunt"
+        }
+      ]
+    },
+    {
+      "course_title": "Multi-lateral 24 hour superstructure",
+      "course_summary": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+      "course_activity": "nullam sit amet turpis elementum",
+      "course_citation": "nulla suscipit",
+      "source": "http://tinypic.com/aliquet/massa/id/lobortis.xml?fusce=sollicitudin&posuere=vitae&felis=consectetuer&sed=eget&lacus=rutrum&morbi=at&sem=lorem&mauris=integer&laoreet=tincidunt&ut=ante&rhoncus=vel&aliquet=ipsum&pulvinar=praesent&sed=blandit&nisl=lacinia&nunc=erat&rhoncus=vestibulum&dui=sed&vel=magna&sem=at&sed=nunc&sagittis=commodo&nam=placerat&congue=praesent&risus=blandit&semper=nam&porta=nulla&volutpat=integer&quam=pede&pede=justo&lobortis=lacinia&ligula=eget&sit=tincidunt&amet=eget&eleifend=tempus&pede=vel&libero=pede&quis=morbi&orci=porttitor&nullam=lorem&molestie=id&nibh=ligula&in=suspendisse&lectus=ornare&pellentesque=consequat&at=lectus&nulla=in&suspendisse=est&potenti=risus&cras=auctor&in=sed&purus=tristique&eu=in&magna=tempus&vulputate=sit&luctus=amet&cum=sem&sociis=fusce&natoque=consequat&penatibus=nulla&et=nisl&magnis=nunc&dis=nisl&parturient=duis&montes=bibendum&nascetur=felis&ridiculus=sed&mus=interdum&vivamus=venenatis&vestibulum=turpis&sagittis=enim&sapien=blandit&cum=mi&sociis=in&natoque=porttitor&penatibus=pede&et=justo&magnis=eu&dis=massa&parturient=donec&montes=dapibus&nascetur=duis&ridiculus=at&mus=velit&etiam=eu&vel=est&augue=congue&vestibulum=elementum&rutrum=in&rutrum=hac&neque=habitasse",
+      "effective_date": "7/30/2018",
+      "governing_body": "Anderson-Buckridge",
+      "app_required": true,
+      "app_initial": false,
+      "app_before": true,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "training_content-hours": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",
+      "training_record-keeping": "Proin eu mi. Nulla ac enim.",
+      "training_record-retention": "Aliquam erat volutpat.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Optional 4th generation structure",
+      "disciplines": [
+        {
+          "discipline": "condimentum curabitur"
+        },
+        {
+          "discipline": "hac"
+        },
+        {
+          "discipline": "sapien in sapien"
+        },
+        {
+          "discipline": "aliquam convallis"
+        },
+        {
+          "discipline": "amet justo morbi"
+        },
+        {
+          "discipline": "at nunc commodo"
+        },
+        {
+          "discipline": "vulputate vitae nisl"
+        },
+        {
+          "discipline": "sit"
+        },
+        {
+          "discipline": "lobortis"
+        },
+        {
+          "discipline": "faucibus"
+        },
+        {
+          "discipline": "consequat"
+        },
+        {
+          "discipline": "felis ut"
+        },
+        {
+          "discipline": "augue vestibulum"
+        },
+        {
+          "discipline": "morbi"
+        },
+        {
+          "discipline": "orci pede"
+        },
+        {
+          "discipline": "cursus"
+        },
+        {
+          "discipline": "potenti"
+        },
+        {
+          "discipline": "volutpat convallis"
+        },
+        {
+          "discipline": "augue"
+        },
+        {
+          "discipline": "at nunc"
+        },
+        {
+          "discipline": "metus aenean fermentum"
+        },
+        {
+          "discipline": "justo aliquam"
+        },
+        {
+          "discipline": "maecenas pulvinar lobortis"
+        },
+        {
+          "discipline": "odio porttitor"
+        },
+        {
+          "discipline": "sit amet nunc"
+        },
+        {
+          "discipline": "bibendum"
+        },
+        {
+          "discipline": "elementum"
+        },
+        {
+          "discipline": "parturient montes nascetur"
+        },
+        {
+          "discipline": "metus aenean fermentum"
+        },
+        {
+          "discipline": "erat vestibulum"
+        },
+        {
+          "discipline": "turpis donec posuere"
+        },
+        {
+          "discipline": "ornare"
+        },
+        {
+          "discipline": "justo sit"
+        },
+        {
+          "discipline": "duis at velit"
+        },
+        {
+          "discipline": "donec pharetra"
+        },
+        {
+          "discipline": "quam"
+        },
+        {
+          "discipline": "lorem ipsum dolor"
+        },
+        {
+          "discipline": "sem"
+        },
+        {
+          "discipline": "nisl duis"
+        },
+        {
+          "discipline": "duis"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "magna"
+        },
+        {
+          "setting": "et ultrices"
+        },
+        {
+          "setting": "iaculis"
+        }
+      ]
+    },
+    {
+      "course_title": "Reactive directional solution",
+      "course_summary": "Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+      "course_activity": "et ultrices posuere cubilia curae duis faucibus",
+      "course_citation": "non velit donec diam",
+      "source": "https://reference.com/curabitur/gravida/nisi.js?aliquam=feugiat&quis=et&turpis=eros&eget=vestibulum&elit=ac&sodales=est&scelerisque=lacinia&mauris=nisi&sit=venenatis&amet=tristique&eros=fusce&suspendisse=congue&accumsan=diam&tortor=id&quis=ornare&turpis=imperdiet&sed=sapien&ante=urna&vivamus=pretium&tortor=nisl&duis=ut&mattis=volutpat&egestas=sapien&metus=arcu&aenean=sed&fermentum=augue&donec=aliquam&ut=erat&mauris=volutpat&eget=in",
+      "effective_date": "6/21/2017",
+      "governing_body": "Cormier-Mohr",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": true,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Integer tincidunt ante vel ipsum.",
+      "training_content-hours": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+      "training_record-keeping": "Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+      "training_record-retention": "Donec ut mauris eget massa tempor convallis.",
+      "ce-required": false,
+      "frequency-scheduled": false,
+      "penalties": "User-friendly bottom-line conglomeration",
+      "disciplines": [
+        {
+          "discipline": "orci"
+        },
+        {
+          "discipline": "volutpat"
+        },
+        {
+          "discipline": "rutrum nulla nunc"
+        },
+        {
+          "discipline": "vel"
+        },
+        {
+          "discipline": "vestibulum"
+        },
+        {
+          "discipline": "maecenas tristique est"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "pretium nisl"
+        },
+        {
+          "setting": "pretium nisl ut"
+        },
+        {
+          "setting": "in faucibus"
+        },
+        {
+          "setting": "nisi venenatis"
+        },
+        {
+          "setting": "gravida nisi"
+        }
+      ]
+    },
+    {
+      "course_title": "Public-key multi-state knowledge user",
+      "course_summary": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
+      "course_activity": "non pretium quis lectus suspendisse potenti in eleifend",
+      "course_citation": "in purus eu",
+      "source": "http://oracle.com/molestie/nibh/in/lectus/pellentesque.png?nibh=congue&quisque=vivamus&id=metus&justo=arcu&sit=adipiscing&amet=molestie&sapien=hendrerit&dignissim=at&vestibulum=vulputate&vestibulum=vitae&ante=nisl&ipsum=aenean&primis=lectus&in=pellentesque&faucibus=eget&orci=nunc&luctus=donec&et=quis&ultrices=orci&posuere=eget&cubilia=orci&curae=vehicula&nulla=condimentum&dapibus=curabitur&dolor=in&vel=libero&est=ut&donec=massa&odio=volutpat&justo=convallis&sollicitudin=morbi&ut=odio&suscipit=odio&a=elementum&feugiat=eu&et=interdum&eros=eu&vestibulum=tincidunt&ac=in&est=leo&lacinia=maecenas&nisi=pulvinar&venenatis=lobortis&tristique=est&fusce=phasellus&congue=sit&diam=amet&id=erat&ornare=nulla&imperdiet=tempus&sapien=vivamus&urna=in&pretium=felis&nisl=eu&ut=sapien&volutpat=cursus&sapien=vestibulum&arcu=proin&sed=eu&augue=mi&aliquam=nulla&erat=ac&volutpat=enim&in=in&congue=tempor",
+      "effective_date": "3/5/2018",
+      "governing_body": "Batz Group",
+      "app_required": false,
+      "app_initial": true,
+      "app_before": true,
+      "app_periodic": true,
+      "app_review": true,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Pellentesque ultrices mattis odio.",
+      "training_content-hours": "Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
+      "training_record-keeping": "Vestibulum rutrum rutrum neque.",
+      "training_record-retention": "Nunc purus.",
+      "ce-required": false,
+      "frequency-scheduled": true,
+      "penalties": "Extended bifurcated focus group",
+      "disciplines": [
+        {
+          "discipline": "at ipsum"
+        },
+        {
+          "discipline": "viverra dapibus nulla"
+        },
+        {
+          "discipline": "tristique tortor"
+        },
+        {
+          "discipline": "ac tellus"
+        },
+        {
+          "discipline": "sociis natoque"
+        },
+        {
+          "discipline": "tempor"
+        },
+        {
+          "discipline": "lobortis convallis"
+        },
+        {
+          "discipline": "nulla integer"
+        },
+        {
+          "discipline": "felis"
+        },
+        {
+          "discipline": "posuere"
+        },
+        {
+          "discipline": "pharetra magna ac"
+        },
+        {
+          "discipline": "vel"
+        },
+        {
+          "discipline": "hac habitasse"
+        },
+        {
+          "discipline": "et commodo vulputate"
+        },
+        {
+          "discipline": "sapien in sapien"
+        },
+        {
+          "discipline": "nullam"
+        },
+        {
+          "discipline": "integer"
+        },
+        {
+          "discipline": "sem mauris"
+        },
+        {
+          "discipline": "in eleifend"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "maecenas"
+        },
+        {
+          "setting": "elit"
+        }
+      ]
+    },
+    {
+      "course_title": "Advanced multimedia concept",
+      "course_summary": "Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
+      "course_activity": "nullam porttitor lacus at turpis donec posuere metus vitae",
+      "course_citation": "at dolor quis odio consequat",
+      "source": "https://comsenz.com/hac/habitasse/platea.xml?proin=dolor&leo=vel&odio=est&porttitor=donec&id=odio&consequat=justo&in=sollicitudin&consequat=ut&ut=suscipit&nulla=a&sed=feugiat&accumsan=et&felis=eros&ut=vestibulum&at=ac&dolor=est&quis=lacinia&odio=nisi&consequat=venenatis&varius=tristique&integer=fusce&ac=congue&leo=diam&pellentesque=id&ultrices=ornare&mattis=imperdiet&odio=sapien&donec=urna&vitae=pretium&nisi=nisl&nam=ut&ultrices=volutpat&libero=sapien&non=arcu&mattis=sed&pulvinar=augue&nulla=aliquam&pede=erat&ullamcorper=volutpat&augue=in&a=congue&suscipit=etiam&nulla=justo&elit=etiam&ac=pretium",
+      "effective_date": "9/19/2017",
+      "governing_body": "Hand, Morissette and Ankunding",
+      "app_required": true,
+      "app_initial": false,
+      "app_before": true,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "In hac habitasse platea dictumst.",
+      "training_content-hours": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
+      "training_record-keeping": "Etiam justo. Etiam pretium iaculis justo.",
+      "training_record-retention": "Proin risus.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Public-key real-time approach",
+      "disciplines": [
+        {
+          "discipline": "vel lectus in"
+        },
+        {
+          "discipline": "in hac habitasse"
+        },
+        {
+          "discipline": "sodales"
+        },
+        {
+          "discipline": "ligula vehicula consequat"
+        },
+        {
+          "discipline": "platea dictumst aliquam"
+        },
+        {
+          "discipline": "nulla ac enim"
+        },
+        {
+          "discipline": "justo"
+        },
+        {
+          "discipline": "in"
+        },
+        {
+          "discipline": "felis sed"
+        },
+        {
+          "discipline": "donec ut mauris"
+        },
+        {
+          "discipline": "et"
+        },
+        {
+          "discipline": "pellentesque"
+        },
+        {
+          "discipline": "vivamus tortor duis"
+        },
+        {
+          "discipline": "eu"
+        },
+        {
+          "discipline": "suspendisse accumsan"
+        },
+        {
+          "discipline": "lobortis ligula sit"
+        },
+        {
+          "discipline": "donec ut dolor"
+        },
+        {
+          "discipline": "sapien quis"
+        },
+        {
+          "discipline": "erat"
+        },
+        {
+          "discipline": "natoque penatibus"
+        },
+        {
+          "discipline": "mauris lacinia"
+        },
+        {
+          "discipline": "justo lacinia eget"
+        },
+        {
+          "discipline": "mauris laoreet"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "viverra diam vitae"
+        },
+        {
+          "setting": "luctus cum"
+        },
+        {
+          "setting": "hac"
+        }
+      ]
+    },
+    {
+      "course_title": "Customer-focused impactful alliance",
+      "course_summary": "Proin risus. Praesent lectus.",
+      "course_activity": "nibh ligula nec sem duis aliquam convallis nunc proin",
+      "course_citation": "ac diam",
+      "source": "http://sun.com/mi/integer/ac.html?blandit=integer&lacinia=non&erat=velit&vestibulum=donec&sed=diam&magna=neque&at=vestibulum&nunc=eget&commodo=vulputate&placerat=ut&praesent=ultrices&blandit=vel&nam=augue&nulla=vestibulum&integer=ante&pede=ipsum&justo=primis&lacinia=in&eget=faucibus&tincidunt=orci&eget=luctus&tempus=et&vel=ultrices&pede=posuere&morbi=cubilia&porttitor=curae&lorem=donec",
+      "effective_date": "6/27/2018",
+      "governing_body": "Murazik, Donnelly and Littel",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Mauris sit amet eros.",
+      "training_content-hours": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+      "training_record-keeping": "Morbi non quam nec dui luctus rutrum.",
+      "training_record-retention": "Nulla tellus.",
+      "ce-required": false,
+      "frequency-scheduled": false,
+      "penalties": "Seamless radical toolset",
+      "disciplines": [
+        {
+          "discipline": "suscipit"
+        },
+        {
+          "discipline": "felis ut"
+        },
+        {
+          "discipline": "maecenas"
+        },
+        {
+          "discipline": "dui nec"
+        },
+        {
+          "discipline": "libero"
+        },
+        {
+          "discipline": "purus aliquet"
+        },
+        {
+          "discipline": "maecenas"
+        },
+        {
+          "discipline": "amet consectetuer adipiscing"
+        },
+        {
+          "discipline": "suspendisse potenti cras"
+        },
+        {
+          "discipline": "cubilia curae duis"
+        },
+        {
+          "discipline": "diam id"
+        },
+        {
+          "discipline": "porttitor pede justo"
+        },
+        {
+          "discipline": "ullamcorper"
+        },
+        {
+          "discipline": "sagittis"
+        },
+        {
+          "discipline": "est phasellus sit"
+        },
+        {
+          "discipline": "interdum mauris non"
+        },
+        {
+          "discipline": "mauris"
+        },
+        {
+          "discipline": "aliquet massa id"
+        },
+        {
+          "discipline": "fusce"
+        },
+        {
+          "discipline": "justo lacinia eget"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "elementum nullam varius"
+        },
+        {
+          "setting": "leo rhoncus sed"
+        },
+        {
+          "setting": "venenatis"
+        },
+        {
+          "setting": "elementum"
+        }
+      ]
+    },
+    {
+      "course_title": "Streamlined high-level analyzer",
+      "course_summary": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+      "course_activity": "nulla mollis molestie lorem",
+      "course_citation": "iaculis congue",
+      "source": "https://domainmarket.com/nulla/tellus/in/sagittis/dui/vel/nisl.png?mollis=feugiat&molestie=non&lorem=pretium&quisque=quis&ut=lectus&erat=suspendisse&curabitur=potenti&gravida=in&nisi=eleifend&at=quam&nibh=a&in=odio&hac=in&habitasse=hac&platea=habitasse&dictumst=platea&aliquam=dictumst&augue=maecenas&quam=ut&sollicitudin=massa&vitae=quis&consectetuer=augue&eget=luctus&rutrum=tincidunt&at=nulla&lorem=mollis&integer=molestie&tincidunt=lorem&ante=quisque&vel=ut&ipsum=erat&praesent=curabitur&blandit=gravida&lacinia=nisi&erat=at&vestibulum=nibh&sed=in&magna=hac&at=habitasse&nunc=platea&commodo=dictumst&placerat=aliquam&praesent=augue&blandit=quam&nam=sollicitudin&nulla=vitae&integer=consectetuer&pede=eget&justo=rutrum&lacinia=at&eget=lorem&tincidunt=integer&eget=tincidunt&tempus=ante&vel=vel&pede=ipsum&morbi=praesent&porttitor=blandit&lorem=lacinia&id=erat&ligula=vestibulum&suspendisse=sed&ornare=magna&consequat=at&lectus=nunc&in=commodo&est=placerat&risus=praesent&auctor=blandit&sed=nam&tristique=nulla&in=integer&tempus=pede&sit=justo",
+      "effective_date": "11/23/2017",
+      "governing_body": "Kerluke Group",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": true,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Mauris sit amet eros.",
+      "training_content-hours": "In congue. Etiam justo. Etiam pretium iaculis justo.",
+      "training_record-keeping": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
+      "training_record-retention": "Suspendisse potenti.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Operative leading edge implementation",
+      "disciplines": [
+        {
+          "discipline": "in consequat"
+        },
+        {
+          "discipline": "nisi volutpat eleifend"
+        },
+        {
+          "discipline": "eros vestibulum"
+        },
+        {
+          "discipline": "sapien"
+        },
+        {
+          "discipline": "dui"
+        },
+        {
+          "discipline": "nec"
+        },
+        {
+          "discipline": "in blandit ultrices"
+        },
+        {
+          "discipline": "consequat dui"
+        },
+        {
+          "discipline": "ut"
+        },
+        {
+          "discipline": "ornare imperdiet sapien"
+        },
+        {
+          "discipline": "cras pellentesque"
+        },
+        {
+          "discipline": "morbi sem mauris"
+        },
+        {
+          "discipline": "semper est"
+        },
+        {
+          "discipline": "in"
+        },
+        {
+          "discipline": "sit amet consectetuer"
+        },
+        {
+          "discipline": "mauris ullamcorper purus"
+        },
+        {
+          "discipline": "at"
+        },
+        {
+          "discipline": "congue"
+        },
+        {
+          "discipline": "sagittis sapien"
+        },
+        {
+          "discipline": "nulla nisl nunc"
+        },
+        {
+          "discipline": "quis justo"
+        },
+        {
+          "discipline": "eu"
+        },
+        {
+          "discipline": "id"
+        },
+        {
+          "discipline": "eu"
+        },
+        {
+          "discipline": "diam nam tristique"
+        },
+        {
+          "discipline": "in imperdiet et"
+        },
+        {
+          "discipline": "lacus morbi quis"
+        },
+        {
+          "discipline": "tortor quis"
+        },
+        {
+          "discipline": "magna ac consequat"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "nec sem"
+        }
+      ]
+    },
+    {
+      "course_title": "Ameliorated multi-state installation",
+      "course_summary": "Nunc purus.",
+      "course_activity": "turpis sed ante vivamus",
+      "course_citation": "fusce congue",
+      "source": "http://opensource.org/vestibulum/sed/magna/at/nunc.xml?amet=dis&cursus=parturient&id=montes&turpis=nascetur&integer=ridiculus&aliquet=mus&massa=vivamus&id=vestibulum&lobortis=sagittis&convallis=sapien&tortor=cum",
+      "effective_date": "3/25/2018",
+      "governing_body": "Mueller-Ryan",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": true,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Nullam porttitor lacus at turpis.",
+      "training_content-hours": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+      "training_record-keeping": "Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+      "training_record-retention": "Nullam varius.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Team-oriented well-modulated portal",
+      "disciplines": [
+        {
+          "discipline": "est"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "interdum mauris"
+        },
+        {
+          "setting": "integer tincidunt ante"
+        },
+        {
+          "setting": "fusce"
+        },
+        {
+          "setting": "tortor sollicitudin"
+        },
+        {
+          "setting": "eu"
+        }
+      ]
+    },
+    {
+      "course_title": "Diverse fresh-thinking core",
+      "course_summary": "Aenean lectus.",
+      "course_activity": "dapibus dolor vel est donec odio justo sollicitudin ut",
+      "course_citation": "nisl nunc",
+      "source": "https://jugem.jp/vestibulum.js?duis=proin&aliquam=leo&convallis=odio&nunc=porttitor&proin=id&at=consequat&turpis=in&a=consequat&pede=ut&posuere=nulla&nonummy=sed&integer=accumsan&non=felis&velit=ut&donec=at&diam=dolor&neque=quis&vestibulum=odio&eget=consequat&vulputate=varius&ut=integer&ultrices=ac&vel=leo&augue=pellentesque&vestibulum=ultrices&ante=mattis&ipsum=odio&primis=donec&in=vitae&faucibus=nisi&orci=nam&luctus=ultrices&et=libero&ultrices=non&posuere=mattis&cubilia=pulvinar&curae=nulla&donec=pede&pharetra=ullamcorper&magna=augue&vestibulum=a&aliquet=suscipit",
+      "effective_date": "10/26/2017",
+      "governing_body": "Koepp, Ullrich and Abbott",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": true,
+      "app_periodic": true,
+      "app_review": true,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Curabitur in libero ut massa volutpat convallis.",
+      "training_content-hours": "Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+      "training_record-keeping": "Nulla facilisi.",
+      "training_record-retention": "Morbi non lectus.",
+      "ce-required": false,
+      "frequency-scheduled": false,
+      "penalties": "Self-enabling static projection",
+      "disciplines": [
+        {
+          "discipline": "tortor"
+        },
+        {
+          "discipline": "odio"
+        },
+        {
+          "discipline": "convallis eget eleifend"
+        },
+        {
+          "discipline": "odio"
+        },
+        {
+          "discipline": "pellentesque quisque"
+        },
+        {
+          "discipline": "cum sociis"
+        },
+        {
+          "discipline": "vitae consectetuer"
+        },
+        {
+          "discipline": "penatibus et"
+        },
+        {
+          "discipline": "eget"
+        },
+        {
+          "discipline": "vel lectus in"
+        },
+        {
+          "discipline": "euismod scelerisque quam"
+        },
+        {
+          "discipline": "ante vel ipsum"
+        },
+        {
+          "discipline": "cum sociis natoque"
+        },
+        {
+          "discipline": "quam"
+        },
+        {
+          "discipline": "rutrum"
+        },
+        {
+          "discipline": "pretium iaculis diam"
+        },
+        {
+          "discipline": "nullam"
+        },
+        {
+          "discipline": "eros suspendisse"
+        },
+        {
+          "discipline": "potenti nullam"
+        },
+        {
+          "discipline": "luctus et"
+        },
+        {
+          "discipline": "id"
+        },
+        {
+          "discipline": "mus vivamus"
+        },
+        {
+          "discipline": "sapien"
+        },
+        {
+          "discipline": "dolor quis odio"
+        },
+        {
+          "discipline": "at"
+        },
+        {
+          "discipline": "sed"
+        },
+        {
+          "discipline": "elit"
+        },
+        {
+          "discipline": "quisque arcu libero"
+        },
+        {
+          "discipline": "pharetra magna ac"
+        },
+        {
+          "discipline": "dapibus"
+        },
+        {
+          "discipline": "lacus at velit"
+        },
+        {
+          "discipline": "eget massa tempor"
+        },
+        {
+          "discipline": "posuere cubilia"
+        },
+        {
+          "discipline": "vel"
+        },
+        {
+          "discipline": "hendrerit at"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "pretium"
+        },
+        {
+          "setting": "pretium quis lectus"
+        },
+        {
+          "setting": "consequat"
+        }
+      ]
+    },
+    {
+      "course_title": "Innovative real-time initiative",
+      "course_summary": "Proin at turpis a pede posuere nonummy. Integer non velit.",
+      "course_activity": "morbi a ipsum integer a nibh in quis justo",
+      "course_citation": "quis tortor id",
+      "source": "http://cocolog-nifty.com/felis/fusce/posuere/felis/sed/lacus.aspx?cras=aliquam&non=erat&velit=volutpat&nec=in&nisi=congue&vulputate=etiam&nonummy=justo&maecenas=etiam&tincidunt=pretium&lacus=iaculis&at=justo&velit=in&vivamus=hac&vel=habitasse&nulla=platea&eget=dictumst&eros=etiam&elementum=faucibus&pellentesque=cursus&quisque=urna&porta=ut&volutpat=tellus&erat=nulla&quisque=ut&erat=erat&eros=id&viverra=mauris&eget=vulputate&congue=elementum&eget=nullam&semper=varius&rutrum=nulla&nulla=facilisi&nunc=cras&purus=non&phasellus=velit&in=nec&felis=nisi&donec=vulputate&semper=nonummy&sapien=maecenas&a=tincidunt&libero=lacus&nam=at&dui=velit&proin=vivamus&leo=vel&odio=nulla&porttitor=eget&id=eros&consequat=elementum&in=pellentesque&consequat=quisque&ut=porta&nulla=volutpat&sed=erat&accumsan=quisque&felis=erat&ut=eros&at=viverra&dolor=eget&quis=congue&odio=eget&consequat=semper&varius=rutrum&integer=nulla&ac=nunc&leo=purus&pellentesque=phasellus&ultrices=in&mattis=felis&odio=donec&donec=semper&vitae=sapien&nisi=a&nam=libero&ultrices=nam&libero=dui&non=proin&mattis=leo&pulvinar=odio&nulla=porttitor&pede=id&ullamcorper=consequat&augue=in&a=consequat&suscipit=ut&nulla=nulla&elit=sed&ac=accumsan&nulla=felis&sed=ut&vel=at&enim=dolor&sit=quis&amet=odio&nunc=consequat",
+      "effective_date": "9/29/2017",
+      "governing_body": "Pagac, Leannon and Erdman",
+      "app_required": true,
+      "app_initial": false,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Nullam molestie nibh in lectus.",
+      "training_content-hours": "Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+      "training_record-keeping": "Praesent blandit.",
+      "training_record-retention": "Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Switchable asymmetric extranet",
+      "disciplines": [
+        {
+          "discipline": "phasellus sit"
+        },
+        {
+          "discipline": "turpis integer aliquet"
+        },
+        {
+          "discipline": "pede justo eu"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "at"
+        },
+        {
+          "setting": "duis"
+        },
+        {
+          "setting": "sed magna at"
+        },
+        {
+          "setting": "at turpis"
+        }
+      ]
+    },
+    {
+      "course_title": "Vision-oriented upward-trending architecture",
+      "course_summary": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+      "course_activity": "neque sapien placerat ante nulla",
+      "course_citation": "ultrices vel augue vestibulum ante",
+      "source": "https://blinklist.com/in/lectus/pellentesque/at/nulla/suspendisse.jpg?iaculis=quis&diam=lectus&erat=suspendisse&fermentum=potenti&justo=in&nec=eleifend&condimentum=quam&neque=a&sapien=odio&placerat=in&ante=hac&nulla=habitasse&justo=platea&aliquam=dictumst&quis=maecenas&turpis=ut&eget=massa&elit=quis&sodales=augue&scelerisque=luctus&mauris=tincidunt&sit=nulla&amet=mollis&eros=molestie&suspendisse=lorem&accumsan=quisque&tortor=ut&quis=erat&turpis=curabitur&sed=gravida&ante=nisi&vivamus=at&tortor=nibh&duis=in&mattis=hac&egestas=habitasse&metus=platea&aenean=dictumst&fermentum=aliquam&donec=augue&ut=quam&mauris=sollicitudin&eget=vitae&massa=consectetuer&tempor=eget&convallis=rutrum&nulla=at&neque=lorem&libero=integer&convallis=tincidunt&eget=ante&eleifend=vel&luctus=ipsum&ultricies=praesent&eu=blandit&nibh=lacinia&quisque=erat&id=vestibulum&justo=sed&sit=magna&amet=at&sapien=nunc&dignissim=commodo&vestibulum=placerat&vestibulum=praesent&ante=blandit&ipsum=nam&primis=nulla&in=integer",
+      "effective_date": "7/13/2018",
+      "governing_body": "Hoeger-Mitchell",
+      "app_required": true,
+      "app_initial": false,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": true,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Praesent id massa id nisl venenatis lacinia.",
+      "training_content-hours": "In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+      "training_record-keeping": "Nullam porttitor lacus at turpis.",
+      "training_record-retention": "Morbi porttitor lorem id ligula.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Phased well-modulated software",
+      "disciplines": [
+        {
+          "discipline": "curabitur in"
+        },
+        {
+          "discipline": "pharetra magna"
+        },
+        {
+          "discipline": "pretium"
+        },
+        {
+          "discipline": "nam"
+        },
+        {
+          "discipline": "leo odio porttitor"
+        },
+        {
+          "discipline": "lobortis"
+        },
+        {
+          "discipline": "at"
+        },
+        {
+          "discipline": "nulla"
+        },
+        {
+          "discipline": "auctor gravida sem"
+        },
+        {
+          "discipline": "sed"
+        },
+        {
+          "discipline": "id"
+        },
+        {
+          "discipline": "rhoncus aliquet pulvinar"
+        },
+        {
+          "discipline": "nec nisi volutpat"
+        },
+        {
+          "discipline": "vel"
+        },
+        {
+          "discipline": "augue"
+        },
+        {
+          "discipline": "quis"
+        },
+        {
+          "discipline": "aliquet maecenas leo"
+        },
+        {
+          "discipline": "aliquam"
+        },
+        {
+          "discipline": "eu"
+        },
+        {
+          "discipline": "pede ac diam"
+        },
+        {
+          "discipline": "sapien cum sociis"
+        },
+        {
+          "discipline": "quis orci"
+        },
+        {
+          "discipline": "nulla elit ac"
+        },
+        {
+          "discipline": "vel"
+        },
+        {
+          "discipline": "pede ac"
+        },
+        {
+          "discipline": "ipsum praesent blandit"
+        },
+        {
+          "discipline": "diam erat"
+        },
+        {
+          "discipline": "nulla"
+        },
+        {
+          "discipline": "nam nulla"
+        },
+        {
+          "discipline": "integer tincidunt ante"
+        },
+        {
+          "discipline": "et"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "interdum eu tincidunt"
+        },
+        {
+          "setting": "commodo placerat"
+        },
+        {
+          "setting": "ridiculus"
+        },
+        {
+          "setting": "consectetuer adipiscing elit"
+        },
+        {
+          "setting": "donec odio"
+        }
+      ]
+    },
+    {
+      "course_title": "Innovative global groupware",
+      "course_summary": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+      "course_activity": "nunc commodo placerat praesent blandit",
+      "course_citation": "lobortis ligula sit amet eleifend",
+      "source": "http://a8.net/amet/turpis/elementum/ligula.xml?blandit=dolor&non=quis&interdum=odio&in=consequat&ante=varius&vestibulum=integer&ante=ac&ipsum=leo&primis=pellentesque&in=ultrices&faucibus=mattis&orci=odio&luctus=donec&et=vitae&ultrices=nisi&posuere=nam&cubilia=ultrices&curae=libero&duis=non&faucibus=mattis&accumsan=pulvinar&odio=nulla&curabitur=pede&convallis=ullamcorper&duis=augue&consequat=a&dui=suscipit",
+      "effective_date": "10/14/2017",
+      "governing_body": "Johns, Wisozk and Bailey",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": true,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Integer ac leo.",
+      "training_content-hours": "Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+      "training_record-keeping": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.",
+      "training_record-retention": "Aliquam quis turpis eget elit sodales scelerisque.",
+      "ce-required": false,
+      "frequency-scheduled": false,
+      "penalties": "Automated tangible synergy",
+      "disciplines": [
+        {
+          "discipline": "facilisi cras"
+        },
+        {
+          "discipline": "eleifend donec"
+        },
+        {
+          "discipline": "turpis"
+        },
+        {
+          "discipline": "non mi"
+        },
+        {
+          "discipline": "vestibulum"
+        },
+        {
+          "discipline": "massa donec dapibus"
+        },
+        {
+          "discipline": "eu felis"
+        },
+        {
+          "discipline": "sit"
+        },
+        {
+          "discipline": "eget vulputate"
+        },
+        {
+          "discipline": "dapibus duis"
+        },
+        {
+          "discipline": "justo"
+        },
+        {
+          "discipline": "aenean fermentum"
+        },
+        {
+          "discipline": "consequat ut nulla"
+        },
+        {
+          "discipline": "at nulla"
+        },
+        {
+          "discipline": "vestibulum"
+        },
+        {
+          "discipline": "ut"
+        },
+        {
+          "discipline": "blandit mi"
+        },
+        {
+          "discipline": "curabitur convallis"
+        },
+        {
+          "discipline": "diam"
+        },
+        {
+          "discipline": "tortor"
+        },
+        {
+          "discipline": "erat"
+        },
+        {
+          "discipline": "nulla"
+        },
+        {
+          "discipline": "donec"
+        },
+        {
+          "discipline": "odio justo sollicitudin"
+        },
+        {
+          "discipline": "justo in hac"
+        },
+        {
+          "discipline": "nunc viverra"
+        },
+        {
+          "discipline": "erat"
+        },
+        {
+          "discipline": "mauris"
+        },
+        {
+          "discipline": "proin risus praesent"
+        },
+        {
+          "discipline": "curabitur gravida"
+        },
+        {
+          "discipline": "elit sodales"
+        },
+        {
+          "discipline": "nulla ac enim"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "nisi"
+        },
+        {
+          "setting": "at vulputate"
+        }
+      ]
+    },
+    {
+      "course_title": "Versatile 3rd generation concept",
+      "course_summary": "Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+      "course_activity": "purus phasellus in felis donec semper sapien",
+      "course_citation": "mauris enim leo",
+      "source": "https://rediff.com/non/mauris/morbi/non/lectus/aliquam/sit.html?hac=diam&habitasse=neque&platea=vestibulum&dictumst=eget&etiam=vulputate&faucibus=ut&cursus=ultrices&urna=vel&ut=augue&tellus=vestibulum&nulla=ante&ut=ipsum&erat=primis&id=in&mauris=faucibus&vulputate=orci&elementum=luctus&nullam=et&varius=ultrices&nulla=posuere&facilisi=cubilia&cras=curae&non=donec&velit=pharetra&nec=magna&nisi=vestibulum&vulputate=aliquet&nonummy=ultrices&maecenas=erat&tincidunt=tortor&lacus=sollicitudin&at=mi&velit=sit&vivamus=amet&vel=lobortis&nulla=sapien",
+      "effective_date": "10/2/2018",
+      "governing_body": "Bosco Inc",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": true,
+      "app_periodic": false,
+      "app_review": true,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Quisque id justo sit amet sapien dignissim vestibulum.",
+      "training_content-hours": "Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+      "training_record-keeping": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",
+      "training_record-retention": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
+      "ce-required": true,
+      "frequency-scheduled": true,
+      "penalties": "Triple-buffered systemic interface",
+      "disciplines": [
+        {
+          "discipline": "id ligula"
+        },
+        {
+          "discipline": "vivamus metus"
+        },
+        {
+          "discipline": "ut volutpat"
+        },
+        {
+          "discipline": "rhoncus mauris"
+        },
+        {
+          "discipline": "semper sapien"
+        },
+        {
+          "discipline": "pede"
+        },
+        {
+          "discipline": "donec"
+        },
+        {
+          "discipline": "nonummy"
+        },
+        {
+          "discipline": "maecenas tincidunt"
+        },
+        {
+          "discipline": "vestibulum"
+        },
+        {
+          "discipline": "varius nulla"
+        },
+        {
+          "discipline": "et magnis"
+        },
+        {
+          "discipline": "nibh quisque"
+        },
+        {
+          "discipline": "vitae nisi"
+        },
+        {
+          "discipline": "adipiscing lorem vitae"
+        },
+        {
+          "discipline": "augue luctus tincidunt"
+        },
+        {
+          "discipline": "id ornare imperdiet"
+        },
+        {
+          "discipline": "iaculis diam"
+        },
+        {
+          "discipline": "ullamcorper augue"
+        },
+        {
+          "discipline": "in faucibus orci"
+        },
+        {
+          "discipline": "vulputate ut"
+        },
+        {
+          "discipline": "ligula pellentesque ultrices"
+        },
+        {
+          "discipline": "eros viverra"
+        },
+        {
+          "discipline": "dis"
+        },
+        {
+          "discipline": "sem praesent"
+        },
+        {
+          "discipline": "tellus nulla ut"
+        },
+        {
+          "discipline": "quam"
+        },
+        {
+          "discipline": "diam nam"
+        },
+        {
+          "discipline": "in"
+        },
+        {
+          "discipline": "maecenas leo odio"
+        },
+        {
+          "discipline": "in imperdiet"
+        },
+        {
+          "discipline": "aenean fermentum"
+        },
+        {
+          "discipline": "enim sit"
+        },
+        {
+          "discipline": "mattis odio donec"
+        },
+        {
+          "discipline": "nam dui proin"
+        },
+        {
+          "discipline": "aliquet"
+        },
+        {
+          "discipline": "eget nunc"
+        },
+        {
+          "discipline": "id pretium"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "nunc vestibulum ante"
+        },
+        {
+          "setting": "convallis"
+        },
+        {
+          "setting": "tincidunt"
+        }
+      ]
+    },
+    {
+      "course_title": "Synergized needs-based function",
+      "course_summary": "In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
+      "course_activity": "curae donec pharetra magna vestibulum aliquet ultrices erat",
+      "course_citation": "imperdiet nullam orci pede",
+      "source": "http://sohu.com/et/magnis/dis/parturient.xml?natoque=in&penatibus=est&et=risus&magnis=auctor&dis=sed&parturient=tristique&montes=in&nascetur=tempus&ridiculus=sit&mus=amet&vivamus=sem&vestibulum=fusce&sagittis=consequat&sapien=nulla&cum=nisl&sociis=nunc&natoque=nisl&penatibus=duis&et=bibendum&magnis=felis&dis=sed&parturient=interdum&montes=venenatis&nascetur=turpis&ridiculus=enim&mus=blandit&etiam=mi&vel=in&augue=porttitor&vestibulum=pede&rutrum=justo&rutrum=eu&neque=massa&aenean=donec&auctor=dapibus&gravida=duis&sem=at&praesent=velit&id=eu&massa=est&id=congue&nisl=elementum&venenatis=in&lacinia=hac&aenean=habitasse&sit=platea&amet=dictumst&justo=morbi&morbi=vestibulum&ut=velit&odio=id&cras=pretium&mi=iaculis&pede=diam&malesuada=erat&in=fermentum&imperdiet=justo&et=nec&commodo=condimentum&vulputate=neque&justo=sapien&in=placerat&blandit=ante&ultrices=nulla&enim=justo&lorem=aliquam&ipsum=quis&dolor=turpis&sit=eget&amet=elit&consectetuer=sodales&adipiscing=scelerisque&elit=mauris&proin=sit&interdum=amet&mauris=eros&non=suspendisse&ligula=accumsan&pellentesque=tortor&ultrices=quis&phasellus=turpis",
+      "effective_date": "12/15/2017",
+      "governing_body": "Spinka, White and Champlin",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": true,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Aliquam non mauris.",
+      "training_content-hours": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.",
+      "training_record-keeping": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+      "training_record-retention": "Curabitur at ipsum ac tellus semper interdum.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Customer-focused system-worthy firmware",
+      "disciplines": [
+        {
+          "discipline": "cras"
+        },
+        {
+          "discipline": "amet"
+        },
+        {
+          "discipline": "iaculis congue"
+        },
+        {
+          "discipline": "nullam porttitor lacus"
+        },
+        {
+          "discipline": "integer"
+        },
+        {
+          "discipline": "pede justo"
+        },
+        {
+          "discipline": "proin"
+        },
+        {
+          "discipline": "sit amet"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "non pretium quis"
+        },
+        {
+          "setting": "praesent"
+        }
+      ]
+    },
+    {
+      "course_title": "Networked bi-directional protocol",
+      "course_summary": "Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
+      "course_activity": "id consequat in consequat ut",
+      "course_citation": "porttitor id",
+      "source": "https://toplist.cz/in/quis/justo/maecenas/rhoncus/aliquam/lacus.html?est=etiam&lacinia=justo&nisi=etiam&venenatis=pretium&tristique=iaculis&fusce=justo&congue=in&diam=hac&id=habitasse&ornare=platea&imperdiet=dictumst&sapien=etiam&urna=faucibus&pretium=cursus&nisl=urna&ut=ut&volutpat=tellus&sapien=nulla&arcu=ut&sed=erat&augue=id&aliquam=mauris&erat=vulputate&volutpat=elementum",
+      "effective_date": "12/1/2017",
+      "governing_body": "Metz, Kiehn and Gislason",
+      "app_required": true,
+      "app_initial": false,
+      "app_before": false,
+      "app_periodic": true,
+      "app_review": true,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Duis bibendum.",
+      "training_content-hours": "Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
+      "training_record-keeping": "Duis bibendum.",
+      "training_record-retention": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Universal logistical parallelism",
+      "disciplines": [
+        {
+          "discipline": "volutpat in congue"
+        },
+        {
+          "discipline": "pede"
+        },
+        {
+          "discipline": "venenatis"
+        },
+        {
+          "discipline": "tincidunt nulla mollis"
+        },
+        {
+          "discipline": "augue luctus tincidunt"
+        },
+        {
+          "discipline": "orci nullam"
+        },
+        {
+          "discipline": "vitae"
+        },
+        {
+          "discipline": "morbi"
+        },
+        {
+          "discipline": "mi sit amet"
+        },
+        {
+          "discipline": "vestibulum"
+        },
+        {
+          "discipline": "integer a nibh"
+        },
+        {
+          "discipline": "dolor vel"
+        },
+        {
+          "discipline": "posuere cubilia"
+        },
+        {
+          "discipline": "ut"
+        },
+        {
+          "discipline": "tortor id"
+        },
+        {
+          "discipline": "aliquam non mauris"
+        },
+        {
+          "discipline": "maecenas"
+        },
+        {
+          "discipline": "lacus morbi sem"
+        },
+        {
+          "discipline": "in faucibus orci"
+        },
+        {
+          "discipline": "pede"
+        },
+        {
+          "discipline": "nullam"
+        },
+        {
+          "discipline": "hac habitasse platea"
+        },
+        {
+          "discipline": "elementum nullam"
+        },
+        {
+          "discipline": "primis in"
+        },
+        {
+          "discipline": "justo"
+        },
+        {
+          "discipline": "elementum ligula vehicula"
+        },
+        {
+          "discipline": "sed augue aliquam"
+        },
+        {
+          "discipline": "vestibulum"
+        },
+        {
+          "discipline": "tellus in"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "interdum eu"
+        },
+        {
+          "setting": "phasellus in"
+        }
+      ]
+    },
+    {
+      "course_title": "Open-source bandwidth-monitored process improvement",
+      "course_summary": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+      "course_activity": "diam in magna bibendum imperdiet nullam orci pede venenatis",
+      "course_citation": "vitae quam",
+      "source": "http://mysql.com/diam/cras.xml?curae=sem",
+      "effective_date": "12/29/2017",
+      "governing_body": "Rempel and Sons",
+      "app_required": false,
+      "app_initial": true,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": true,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Morbi non quam nec dui luctus rutrum.",
+      "training_content-hours": "In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
+      "training_record-keeping": "Etiam pretium iaculis justo.",
+      "training_record-retention": "Nulla tellus.",
+      "ce-required": false,
+      "frequency-scheduled": true,
+      "penalties": "Function-based 24/7 standardization",
+      "disciplines": [
+        {
+          "discipline": "eros"
+        },
+        {
+          "discipline": "in lectus"
+        },
+        {
+          "discipline": "vel nulla eget"
+        },
+        {
+          "discipline": "mauris morbi"
+        },
+        {
+          "discipline": "vitae"
+        },
+        {
+          "discipline": "ac est lacinia"
+        },
+        {
+          "discipline": "magnis dis parturient"
+        },
+        {
+          "discipline": "luctus et ultrices"
+        },
+        {
+          "discipline": "leo maecenas"
+        },
+        {
+          "discipline": "curae"
+        },
+        {
+          "discipline": "id luctus"
+        },
+        {
+          "discipline": "feugiat"
+        },
+        {
+          "discipline": "a libero nam"
+        },
+        {
+          "discipline": "ligula suspendisse ornare"
+        },
+        {
+          "discipline": "elementum eu"
+        },
+        {
+          "discipline": "placerat praesent"
+        },
+        {
+          "discipline": "adipiscing lorem"
+        },
+        {
+          "discipline": "amet eleifend"
+        },
+        {
+          "discipline": "in hac"
+        },
+        {
+          "discipline": "phasellus sit amet"
+        },
+        {
+          "discipline": "sit amet cursus"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "viverra eget congue"
+        },
+        {
+          "setting": "in felis"
+        },
+        {
+          "setting": "morbi vestibulum"
+        },
+        {
+          "setting": "etiam"
+        },
+        {
+          "setting": "lacinia sapien"
+        }
+      ]
+    },
+    {
+      "course_title": "Assimilated radical forecast",
+      "course_summary": "Morbi quis tortor id nulla ultrices aliquet.",
+      "course_activity": "tincidunt eu felis fusce posuere felis",
+      "course_citation": "donec ut mauris eget",
+      "source": "http://unc.edu/congue.jpg?mi=sapien&in=arcu&porttitor=sed&pede=augue&justo=aliquam&eu=erat&massa=volutpat&donec=in&dapibus=congue&duis=etiam&at=justo&velit=etiam&eu=pretium&est=iaculis&congue=justo&elementum=in&in=hac&hac=habitasse&habitasse=platea&platea=dictumst&dictumst=etiam&morbi=faucibus&vestibulum=cursus&velit=urna&id=ut&pretium=tellus&iaculis=nulla&diam=ut&erat=erat&fermentum=id&justo=mauris&nec=vulputate&condimentum=elementum&neque=nullam&sapien=varius&placerat=nulla&ante=facilisi",
+      "effective_date": "11/4/2017",
+      "governing_body": "DuBuque, Reinger and Boyer",
+      "app_required": false,
+      "app_initial": true,
+      "app_before": true,
+      "app_periodic": false,
+      "app_review": true,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Phasellus sit amet erat.",
+      "training_content-hours": "Quisque ut erat. Curabitur gravida nisi at nibh.",
+      "training_record-keeping": "Suspendisse potenti.",
+      "training_record-retention": "Phasellus in felis.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Public-key attitude-oriented utilisation",
+      "disciplines": [
+        {
+          "discipline": "at"
+        },
+        {
+          "discipline": "id"
+        },
+        {
+          "discipline": "ultrices"
+        },
+        {
+          "discipline": "et eros"
+        },
+        {
+          "discipline": "libero"
+        },
+        {
+          "discipline": "donec posuere metus"
+        },
+        {
+          "discipline": "maecenas"
+        },
+        {
+          "discipline": "suscipit"
+        },
+        {
+          "discipline": "ipsum primis"
+        },
+        {
+          "discipline": "nam congue"
+        },
+        {
+          "discipline": "in leo"
+        },
+        {
+          "discipline": "donec semper sapien"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "massa quis augue"
+        },
+        {
+          "setting": "tincidunt"
+        }
+      ]
+    },
+    {
+      "course_title": "Decentralized asymmetric benchmark",
+      "course_summary": "Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
+      "course_activity": "semper est quam pharetra magna ac consequat metus",
+      "course_citation": "est lacinia nisi",
+      "source": "http://cnet.com/interdum/venenatis/turpis/enim.png?augue=vestibulum&aliquam=sed",
+      "effective_date": "11/19/2018",
+      "governing_body": "Leuschke LLC",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": true,
+      "app_periodic": true,
+      "app_review": false,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
+      "training_content-hours": "Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.",
+      "training_record-keeping": "Etiam vel augue. Vestibulum rutrum rutrum neque.",
+      "training_record-retention": "Curabitur in libero ut massa volutpat convallis.",
+      "ce-required": false,
+      "frequency-scheduled": true,
+      "penalties": "Operative 24 hour success",
+      "disciplines": [
+        {
+          "discipline": "vestibulum sit"
+        },
+        {
+          "discipline": "bibendum"
+        },
+        {
+          "discipline": "pede lobortis ligula"
+        },
+        {
+          "discipline": "ut at"
+        },
+        {
+          "discipline": "tortor"
+        },
+        {
+          "discipline": "nisi"
+        },
+        {
+          "discipline": "fusce"
+        },
+        {
+          "discipline": "pellentesque"
+        },
+        {
+          "discipline": "orci"
+        },
+        {
+          "discipline": "fusce lacus"
+        },
+        {
+          "discipline": "a"
+        },
+        {
+          "discipline": "odio elementum"
+        },
+        {
+          "discipline": "sem"
+        },
+        {
+          "discipline": "nunc commodo placerat"
+        },
+        {
+          "discipline": "sed magna"
+        },
+        {
+          "discipline": "vitae"
+        },
+        {
+          "discipline": "et magnis"
+        },
+        {
+          "discipline": "cras in purus"
+        },
+        {
+          "discipline": "rhoncus sed vestibulum"
+        },
+        {
+          "discipline": "est quam"
+        },
+        {
+          "discipline": "ut erat"
+        },
+        {
+          "discipline": "rutrum neque"
+        },
+        {
+          "discipline": "eget"
+        },
+        {
+          "discipline": "penatibus et"
+        },
+        {
+          "discipline": "metus"
+        },
+        {
+          "discipline": "ipsum dolor"
+        },
+        {
+          "discipline": "diam"
+        },
+        {
+          "discipline": "libero"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "lobortis est phasellus"
+        }
+      ]
+    },
+    {
+      "course_title": "Implemented methodical productivity",
+      "course_summary": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+      "course_activity": "venenatis tristique fusce congue diam",
+      "course_citation": "hac habitasse platea dictumst",
+      "source": "http://mtv.com/pellentesque/viverra.xml?donec=dis&semper=parturient&sapien=montes&a=nascetur&libero=ridiculus&nam=mus&dui=vivamus&proin=vestibulum&leo=sagittis&odio=sapien&porttitor=cum&id=sociis&consequat=natoque&in=penatibus&consequat=et&ut=magnis&nulla=dis&sed=parturient&accumsan=montes&felis=nascetur&ut=ridiculus&at=mus&dolor=etiam&quis=vel&odio=augue&consequat=vestibulum&varius=rutrum&integer=rutrum&ac=neque&leo=aenean&pellentesque=auctor&ultrices=gravida&mattis=sem&odio=praesent&donec=id&vitae=massa&nisi=id&nam=nisl&ultrices=venenatis&libero=lacinia&non=aenean&mattis=sit&pulvinar=amet&nulla=justo&pede=morbi&ullamcorper=ut&augue=odio&a=cras&suscipit=mi&nulla=pede&elit=malesuada&ac=in&nulla=imperdiet&sed=et&vel=commodo&enim=vulputate&sit=justo&amet=in&nunc=blandit&viverra=ultrices&dapibus=enim&nulla=lorem&suscipit=ipsum&ligula=dolor&in=sit&lacus=amet&curabitur=consectetuer&at=adipiscing&ipsum=elit&ac=proin&tellus=interdum&semper=mauris&interdum=non&mauris=ligula&ullamcorper=pellentesque&purus=ultrices&sit=phasellus&amet=id&nulla=sapien&quisque=in&arcu=sapien&libero=iaculis&rutrum=congue&ac=vivamus&lobortis=metus&vel=arcu&dapibus=adipiscing&at=molestie&diam=hendrerit&nam=at&tristique=vulputate&tortor=vitae&eu=nisl",
+      "effective_date": "8/1/2018",
+      "governing_body": "Keeling, Rohan and Spinka",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": false,
+      "app_periodic": true,
+      "app_review": true,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Proin risus.",
+      "training_content-hours": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",
+      "training_record-keeping": "Curabitur convallis.",
+      "training_record-retention": "Donec quis orci eget orci vehicula condimentum.",
+      "ce-required": true,
+      "frequency-scheduled": true,
+      "penalties": "Ameliorated impactful superstructure",
+      "disciplines": [
+        {
+          "discipline": "vel lectus"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "quam sapien varius"
+        },
+        {
+          "setting": "in sapien iaculis"
+        },
+        {
+          "setting": "purus sit amet"
+        }
+      ]
+    },
+    {
+      "course_title": "Innovative reciprocal toolset",
+      "course_summary": "In congue.",
+      "course_activity": "vitae mattis nibh ligula nec sem",
+      "course_citation": "mauris ullamcorper",
+      "source": "http://mashable.com/id/consequat/in/consequat/ut/nulla/sed.js?adipiscing=dis&elit=parturient&proin=montes&risus=nascetur&praesent=ridiculus&lectus=mus&vestibulum=etiam&quam=vel&sapien=augue&varius=vestibulum",
+      "effective_date": "5/27/2018",
+      "governing_body": "Lueilwitz-Bailey",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": false,
+      "app_periodic": true,
+      "app_review": true,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Mauris lacinia sapien quis libero.",
+      "training_content-hours": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
+      "training_record-keeping": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
+      "training_record-retention": "Quisque id justo sit amet sapien dignissim vestibulum.",
+      "ce-required": false,
+      "frequency-scheduled": false,
+      "penalties": "Re-contextualized logistical open architecture",
+      "disciplines": [
+        {
+          "discipline": "risus"
+        },
+        {
+          "discipline": "nam dui"
+        },
+        {
+          "discipline": "pede morbi porttitor"
+        },
+        {
+          "discipline": "nulla sed accumsan"
+        },
+        {
+          "discipline": "vivamus"
+        },
+        {
+          "discipline": "semper rutrum"
+        },
+        {
+          "discipline": "est lacinia"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "ante"
+        },
+        {
+          "setting": "sit"
+        }
+      ]
+    },
+    {
+      "course_title": "User-friendly mission-critical solution",
+      "course_summary": "Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+      "course_activity": "donec semper sapien a libero nam dui proin leo",
+      "course_citation": "viverra dapibus nulla suscipit",
+      "source": "http://slashdot.org/id/nulla/ultrices/aliquet/maecenas/leo/odio.html?et=ante&ultrices=vestibulum&posuere=ante&cubilia=ipsum&curae=primis&mauris=in&viverra=faucibus&diam=orci&vitae=luctus&quam=et&suspendisse=ultrices&potenti=posuere&nullam=cubilia&porttitor=curae&lacus=duis&at=faucibus&turpis=accumsan&donec=odio&posuere=curabitur&metus=convallis&vitae=duis&ipsum=consequat&aliquam=dui&non=nec&mauris=nisi&morbi=volutpat&non=eleifend&lectus=donec&aliquam=ut&sit=dolor&amet=morbi&diam=vel&in=lectus&magna=in&bibendum=quam&imperdiet=fringilla&nullam=rhoncus&orci=mauris&pede=enim&venenatis=leo&non=rhoncus&sodales=sed&sed=vestibulum&tincidunt=sit&eu=amet&felis=cursus&fusce=id&posuere=turpis&felis=integer&sed=aliquet",
+      "effective_date": "8/19/2017",
+      "governing_body": "Heathcote-Howell",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": true,
+      "app_periodic": true,
+      "app_review": false,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Curabitur at ipsum ac tellus semper interdum.",
+      "training_content-hours": "Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+      "training_record-keeping": "Vivamus in felis eu sapien cursus vestibulum.",
+      "training_record-retention": "Ut at dolor quis odio consequat varius.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Monitored bandwidth-monitored Graphic Interface",
+      "disciplines": [
+        {
+          "discipline": "justo lacinia"
+        },
+        {
+          "discipline": "id ornare"
+        },
+        {
+          "discipline": "metus"
+        },
+        {
+          "discipline": "pulvinar lobortis est"
+        },
+        {
+          "discipline": "bibendum morbi non"
+        },
+        {
+          "discipline": "est et tempus"
+        },
+        {
+          "discipline": "ac est lacinia"
+        },
+        {
+          "discipline": "at"
+        },
+        {
+          "discipline": "sem"
+        },
+        {
+          "discipline": "a suscipit"
+        },
+        {
+          "discipline": "cursus"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "montes nascetur"
+        },
+        {
+          "setting": "sit"
+        },
+        {
+          "setting": "turpis nec"
+        }
+      ]
+    },
+    {
+      "course_title": "Intuitive client-server service-desk",
+      "course_summary": "Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
+      "course_activity": "ligula nec sem duis aliquam convallis nunc proin",
+      "course_citation": "ac tellus semper interdum",
+      "source": "https://accuweather.com/in/magna.js?justo=molestie&sit=hendrerit&amet=at&sapien=vulputate&dignissim=vitae&vestibulum=nisl&vestibulum=aenean&ante=lectus&ipsum=pellentesque&primis=eget&in=nunc&faucibus=donec&orci=quis&luctus=orci&et=eget&ultrices=orci&posuere=vehicula&cubilia=condimentum&curae=curabitur&nulla=in&dapibus=libero&dolor=ut&vel=massa&est=volutpat&donec=convallis&odio=morbi&justo=odio&sollicitudin=odio&ut=elementum&suscipit=eu&a=interdum&feugiat=eu&et=tincidunt&eros=in&vestibulum=leo&ac=maecenas&est=pulvinar&lacinia=lobortis&nisi=est&venenatis=phasellus&tristique=sit&fusce=amet&congue=erat&diam=nulla&id=tempus&ornare=vivamus&imperdiet=in&sapien=felis&urna=eu&pretium=sapien&nisl=cursus&ut=vestibulum&volutpat=proin&sapien=eu&arcu=mi&sed=nulla&augue=ac&aliquam=enim&erat=in&volutpat=tempor&in=turpis&congue=nec&etiam=euismod&justo=scelerisque&etiam=quam&pretium=turpis&iaculis=adipiscing&justo=lorem&in=vitae&hac=mattis&habitasse=nibh&platea=ligula&dictumst=nec&etiam=sem&faucibus=duis&cursus=aliquam&urna=convallis&ut=nunc&tellus=proin",
+      "effective_date": "12/14/2017",
+      "governing_body": "Waelchi LLC",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": true,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Sed ante.",
+      "training_content-hours": "Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+      "training_record-keeping": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
+      "training_record-retention": "Donec vitae nisi.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Vision-oriented multi-tasking info-mediaries",
+      "disciplines": [
+        {
+          "discipline": "massa quis"
+        },
+        {
+          "discipline": "nulla"
+        },
+        {
+          "discipline": "morbi vestibulum velit"
+        },
+        {
+          "discipline": "natoque penatibus et"
+        },
+        {
+          "discipline": "fusce congue"
+        },
+        {
+          "discipline": "turpis"
+        },
+        {
+          "discipline": "justo"
+        },
+        {
+          "discipline": "in blandit"
+        },
+        {
+          "discipline": "ipsum aliquam"
+        },
+        {
+          "discipline": "dis parturient montes"
+        },
+        {
+          "discipline": "in porttitor"
+        },
+        {
+          "discipline": "placerat praesent"
+        },
+        {
+          "discipline": "aliquam non mauris"
+        },
+        {
+          "discipline": "metus vitae"
+        },
+        {
+          "discipline": "ut massa volutpat"
+        },
+        {
+          "discipline": "cursus"
+        },
+        {
+          "discipline": "donec"
+        },
+        {
+          "discipline": "dui vel"
+        },
+        {
+          "discipline": "ut"
+        },
+        {
+          "discipline": "sagittis dui vel"
+        },
+        {
+          "discipline": "ligula pellentesque ultrices"
+        },
+        {
+          "discipline": "hac habitasse"
+        },
+        {
+          "discipline": "massa"
+        },
+        {
+          "discipline": "duis bibendum"
+        },
+        {
+          "discipline": "nam"
+        },
+        {
+          "discipline": "neque vestibulum"
+        },
+        {
+          "discipline": "ut erat"
+        },
+        {
+          "discipline": "quis orci eget"
+        },
+        {
+          "discipline": "imperdiet sapien"
+        },
+        {
+          "discipline": "leo pellentesque"
+        },
+        {
+          "discipline": "in lacus"
+        },
+        {
+          "discipline": "quam nec"
+        },
+        {
+          "discipline": "duis"
+        },
+        {
+          "discipline": "vestibulum ante"
+        },
+        {
+          "discipline": "a"
+        },
+        {
+          "discipline": "venenatis turpis enim"
+        },
+        {
+          "discipline": "duis"
+        },
+        {
+          "discipline": "in"
+        },
+        {
+          "discipline": "gravida sem praesent"
+        },
+        {
+          "discipline": "leo pellentesque"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "nisl nunc"
+        }
+      ]
+    },
+    {
+      "course_title": "Down-sized clear-thinking application",
+      "course_summary": "Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
+      "course_activity": "in lectus pellentesque at",
+      "course_citation": "ultrices erat tortor",
+      "source": "http://admin.ch/in/hac/habitasse/platea/dictumst/maecenas.html?aenean=ligula&sit=nec&amet=sem&justo=duis&morbi=aliquam&ut=convallis&odio=nunc&cras=proin&mi=at&pede=turpis&malesuada=a&in=pede&imperdiet=posuere&et=nonummy&commodo=integer&vulputate=non&justo=velit&in=donec&blandit=diam&ultrices=neque&enim=vestibulum&lorem=eget&ipsum=vulputate&dolor=ut&sit=ultrices&amet=vel&consectetuer=augue&adipiscing=vestibulum&elit=ante&proin=ipsum&interdum=primis&mauris=in&non=faucibus&ligula=orci&pellentesque=luctus&ultrices=et&phasellus=ultrices&id=posuere&sapien=cubilia&in=curae&sapien=donec&iaculis=pharetra&congue=magna&vivamus=vestibulum&metus=aliquet&arcu=ultrices&adipiscing=erat&molestie=tortor&hendrerit=sollicitudin&at=mi&vulputate=sit&vitae=amet&nisl=lobortis&aenean=sapien&lectus=sapien&pellentesque=non&eget=mi&nunc=integer&donec=ac&quis=neque&orci=duis&eget=bibendum&orci=morbi&vehicula=non&condimentum=quam&curabitur=nec&in=dui&libero=luctus&ut=rutrum&massa=nulla&volutpat=tellus&convallis=in&morbi=sagittis&odio=dui&odio=vel&elementum=nisl&eu=duis&interdum=ac&eu=nibh&tincidunt=fusce&in=lacus&leo=purus&maecenas=aliquet&pulvinar=at&lobortis=feugiat&est=non&phasellus=pretium&sit=quis&amet=lectus&erat=suspendisse&nulla=potenti&tempus=in&vivamus=eleifend&in=quam&felis=a&eu=odio&sapien=in",
+      "effective_date": "10/11/2017",
+      "governing_body": "Ruecker-Zemlak",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": true,
+      "app_periodic": true,
+      "app_review": true,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Nam tristique tortor eu pede.",
+      "training_content-hours": "Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
+      "training_record-keeping": "Curabitur convallis.",
+      "training_record-retention": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "ce-required": true,
+      "frequency-scheduled": true,
+      "penalties": "Vision-oriented stable task-force",
+      "disciplines": [
+        {
+          "discipline": "vel nulla"
+        },
+        {
+          "discipline": "convallis nulla neque"
+        },
+        {
+          "discipline": "ultrices"
+        },
+        {
+          "discipline": "nulla integer pede"
+        },
+        {
+          "discipline": "dui proin"
+        },
+        {
+          "discipline": "dapibus dolor vel"
+        },
+        {
+          "discipline": "duis faucibus accumsan"
+        },
+        {
+          "discipline": "congue"
+        },
+        {
+          "discipline": "nascetur ridiculus"
+        },
+        {
+          "discipline": "suscipit"
+        },
+        {
+          "discipline": "habitasse platea"
+        },
+        {
+          "discipline": "vulputate vitae nisl"
+        },
+        {
+          "discipline": "in blandit"
+        },
+        {
+          "discipline": "ac"
+        },
+        {
+          "discipline": "amet eros suspendisse"
+        },
+        {
+          "discipline": "curabitur convallis"
+        },
+        {
+          "discipline": "sed"
+        },
+        {
+          "discipline": "at"
+        },
+        {
+          "discipline": "a suscipit"
+        },
+        {
+          "discipline": "tincidunt nulla mollis"
+        },
+        {
+          "discipline": "non"
+        },
+        {
+          "discipline": "eget congue eget"
+        },
+        {
+          "discipline": "nulla integer pede"
+        },
+        {
+          "discipline": "vel"
+        },
+        {
+          "discipline": "placerat ante"
+        },
+        {
+          "discipline": "primis"
+        },
+        {
+          "discipline": "quam sollicitudin vitae"
+        },
+        {
+          "discipline": "nulla sed"
+        },
+        {
+          "discipline": "sapien"
+        },
+        {
+          "discipline": "gravida sem"
+        },
+        {
+          "discipline": "integer a"
+        },
+        {
+          "discipline": "quisque arcu"
+        },
+        {
+          "discipline": "vel"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "luctus cum sociis"
+        },
+        {
+          "setting": "ipsum primis"
+        },
+        {
+          "setting": "in"
+        },
+        {
+          "setting": "quam nec"
+        }
+      ]
+    },
+    {
+      "course_title": "Upgradable real-time project",
+      "course_summary": "Mauris ullamcorper purus sit amet nulla.",
+      "course_activity": "felis ut at dolor",
+      "course_citation": "massa volutpat convallis morbi odio",
+      "source": "http://mysql.com/condimentum/neque/sapien/placerat.html?vel=suspendisse&accumsan=potenti&tellus=cras&nisi=in&eu=purus&orci=eu&mauris=magna&lacinia=vulputate&sapien=luctus&quis=cum&libero=sociis&nullam=natoque&sit=penatibus&amet=et&turpis=magnis&elementum=dis&ligula=parturient&vehicula=montes&consequat=nascetur&morbi=ridiculus&a=mus&ipsum=vivamus&integer=vestibulum&a=sagittis&nibh=sapien&in=cum&quis=sociis&justo=natoque&maecenas=penatibus&rhoncus=et&aliquam=magnis&lacus=dis&morbi=parturient&quis=montes&tortor=nascetur&id=ridiculus&nulla=mus&ultrices=etiam&aliquet=vel&maecenas=augue&leo=vestibulum&odio=rutrum&condimentum=rutrum&id=neque&luctus=aenean&nec=auctor&molestie=gravida&sed=sem&justo=praesent&pellentesque=id&viverra=massa&pede=id&ac=nisl&diam=venenatis&cras=lacinia&pellentesque=aenean&volutpat=sit&dui=amet&maecenas=justo&tristique=morbi&est=ut&et=odio&tempus=cras&semper=mi&est=pede&quam=malesuada&pharetra=in&magna=imperdiet&ac=et&consequat=commodo&metus=vulputate&sapien=justo&ut=in&nunc=blandit&vestibulum=ultrices&ante=enim&ipsum=lorem&primis=ipsum&in=dolor&faucibus=sit&orci=amet&luctus=consectetuer&et=adipiscing&ultrices=elit&posuere=proin&cubilia=interdum&curae=mauris&mauris=non",
+      "effective_date": "7/5/2017",
+      "governing_body": "Weber, Kuphal and Macejkovic",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": true,
+      "app_periodic": true,
+      "app_review": false,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Proin interdum mauris non ligula pellentesque ultrices.",
+      "training_content-hours": "Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
+      "training_record-keeping": "Maecenas ut massa quis augue luctus tincidunt.",
+      "training_record-retention": "Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Optional 6th generation core",
+      "disciplines": [
+        {
+          "discipline": "aenean lectus"
+        },
+        {
+          "discipline": "dignissim vestibulum"
+        },
+        {
+          "discipline": "non quam nec"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "sem duis"
+        },
+        {
+          "setting": "erat id"
+        },
+        {
+          "setting": "id luctus nec"
+        },
+        {
+          "setting": "suscipit ligula"
+        },
+        {
+          "setting": "morbi"
+        }
+      ]
+    },
+    {
+      "course_title": "Synergized multi-state structure",
+      "course_summary": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
+      "course_activity": "nulla integer pede justo lacinia eget",
+      "course_citation": "nibh in quis justo maecenas",
+      "source": "https://edublogs.org/lorem/id/ligula/suspendisse/ornare/consequat/lectus.png?risus=etiam&auctor=justo&sed=etiam&tristique=pretium&in=iaculis&tempus=justo&sit=in&amet=hac&sem=habitasse&fusce=platea&consequat=dictumst&nulla=etiam&nisl=faucibus&nunc=cursus&nisl=urna&duis=ut&bibendum=tellus",
+      "effective_date": "8/28/2017",
+      "governing_body": "Mraz, Murphy and Kling",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": true,
+      "app_periodic": false,
+      "app_review": true,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
+      "training_content-hours": "Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
+      "training_record-keeping": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
+      "training_record-retention": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
+      "ce-required": true,
+      "frequency-scheduled": true,
+      "penalties": "Synergized radical help-desk",
+      "disciplines": [
+        {
+          "discipline": "suscipit a"
+        },
+        {
+          "discipline": "porta volutpat"
+        },
+        {
+          "discipline": "at nibh in"
+        },
+        {
+          "discipline": "in felis"
+        },
+        {
+          "discipline": "enim"
+        },
+        {
+          "discipline": "sollicitudin vitae consectetuer"
+        },
+        {
+          "discipline": "posuere cubilia curae"
+        },
+        {
+          "discipline": "aliquet pulvinar sed"
+        },
+        {
+          "discipline": "proin"
+        },
+        {
+          "discipline": "montes"
+        },
+        {
+          "discipline": "tortor sollicitudin mi"
+        },
+        {
+          "discipline": "ligula pellentesque"
+        },
+        {
+          "discipline": "potenti cras in"
+        },
+        {
+          "discipline": "quis"
+        },
+        {
+          "discipline": "mauris ullamcorper purus"
+        },
+        {
+          "discipline": "fringilla rhoncus"
+        },
+        {
+          "discipline": "amet erat"
+        },
+        {
+          "discipline": "nunc vestibulum"
+        },
+        {
+          "discipline": "eu"
+        },
+        {
+          "discipline": "platea dictumst"
+        },
+        {
+          "discipline": "vestibulum"
+        },
+        {
+          "discipline": "praesent"
+        },
+        {
+          "discipline": "odio odio"
+        },
+        {
+          "discipline": "nam"
+        },
+        {
+          "discipline": "duis"
+        },
+        {
+          "discipline": "nulla"
+        },
+        {
+          "discipline": "dolor morbi"
+        },
+        {
+          "discipline": "posuere"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "dapibus"
+        },
+        {
+          "setting": "venenatis non"
+        },
+        {
+          "setting": "mattis nibh ligula"
+        },
+        {
+          "setting": "viverra dapibus nulla"
+        }
+      ]
+    },
+    {
+      "course_title": "Multi-channelled impactful circuit",
+      "course_summary": "Proin at turpis a pede posuere nonummy.",
+      "course_activity": "nec dui luctus rutrum nulla tellus in sagittis",
+      "course_citation": "mauris eget massa tempor convallis",
+      "source": "https://de.vu/potenti/cras.json?vel=penatibus&ipsum=et&praesent=magnis&blandit=dis&lacinia=parturient&erat=montes&vestibulum=nascetur&sed=ridiculus&magna=mus&at=etiam&nunc=vel&commodo=augue&placerat=vestibulum&praesent=rutrum&blandit=rutrum&nam=neque&nulla=aenean&integer=auctor&pede=gravida&justo=sem&lacinia=praesent&eget=id&tincidunt=massa",
+      "effective_date": "11/21/2018",
+      "governing_body": "Nader-Moore",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": false,
+      "app_periodic": true,
+      "app_review": false,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Vestibulum rutrum rutrum neque.",
+      "training_content-hours": "Phasellus sit amet erat. Nulla tempus.",
+      "training_record-keeping": "Donec posuere metus vitae ipsum.",
+      "training_record-retention": "In hac habitasse platea dictumst.",
+      "ce-required": false,
+      "frequency-scheduled": false,
+      "penalties": "Sharable dedicated infrastructure",
+      "disciplines": [
+        {
+          "discipline": "est"
+        },
+        {
+          "discipline": "nulla elit"
+        },
+        {
+          "discipline": "aliquet pulvinar sed"
+        },
+        {
+          "discipline": "ut ultrices"
+        },
+        {
+          "discipline": "molestie hendrerit at"
+        },
+        {
+          "discipline": "sociis natoque penatibus"
+        },
+        {
+          "discipline": "rutrum neque aenean"
+        },
+        {
+          "discipline": "justo sit amet"
+        },
+        {
+          "discipline": "amet"
+        },
+        {
+          "discipline": "curabitur"
+        },
+        {
+          "discipline": "arcu"
+        },
+        {
+          "discipline": "proin interdum mauris"
+        },
+        {
+          "discipline": "vestibulum"
+        },
+        {
+          "discipline": "est congue"
+        },
+        {
+          "discipline": "felis"
+        },
+        {
+          "discipline": "eget elit"
+        },
+        {
+          "discipline": "sit amet cursus"
+        },
+        {
+          "discipline": "velit vivamus vel"
+        },
+        {
+          "discipline": "vel"
+        },
+        {
+          "discipline": "vel nulla eget"
+        },
+        {
+          "discipline": "in sagittis dui"
+        },
+        {
+          "discipline": "non mattis"
+        },
+        {
+          "discipline": "odio condimentum id"
+        },
+        {
+          "discipline": "pulvinar sed"
+        },
+        {
+          "discipline": "dis"
+        },
+        {
+          "discipline": "sapien"
+        },
+        {
+          "discipline": "montes nascetur"
+        },
+        {
+          "discipline": "sem"
+        },
+        {
+          "discipline": "massa quis"
+        },
+        {
+          "discipline": "tristique est et"
+        },
+        {
+          "discipline": "auctor"
+        },
+        {
+          "discipline": "nisl venenatis lacinia"
+        },
+        {
+          "discipline": "aenean"
+        },
+        {
+          "discipline": "vel dapibus at"
+        },
+        {
+          "discipline": "nisl aenean"
+        },
+        {
+          "discipline": "ipsum primis in"
+        },
+        {
+          "discipline": "vel accumsan tellus"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "nisi volutpat"
+        },
+        {
+          "setting": "mauris"
+        },
+        {
+          "setting": "eu tincidunt in"
+        }
+      ]
+    },
+    {
+      "course_title": "Decentralized static time-frame",
+      "course_summary": "Donec dapibus. Duis at velit eu est congue elementum.",
+      "course_activity": "in sagittis dui vel nisl duis ac nibh",
+      "course_citation": "faucibus orci luctus et ultrices",
+      "source": "http://msn.com/mauris.jsp?enim=aenean&in=sit&tempor=amet&turpis=justo&nec=morbi&euismod=ut&scelerisque=odio&quam=cras&turpis=mi&adipiscing=pede&lorem=malesuada&vitae=in&mattis=imperdiet&nibh=et&ligula=commodo&nec=vulputate&sem=justo&duis=in&aliquam=blandit&convallis=ultrices&nunc=enim&proin=lorem&at=ipsum&turpis=dolor&a=sit&pede=amet&posuere=consectetuer&nonummy=adipiscing&integer=elit&non=proin&velit=interdum&donec=mauris&diam=non&neque=ligula&vestibulum=pellentesque&eget=ultrices&vulputate=phasellus&ut=id&ultrices=sapien&vel=in&augue=sapien&vestibulum=iaculis&ante=congue&ipsum=vivamus",
+      "effective_date": "12/22/2017",
+      "governing_body": "Wilderman, Goyette and Mosciski",
+      "app_required": false,
+      "app_initial": true,
+      "app_before": true,
+      "app_periodic": true,
+      "app_review": true,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "In sagittis dui vel nisl.",
+      "training_content-hours": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
+      "training_record-keeping": "Etiam pretium iaculis justo. In hac habitasse platea dictumst.",
+      "training_record-retention": "Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
+      "ce-required": true,
+      "frequency-scheduled": true,
+      "penalties": "Multi-channelled empowering parallelism",
+      "disciplines": [
+        {
+          "discipline": "parturient montes nascetur"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "orci eget"
+        },
+        {
+          "setting": "nec"
+        },
+        {
+          "setting": "volutpat"
+        },
+        {
+          "setting": "mattis"
+        },
+        {
+          "setting": "risus"
+        }
+      ]
+    },
+    {
+      "course_title": "Seamless needs-based encoding",
+      "course_summary": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
+      "course_activity": "nulla quisque arcu libero rutrum",
+      "course_citation": "dictumst etiam faucibus",
+      "source": "http://nba.com/pretium/quis/lectus/suspendisse/potenti/in.aspx?non=mus&ligula=vivamus&pellentesque=vestibulum&ultrices=sagittis&phasellus=sapien&id=cum&sapien=sociis&in=natoque&sapien=penatibus&iaculis=et&congue=magnis&vivamus=dis&metus=parturient&arcu=montes&adipiscing=nascetur&molestie=ridiculus&hendrerit=mus&at=etiam&vulputate=vel&vitae=augue&nisl=vestibulum&aenean=rutrum&lectus=rutrum&pellentesque=neque&eget=aenean&nunc=auctor&donec=gravida&quis=sem&orci=praesent&eget=id&orci=massa&vehicula=id&condimentum=nisl&curabitur=venenatis&in=lacinia&libero=aenean&ut=sit&massa=amet&volutpat=justo&convallis=morbi&morbi=ut&odio=odio&odio=cras&elementum=mi&eu=pede&interdum=malesuada&eu=in&tincidunt=imperdiet&in=et&leo=commodo&maecenas=vulputate&pulvinar=justo&lobortis=in&est=blandit&phasellus=ultrices&sit=enim&amet=lorem&erat=ipsum&nulla=dolor&tempus=sit&vivamus=amet&in=consectetuer&felis=adipiscing&eu=elit&sapien=proin&cursus=interdum&vestibulum=mauris&proin=non&eu=ligula&mi=pellentesque&nulla=ultrices&ac=phasellus&enim=id&in=sapien&tempor=in&turpis=sapien&nec=iaculis&euismod=congue",
+      "effective_date": "6/11/2018",
+      "governing_body": "Jakubowski-Hansen",
+      "app_required": true,
+      "app_initial": false,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
+      "training_content-hours": "Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "training_record-keeping": "Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
+      "training_record-retention": "Praesent blandit lacinia erat.",
+      "ce-required": false,
+      "frequency-scheduled": false,
+      "penalties": "User-centric client-driven hardware",
+      "disciplines": [
+        {
+          "discipline": "sem mauris"
+        },
+        {
+          "discipline": "leo pellentesque ultrices"
+        },
+        {
+          "discipline": "curabitur convallis"
+        },
+        {
+          "discipline": "penatibus"
+        },
+        {
+          "discipline": "felis eu"
+        },
+        {
+          "discipline": "penatibus et"
+        },
+        {
+          "discipline": "nunc donec quis"
+        },
+        {
+          "discipline": "faucibus orci luctus"
+        },
+        {
+          "discipline": "amet erat nulla"
+        },
+        {
+          "discipline": "vestibulum"
+        },
+        {
+          "discipline": "justo in hac"
+        },
+        {
+          "discipline": "augue vestibulum"
+        },
+        {
+          "discipline": "nulla elit ac"
+        },
+        {
+          "discipline": "id"
+        },
+        {
+          "discipline": "posuere cubilia"
+        },
+        {
+          "discipline": "vestibulum sagittis sapien"
+        },
+        {
+          "discipline": "et commodo"
+        },
+        {
+          "discipline": "in"
+        },
+        {
+          "discipline": "in"
+        },
+        {
+          "discipline": "nunc"
+        },
+        {
+          "discipline": "sollicitudin vitae consectetuer"
+        },
+        {
+          "discipline": "in"
+        },
+        {
+          "discipline": "ut odio cras"
+        },
+        {
+          "discipline": "justo nec"
+        },
+        {
+          "discipline": "nunc rhoncus"
+        },
+        {
+          "discipline": "sed ante vivamus"
+        },
+        {
+          "discipline": "eleifend quam a"
+        },
+        {
+          "discipline": "libero nullam sit"
+        },
+        {
+          "discipline": "pharetra"
+        },
+        {
+          "discipline": "praesent"
+        },
+        {
+          "discipline": "enim"
+        },
+        {
+          "discipline": "faucibus orci"
+        },
+        {
+          "discipline": "eleifend"
+        },
+        {
+          "discipline": "ante"
+        },
+        {
+          "discipline": "pede libero"
+        },
+        {
+          "discipline": "ligula"
+        },
+        {
+          "discipline": "cras"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "ac"
+        },
+        {
+          "setting": "faucibus cursus"
+        },
+        {
+          "setting": "curae"
+        },
+        {
+          "setting": "eu tincidunt"
+        }
+      ]
+    },
+    {
+      "course_title": "Upgradable needs-based concept",
+      "course_summary": "Nullam porttitor lacus at turpis.",
+      "course_activity": "neque aenean auctor gravida sem praesent id massa",
+      "course_citation": "libero quis",
+      "source": "http://vimeo.com/tortor.js?pellentesque=est&ultrices=risus&mattis=auctor&odio=sed&donec=tristique&vitae=in&nisi=tempus&nam=sit&ultrices=amet&libero=sem&non=fusce&mattis=consequat&pulvinar=nulla&nulla=nisl&pede=nunc&ullamcorper=nisl&augue=duis&a=bibendum&suscipit=felis&nulla=sed&elit=interdum&ac=venenatis&nulla=turpis&sed=enim&vel=blandit&enim=mi&sit=in&amet=porttitor&nunc=pede&viverra=justo&dapibus=eu&nulla=massa&suscipit=donec&ligula=dapibus&in=duis&lacus=at&curabitur=velit&at=eu&ipsum=est&ac=congue&tellus=elementum&semper=in&interdum=hac&mauris=habitasse&ullamcorper=platea&purus=dictumst&sit=morbi&amet=vestibulum&nulla=velit&quisque=id&arcu=pretium&libero=iaculis&rutrum=diam&ac=erat&lobortis=fermentum&vel=justo&dapibus=nec&at=condimentum&diam=neque",
+      "effective_date": "7/14/2018",
+      "governing_body": "MacGyver, Ziemann and Cole",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": true,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
+      "training_content-hours": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
+      "training_record-keeping": "Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "training_record-retention": "Sed vel enim sit amet nunc viverra dapibus.",
+      "ce-required": false,
+      "frequency-scheduled": false,
+      "penalties": "Proactive global forecast",
+      "disciplines": [
+        {
+          "discipline": "posuere cubilia"
+        },
+        {
+          "discipline": "turpis"
+        },
+        {
+          "discipline": "nullam"
+        },
+        {
+          "discipline": "lectus vestibulum quam"
+        },
+        {
+          "discipline": "integer aliquet"
+        },
+        {
+          "discipline": "vestibulum"
+        },
+        {
+          "discipline": "luctus et"
+        },
+        {
+          "discipline": "at turpis"
+        },
+        {
+          "discipline": "sit amet"
+        },
+        {
+          "discipline": "dapibus dolor vel"
+        },
+        {
+          "discipline": "gravida"
+        },
+        {
+          "discipline": "pellentesque eget nunc"
+        },
+        {
+          "discipline": "aenean sit"
+        },
+        {
+          "discipline": "lacus morbi quis"
+        },
+        {
+          "discipline": "dolor quis"
+        },
+        {
+          "discipline": "amet"
+        },
+        {
+          "discipline": "sollicitudin vitae"
+        },
+        {
+          "discipline": "lobortis"
+        },
+        {
+          "discipline": "nec nisi vulputate"
+        },
+        {
+          "discipline": "quisque arcu libero"
+        },
+        {
+          "discipline": "nibh in hac"
+        },
+        {
+          "discipline": "in tempor turpis"
+        },
+        {
+          "discipline": "nisl"
+        },
+        {
+          "discipline": "sapien arcu sed"
+        },
+        {
+          "discipline": "tincidunt"
+        },
+        {
+          "discipline": "lacinia nisi"
+        },
+        {
+          "discipline": "leo"
+        },
+        {
+          "discipline": "in hac"
+        },
+        {
+          "discipline": "turpis donec"
+        },
+        {
+          "discipline": "lacus morbi sem"
+        },
+        {
+          "discipline": "vestibulum quam sapien"
+        },
+        {
+          "discipline": "justo aliquam quis"
+        },
+        {
+          "discipline": "lobortis ligula"
+        },
+        {
+          "discipline": "convallis morbi odio"
+        },
+        {
+          "discipline": "commodo"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "in"
+        },
+        {
+          "setting": "in lacus curabitur"
+        },
+        {
+          "setting": "lectus in quam"
+        }
+      ]
+    },
+    {
+      "course_title": "Cloned 4th generation database",
+      "course_summary": "Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.",
+      "course_activity": "faucibus cursus urna ut tellus nulla ut",
+      "course_citation": "proin interdum mauris non",
+      "source": "https://businesswire.com/augue/vestibulum/ante/ipsum/primis/in.png?in=tincidunt&faucibus=lacus&orci=at&luctus=velit&et=vivamus&ultrices=vel&posuere=nulla",
+      "effective_date": "9/4/2017",
+      "governing_body": "Morissette, Schuppe and Becker",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": true,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+      "training_content-hours": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",
+      "training_record-keeping": "Nunc purus. Phasellus in felis.",
+      "training_record-retention": "Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+      "ce-required": true,
+      "frequency-scheduled": true,
+      "penalties": "Object-based 24 hour support",
+      "disciplines": [
+        {
+          "discipline": "faucibus"
+        },
+        {
+          "discipline": "duis aliquam"
+        },
+        {
+          "discipline": "maecenas leo"
+        },
+        {
+          "discipline": "at dolor quis"
+        },
+        {
+          "discipline": "nam congue"
+        },
+        {
+          "discipline": "blandit mi"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "aliquet massa"
+        },
+        {
+          "setting": "justo lacinia"
+        },
+        {
+          "setting": "quam pharetra magna"
+        }
+      ]
+    },
+    {
+      "course_title": "Expanded human-resource function",
+      "course_summary": "Praesent blandit lacinia erat.",
+      "course_activity": "vitae quam suspendisse potenti nullam porttitor lacus",
+      "course_citation": "diam id ornare imperdiet",
+      "source": "http://gov.uk/neque/aenean.xml?dictumst=libero&aliquam=nullam&augue=sit&quam=amet&sollicitudin=turpis&vitae=elementum&consectetuer=ligula&eget=vehicula&rutrum=consequat&at=morbi&lorem=a&integer=ipsum&tincidunt=integer&ante=a&vel=nibh&ipsum=in&praesent=quis&blandit=justo&lacinia=maecenas&erat=rhoncus&vestibulum=aliquam&sed=lacus&magna=morbi&at=quis&nunc=tortor&commodo=id&placerat=nulla&praesent=ultrices&blandit=aliquet&nam=maecenas&nulla=leo&integer=odio&pede=condimentum",
+      "effective_date": "10/26/2018",
+      "governing_body": "Cummerata-Hansen",
+      "app_required": true,
+      "app_initial": true,
+      "app_before": true,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Duis aliquam convallis nunc.",
+      "training_content-hours": "Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.",
+      "training_record-keeping": "Maecenas ut massa quis augue luctus tincidunt.",
+      "training_record-retention": "Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Automated client-server hierarchy",
+      "disciplines": [
+        {
+          "discipline": "ultrices"
+        },
+        {
+          "discipline": "in hac habitasse"
+        },
+        {
+          "discipline": "turpis adipiscing lorem"
+        },
+        {
+          "discipline": "amet consectetuer"
+        },
+        {
+          "discipline": "neque"
+        },
+        {
+          "discipline": "ultrices"
+        },
+        {
+          "discipline": "dolor vel"
+        },
+        {
+          "discipline": "cubilia"
+        },
+        {
+          "discipline": "id"
+        },
+        {
+          "discipline": "a feugiat et"
+        },
+        {
+          "discipline": "aliquam"
+        },
+        {
+          "discipline": "tincidunt"
+        },
+        {
+          "discipline": "cursus id"
+        },
+        {
+          "discipline": "odio"
+        },
+        {
+          "discipline": "enim"
+        },
+        {
+          "discipline": "pretium iaculis justo"
+        },
+        {
+          "discipline": "venenatis non sodales"
+        },
+        {
+          "discipline": "ornare consequat lectus"
+        },
+        {
+          "discipline": "eleifend pede"
+        },
+        {
+          "discipline": "eu mi nulla"
+        },
+        {
+          "discipline": "lacus"
+        },
+        {
+          "discipline": "lacus"
+        },
+        {
+          "discipline": "a nibh in"
+        },
+        {
+          "discipline": "at"
+        },
+        {
+          "discipline": "velit vivamus vel"
+        },
+        {
+          "discipline": "velit donec diam"
+        },
+        {
+          "discipline": "ultrices"
+        },
+        {
+          "discipline": "proin risus"
+        },
+        {
+          "discipline": "primis in"
+        },
+        {
+          "discipline": "diam in magna"
+        },
+        {
+          "discipline": "et commodo"
+        },
+        {
+          "discipline": "lacus"
+        },
+        {
+          "discipline": "iaculis"
+        },
+        {
+          "discipline": "varius integer ac"
+        },
+        {
+          "discipline": "diam id ornare"
+        },
+        {
+          "discipline": "pede ac"
+        },
+        {
+          "discipline": "lorem ipsum"
+        },
+        {
+          "discipline": "luctus cum sociis"
+        },
+        {
+          "discipline": "venenatis lacinia aenean"
+        },
+        {
+          "discipline": "ridiculus"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "sit amet consectetuer"
+        },
+        {
+          "setting": "pretium iaculis"
+        },
+        {
+          "setting": "lectus"
+        },
+        {
+          "setting": "tellus nulla"
+        }
+      ]
+    },
+    {
+      "course_title": "Inverse zero defect product",
+      "course_summary": "Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+      "course_activity": "in porttitor pede justo eu massa",
+      "course_citation": "ultrices enim lorem ipsum dolor",
+      "source": "https://shareasale.com/arcu/libero/rutrum/ac/lobortis/vel/dapibus.png?pretium=ligula&iaculis=pellentesque&diam=ultrices&erat=phasellus&fermentum=id&justo=sapien&nec=in&condimentum=sapien&neque=iaculis&sapien=congue&placerat=vivamus&ante=metus&nulla=arcu&justo=adipiscing&aliquam=molestie&quis=hendrerit&turpis=at&eget=vulputate&elit=vitae&sodales=nisl&scelerisque=aenean&mauris=lectus&sit=pellentesque&amet=eget&eros=nunc&suspendisse=donec&accumsan=quis&tortor=orci&quis=eget&turpis=orci&sed=vehicula&ante=condimentum&vivamus=curabitur&tortor=in&duis=libero&mattis=ut&egestas=massa&metus=volutpat&aenean=convallis&fermentum=morbi&donec=odio&ut=odio&mauris=elementum&eget=eu&massa=interdum&tempor=eu&convallis=tincidunt&nulla=in&neque=leo&libero=maecenas&convallis=pulvinar&eget=lobortis&eleifend=est&luctus=phasellus&ultricies=sit&eu=amet&nibh=erat&quisque=nulla&id=tempus&justo=vivamus&sit=in&amet=felis&sapien=eu&dignissim=sapien&vestibulum=cursus&vestibulum=vestibulum&ante=proin&ipsum=eu&primis=mi&in=nulla&faucibus=ac",
+      "effective_date": "12/30/2017",
+      "governing_body": "Bogan-Schiller",
+      "app_required": true,
+      "app_initial": false,
+      "app_before": true,
+      "app_periodic": true,
+      "app_review": true,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "training_content-hours": "Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "training_record-keeping": "Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
+      "training_record-retention": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+      "ce-required": false,
+      "frequency-scheduled": false,
+      "penalties": "Streamlined modular info-mediaries",
+      "disciplines": [
+        {
+          "discipline": "leo odio porttitor"
+        },
+        {
+          "discipline": "velit"
+        },
+        {
+          "discipline": "sapien"
+        },
+        {
+          "discipline": "cubilia curae mauris"
+        },
+        {
+          "discipline": "odio donec"
+        },
+        {
+          "discipline": "lectus pellentesque"
+        },
+        {
+          "discipline": "eget tincidunt eget"
+        },
+        {
+          "discipline": "dui maecenas"
+        },
+        {
+          "discipline": "posuere cubilia"
+        },
+        {
+          "discipline": "at velit vivamus"
+        },
+        {
+          "discipline": "nam ultrices"
+        },
+        {
+          "discipline": "volutpat"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "imperdiet et commodo"
+        },
+        {
+          "setting": "nec molestie"
+        }
+      ]
+    },
+    {
+      "course_title": "Up-sized actuating knowledge base",
+      "course_summary": "Mauris ullamcorper purus sit amet nulla.",
+      "course_activity": "odio porttitor id consequat in consequat",
+      "course_citation": "orci luctus et",
+      "source": "https://wiley.com/suscipit/nulla/elit/ac/nulla/sed.html?platea=odio&dictumst=porttitor&morbi=id&vestibulum=consequat&velit=in&id=consequat&pretium=ut&iaculis=nulla&diam=sed&erat=accumsan&fermentum=felis&justo=ut&nec=at&condimentum=dolor&neque=quis&sapien=odio&placerat=consequat&ante=varius&nulla=integer&justo=ac&aliquam=leo&quis=pellentesque&turpis=ultrices&eget=mattis&elit=odio&sodales=donec&scelerisque=vitae&mauris=nisi&sit=nam&amet=ultrices&eros=libero&suspendisse=non&accumsan=mattis&tortor=pulvinar&quis=nulla&turpis=pede&sed=ullamcorper&ante=augue&vivamus=a&tortor=suscipit&duis=nulla&mattis=elit&egestas=ac&metus=nulla&aenean=sed&fermentum=vel&donec=enim&ut=sit&mauris=amet",
+      "effective_date": "1/16/2018",
+      "governing_body": "Walker-Lockman",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Duis at velit eu est congue elementum.",
+      "training_content-hours": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
+      "training_record-keeping": "Sed vel enim sit amet nunc viverra dapibus.",
+      "training_record-retention": "Vestibulum ac est lacinia nisi venenatis tristique.",
+      "ce-required": true,
+      "frequency-scheduled": true,
+      "penalties": "Multi-lateral explicit firmware",
+      "disciplines": [
+        {
+          "discipline": "sem sed"
+        },
+        {
+          "discipline": "arcu"
+        },
+        {
+          "discipline": "nec nisi"
+        },
+        {
+          "discipline": "libero quis"
+        },
+        {
+          "discipline": "id"
+        },
+        {
+          "discipline": "nec nisi"
+        },
+        {
+          "discipline": "bibendum"
+        },
+        {
+          "discipline": "hac habitasse platea"
+        },
+        {
+          "discipline": "nulla dapibus dolor"
+        },
+        {
+          "discipline": "lobortis convallis tortor"
+        },
+        {
+          "discipline": "in hac"
+        },
+        {
+          "discipline": "pede ac diam"
+        },
+        {
+          "discipline": "sem"
+        },
+        {
+          "discipline": "orci luctus et"
+        },
+        {
+          "discipline": "morbi"
+        },
+        {
+          "discipline": "consectetuer"
+        },
+        {
+          "discipline": "vel augue vestibulum"
+        },
+        {
+          "discipline": "amet turpis elementum"
+        },
+        {
+          "discipline": "id nulla"
+        },
+        {
+          "discipline": "metus"
+        },
+        {
+          "discipline": "ultrices posuere cubilia"
+        },
+        {
+          "discipline": "tempus semper"
+        },
+        {
+          "discipline": "risus praesent"
+        },
+        {
+          "discipline": "feugiat non pretium"
+        },
+        {
+          "discipline": "nibh"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "vestibulum sagittis"
+        },
+        {
+          "setting": "nascetur"
+        },
+        {
+          "setting": "luctus et ultrices"
+        }
+      ]
+    },
+    {
+      "course_title": "Function-based intermediate analyzer",
+      "course_summary": "Integer a nibh.",
+      "course_activity": "mi pede malesuada in",
+      "course_citation": "massa volutpat",
+      "source": "http://time.com/semper/porta/volutpat/quam.js?fusce=libero&lacus=ut&purus=massa&aliquet=volutpat&at=convallis&feugiat=morbi&non=odio&pretium=odio&quis=elementum&lectus=eu&suspendisse=interdum&potenti=eu&in=tincidunt&eleifend=in&quam=leo&a=maecenas&odio=pulvinar&in=lobortis&hac=est&habitasse=phasellus&platea=sit&dictumst=amet&maecenas=erat&ut=nulla&massa=tempus&quis=vivamus&augue=in&luctus=felis&tincidunt=eu&nulla=sapien&mollis=cursus&molestie=vestibulum&lorem=proin&quisque=eu&ut=mi&erat=nulla&curabitur=ac&gravida=enim&nisi=in&at=tempor&nibh=turpis&in=nec&hac=euismod&habitasse=scelerisque&platea=quam&dictumst=turpis&aliquam=adipiscing&augue=lorem&quam=vitae&sollicitudin=mattis&vitae=nibh&consectetuer=ligula&eget=nec&rutrum=sem&at=duis&lorem=aliquam&integer=convallis&tincidunt=nunc&ante=proin&vel=at&ipsum=turpis&praesent=a&blandit=pede&lacinia=posuere&erat=nonummy&vestibulum=integer&sed=non&magna=velit&at=donec&nunc=diam&commodo=neque&placerat=vestibulum&praesent=eget&blandit=vulputate&nam=ut&nulla=ultrices&integer=vel&pede=augue&justo=vestibulum&lacinia=ante&eget=ipsum&tincidunt=primis&eget=in&tempus=faucibus&vel=orci&pede=luctus&morbi=et&porttitor=ultrices&lorem=posuere",
+      "effective_date": "11/23/2017",
+      "governing_body": "Gusikowski-O'Connell",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
+      "training_content-hours": "Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+      "training_record-keeping": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
+      "training_record-retention": "Donec semper sapien a libero.",
+      "ce-required": false,
+      "frequency-scheduled": false,
+      "penalties": "Balanced 24/7 contingency",
+      "disciplines": [
+        {
+          "discipline": "pellentesque eget"
+        },
+        {
+          "discipline": "eget vulputate"
+        },
+        {
+          "discipline": "lacinia erat"
+        },
+        {
+          "discipline": "nisi venenatis tristique"
+        },
+        {
+          "discipline": "sollicitudin ut"
+        },
+        {
+          "discipline": "mauris viverra diam"
+        },
+        {
+          "discipline": "sapien dignissim"
+        },
+        {
+          "discipline": "sed"
+        },
+        {
+          "discipline": "ut odio"
+        },
+        {
+          "discipline": "non"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "vulputate"
+        }
+      ]
+    },
+    {
+      "course_title": "Customer-focused responsive collaboration",
+      "course_summary": "Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
+      "course_activity": "tincidunt nulla mollis molestie lorem quisque ut",
+      "course_citation": "massa quis",
+      "source": "https://europa.eu/nulla/quisque/arcu/libero/rutrum/ac.xml?varius=neque&integer=sapien&ac=placerat&leo=ante&pellentesque=nulla&ultrices=justo&mattis=aliquam&odio=quis&donec=turpis&vitae=eget&nisi=elit&nam=sodales&ultrices=scelerisque&libero=mauris&non=sit&mattis=amet&pulvinar=eros&nulla=suspendisse&pede=accumsan&ullamcorper=tortor&augue=quis&a=turpis&suscipit=sed&nulla=ante&elit=vivamus&ac=tortor&nulla=duis&sed=mattis&vel=egestas&enim=metus&sit=aenean&amet=fermentum&nunc=donec&viverra=ut&dapibus=mauris&nulla=eget&suscipit=massa&ligula=tempor&in=convallis&lacus=nulla&curabitur=neque&at=libero&ipsum=convallis&ac=eget&tellus=eleifend&semper=luctus&interdum=ultricies&mauris=eu&ullamcorper=nibh&purus=quisque&sit=id&amet=justo&nulla=sit&quisque=amet&arcu=sapien&libero=dignissim&rutrum=vestibulum&ac=vestibulum&lobortis=ante&vel=ipsum&dapibus=primis&at=in&diam=faucibus&nam=orci&tristique=luctus&tortor=et&eu=ultrices&pede=posuere",
+      "effective_date": "7/6/2018",
+      "governing_body": "Orn-Torp",
+      "app_required": false,
+      "app_initial": false,
+      "app_before": true,
+      "app_periodic": false,
+      "app_review": true,
+      "app_incident": false,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Nulla ac enim.",
+      "training_content-hours": "Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
+      "training_record-keeping": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
+      "training_record-retention": "In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+      "ce-required": false,
+      "frequency-scheduled": true,
+      "penalties": "De-engineered didactic middleware",
+      "disciplines": [
+        {
+          "discipline": "natoque penatibus"
+        },
+        {
+          "discipline": "ultrices enim lorem"
+        },
+        {
+          "discipline": "ac neque duis"
+        },
+        {
+          "discipline": "pellentesque ultrices mattis"
+        },
+        {
+          "discipline": "cum sociis natoque"
+        },
+        {
+          "discipline": "placerat ante"
+        },
+        {
+          "discipline": "posuere cubilia"
+        },
+        {
+          "discipline": "volutpat dui"
+        },
+        {
+          "discipline": "nisi at"
+        },
+        {
+          "discipline": "nisl"
+        },
+        {
+          "discipline": "duis ac nibh"
+        },
+        {
+          "discipline": "est congue"
+        },
+        {
+          "discipline": "maecenas"
+        },
+        {
+          "discipline": "et commodo"
+        },
+        {
+          "discipline": "elit"
+        },
+        {
+          "discipline": "quis orci"
+        },
+        {
+          "discipline": "mauris sit"
+        },
+        {
+          "discipline": "augue quam sollicitudin"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "faucibus orci"
+        },
+        {
+          "setting": "lobortis ligula sit"
+        }
+      ]
+    },
+    {
+      "course_title": "Public-key didactic algorithm",
+      "course_summary": "Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+      "course_activity": "varius integer ac leo pellentesque ultrices",
+      "course_citation": "a nibh in",
+      "source": "https://tinypic.com/luctus/nec/molestie.json?ut=vestibulum&dolor=velit&morbi=id&vel=pretium&lectus=iaculis&in=diam&quam=erat&fringilla=fermentum&rhoncus=justo&mauris=nec&enim=condimentum&leo=neque&rhoncus=sapien&sed=placerat&vestibulum=ante&sit=nulla&amet=justo&cursus=aliquam&id=quis&turpis=turpis&integer=eget&aliquet=elit&massa=sodales&id=scelerisque&lobortis=mauris&convallis=sit&tortor=amet&risus=eros&dapibus=suspendisse&augue=accumsan&vel=tortor&accumsan=quis&tellus=turpis&nisi=sed&eu=ante&orci=vivamus&mauris=tortor&lacinia=duis&sapien=mattis&quis=egestas&libero=metus&nullam=aenean",
+      "effective_date": "10/20/2018",
+      "governing_body": "Schmidt Group",
+      "app_required": false,
+      "app_initial": true,
+      "app_before": false,
+      "app_periodic": false,
+      "app_review": false,
+      "app_incident": true,
+      "app_notes": "error: undefined method `/' for nil:NilClass",
+      "training_freq": "Pellentesque at nulla.",
+      "training_content-hours": "Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
+      "training_record-keeping": "Nulla ut erat id mauris vulputate elementum. Nullam varius.",
+      "training_record-retention": "Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
+      "ce-required": true,
+      "frequency-scheduled": false,
+      "penalties": "Seamless intermediate capacity",
+      "disciplines": [
+        {
+          "discipline": "nulla"
+        },
+        {
+          "discipline": "est donec"
+        },
+        {
+          "discipline": "eu magna"
+        },
+        {
+          "discipline": "nisi at nibh"
+        },
+        {
+          "discipline": "lobortis est phasellus"
+        },
+        {
+          "discipline": "in sagittis"
+        },
+        {
+          "discipline": "primis"
+        },
+        {
+          "discipline": "in hac habitasse"
+        },
+        {
+          "discipline": "dictumst aliquam augue"
+        },
+        {
+          "discipline": "sit"
+        },
+        {
+          "discipline": "tristique est"
+        },
+        {
+          "discipline": "euismod"
+        },
+        {
+          "discipline": "purus sit"
+        },
+        {
+          "discipline": "in tempor turpis"
+        },
+        {
+          "discipline": "ligula"
+        },
+        {
+          "discipline": "est"
+        },
+        {
+          "discipline": "tellus in"
+        },
+        {
+          "discipline": "libero rutrum ac"
+        },
+        {
+          "discipline": "eleifend quam a"
+        },
+        {
+          "discipline": "iaculis justo"
+        },
+        {
+          "discipline": "in blandit ultrices"
+        }
+      ],
+      "care_settings": [
+        {
+          "setting": "cras"
+        },
+        {
+          "setting": "eget orci vehicula"
+        },
+        {
+          "setting": "nisl"
+        },
+        {
+          "setting": "lobortis est phasellus"
+        }
+      ]
+    }
+  ]
+}
