@@ -14,222 +14,228 @@
   <!-- //////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////// ********   SIDE NAV FILTERS hidden currently  ************ ////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////// -->
-  <section id="sideNavFilters" class="sideFilters" role="dialog">
-    <header class="sideFilters-title">
-      <h3 class="text-center mt-4">Filters</h3>
-      <div class="closebtn"><i class="fas fa-times"></i></div>
-    </header>
-    <form class="sideNavFilters-search">
-      <div class="filterList" role="tablist">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="card filterDrawer">
-                <div class="card-title d-flex align-items-center justify-content-between">
-                  <h4 class="m-0 mt-2">Federal</h4>
-                  <span class="clickable"><i class="fa fa-plus"></i></span>
-                </div>
-                <div class="card-body">
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="Federal" id="fedCheck1">
-                    <label class="" for="fedCheck1">
-                      Federal
-                    </label>
+  <div class="filter-chooser">
+    <div class="filter-chooser-inner">
+      <a href="#" class="toggler"><i class="fa fa-filter text-white"></i> Additional Filters</a>
+      <section id="sideNavFilters" class="sideFilters" role="dialog">
+        <header class="sideFilters-title">
+          <h3 class="text-center mt-4">Filters</h3>
+          <div class="closebtn"><i class="fas fa-times"></i></div>
+        </header>
+        <form class="sideNavFilters-search">
+          <div class="filterList" role="tablist">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card filterDrawer">
+                    <div class="card-title d-flex align-items-center justify-content-between">
+                      <h4 class="m-0 mt-2">Federal</h4>
+                      <!--<span class="clickable"><i class="fa fa-plus"></i></span>-->
+                    </div>
+                    <div class="card-body">
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="Federal" id="fedCheck1">
+                        <label class="" for="fedCheck1">
+                          Federal
+                        </label>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="card filterDrawer">
-                <div class="card-title d-flex align-items-center justify-content-between">
-                  <h4 class="m-0 mt-2">State</h4>
-                  <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
-                </div>
-                <div class="card-body">
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="stateCheck1">
-                    <label class="" for="stateCheck1">
-                      California State Legislature</p>
-                      <p>[Related Courses</p>
-                    </label>
-                  </div>
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="stateCheck2">
-                    <label class="" for="stateCheck1">
-                      Florida
-                    </label>
-                  </div>
-                </div>
-              </div>
-              <div class="card filterDrawer">
-                <div class="card-title d-flex align-items-center justify-content-between">
-                  <h4 class="m-0 mt-2">Care Settings</h4>
-                  <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
-                </div>
-                <div class="card-body">
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="careCheck1">
-                    <label class="" for="careCheck1">
-                      Care 1
-                    </label>
-                  </div>
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="careCheck2">
-                    <label class="" for="careCheck2">
-                      Care 2
-                    </label>
-                  </div>
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="careCheck3">
-                    <label class="" for="careCheck3">
-                      Care 3
-                    </label>
-                  </div>
-                </div>
-              </div>
-              <div class="card filterDrawer">
-                <div class="card-title d-flex align-items-center justify-content-between">
-                  <h4 class="m-0 mt-2">Disciplines</h4>
-                  <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
-                </div>
-                <div class="card-body">
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="defaultCheck1">
-                    <label class="" for="defaultCheck1">
-                      Accountant and Auditor
-                    </label>
-                  </div>
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="defaultCheck2">
-                    <label class="" for="defaultCheck2">
-                      Acupuncturist
-                    </label>
-                  </div>
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="defaultCheck3">
-                    <label class="" for="defaultCheck3">
-                      Administrative Assistant
-                    </label>
-                  </div>
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="defaultCheck4">
-                    <label class="" for="defaultCheck4">
-                      Administrative Services Manager
-                    </label>
-                  </div>
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="defaultCheck5">
-                    <label class="" for="defaultCheck5">
-                      Administrators
-                    </label>
-                  </div>
+                  <div class="card filterDrawer">
+                    <div class="card-title d-flex align-items-center justify-content-between">
+                      <h4 class="m-0 mt-2">State</h4>
+                      <span class="pull-right clickable"><i class="fa fa-minus"></i></span>
+                    </div>
+                    <div class="card-body">
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="stateCheck1">
+                        <label class="" for="stateCheck1">
+                          California State Legislature
 
-                </div>
-              </div>
-              <div class="card filterDrawer">
-                <div class="card-title d-flex align-items-center justify-content-between">
-                  <h4 class="m-0 mt-2">Effective Date</h4>
-                  <span class="pull-right clickable"><i class="fa fa-plus"></i></span>
-                </div>
-                <div class="card-body">
-                  <div class="container">
-                    <div class='col-md-10'>
-                      <div class="form-group">
-                        <div class="input-group date" id="datetimepicker7" data-target-input="nearest">
-                          <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker7" />
-                          <div class="input-group-append" data-target="#datetimepicker7" data-toggle="datetimepicker">
-                            <button class="btn"><i class="fa fa-calendar-alt"></i></button>
+                        </label>
+                      </div>
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="stateCheck2">
+                        <label class="" for="stateCheck1">
+                          Florida
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card filterDrawer">
+                    <div class="card-title d-flex align-items-center justify-content-between">
+                      <h4 class="m-0 mt-2">Care Settings</h4>
+                      <span class="pull-right clickable"><i class="fa fa-minus"></i></span>
+                    </div>
+                    <div class="card-body">
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="careCheck1">
+                        <label class="" for="careCheck1">
+                          Care 1
+                        </label>
+                      </div>
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="careCheck2">
+                        <label class="" for="careCheck2">
+                          Care 2
+                        </label>
+                      </div>
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="careCheck3">
+                        <label class="" for="careCheck3">
+                          Care 3
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card filterDrawer">
+                    <div class="card-title d-flex align-items-center justify-content-between">
+                      <h4 class="m-0 mt-2">Disciplines</h4>
+                      <span class="pull-right clickable"><i class="fa fa-minus"></i></span>
+                    </div>
+                    <div class="card-body">
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="defaultCheck1">
+                        <label class="" for="defaultCheck1">
+                          Accountant and Auditor
+                        </label>
+                      </div>
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="defaultCheck2">
+                        <label class="" for="defaultCheck2">
+                          Acupuncturist
+                        </label>
+                      </div>
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="defaultCheck3">
+                        <label class="" for="defaultCheck3">
+                          Administrative Assistant
+                        </label>
+                      </div>
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="defaultCheck4">
+                        <label class="" for="defaultCheck4">
+                          Administrative Services Manager
+                        </label>
+                      </div>
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="defaultCheck5">
+                        <label class="" for="defaultCheck5">
+                          Administrators
+                        </label>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="card filterDrawer">
+                    <div class="card-title d-flex align-items-center justify-content-between">
+                      <h4 class="m-0 mt-2">Effective Date</h4>
+                      <span class="pull-right clickable"><i class="fa fa-minus"></i></span>
+                    </div>
+                    <div class="card-body">
+                      <div class="container">
+                        <div class='col-md-10'>
+                          <div class="form-group">
+                            <div class="input-group date" id="datetimepicker7" data-target-input="nearest">
+
+                              <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker7" />
+                              <div class="input-group-append" data-target="#datetimepicker7" data-toggle="datetimepicker">
+                                <button class="btn"><i class="fa fa-calendar-alt"></i></button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class='col-md-10'>
+                          <div class="form-group">
+                            <div class="input-group date" id="datetimepicker8" data-target-input="nearest">
+                              <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker8" />
+                              <div class="input-group-append" data-target="#datetimepicker8" data-toggle="datetimepicker">
+                                <button class="btn"><i class="fa fa-calendar-alt"></i></button>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class='col-md-10'>
-                      <div class="form-group">
-                        <div class="input-group date" id="datetimepicker8" data-target-input="nearest">
-                          <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker8" />
-                          <div class="input-group-append" data-target="#datetimepicker8" data-toggle="datetimepicker">
-                            <button class="btn"><i class="fa fa-calendar-alt"></i></button>
-                          </div>
-                        </div>
+                  </div>
+                  <div class="card filterDrawer">
+                    <div class="card-title d-flex align-items-center justify-content-between">
+                      <h4 class="m-0 mt-2">Governing Body</h4>
+                      <span class="pull-right clickable card-collapsed"><i class="fa fa-minus"></i></span>
+                    </div>
+                    <div class="card-body">
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="governingCheck1">
+                        <label class="" for="governingCheck1">
+                          Accountant and Auditor
+                        </label>
+                      </div>
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="governingCheck2">
+                        <label class="" for="governingCheck2">
+                          Administrative Assistant
+                        </label>
+                      </div>
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="governingCheck3">
+                        <label class="" for="governingCheck3">
+                          Administrators
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card filterDrawer">
+                    <div class="card-title d-flex align-items-center justify-content-between">
+                      <h4 class="m-0 mt-2">Required</h4>
+                      <span class="pull-right clickable card-collapsed"><i class="fa fa-minus"></i></span>
+                    </div>
+                    <div class="card-body">
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="reqCheck1">
+                        <label class="" for="reqCheck1">
+                          Administrative Services Manager
+                        </label>
+                      </div>
+                      <div class="checkbox checkbox-primary">
+                        <input class="styled" type="checkbox" value="" id="reqCheck2">
+                        <label class="" for="reqCheck2">
+                          Administrators
+                        </label>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="card filterDrawer">
-                <div class="card-title d-flex align-items-center justify-content-between">
-                  <h4 class="m-0 mt-2">Governing Body</h4>
-                  <span class="pull-right clickable card-collapsed"><i class="fa fa-plus"></i></span>
-                </div>
-                <div class="card-body">
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="governingCheck1">
-                    <label class="" for="governingCheck1">
-                      Accountant and Auditor
-                    </label>
-                  </div>
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="governingCheck2">
-                    <label class="" for="governingCheck2">
-                      Administrative Assistant
-                    </label>
-                  </div>
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="governingCheck3">
-                    <label class="" for="governingCheck3">
-                      Administrators
-                    </label>
-                  </div>
-                </div>
-              </div>
-              <div class="card filterDrawer">
-                <div class="card-title d-flex align-items-center justify-content-between">
-                  <h4 class="m-0 mt-2">Required</h4>
-                  <span class="pull-right clickable card-collapsed"><i class="fa fa-plus"></i></span>
-                </div>
-                <div class="card-body">
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="reqCheck1">
-                    <label class="" for="reqCheck1">
-                      Administrative Services Manager
-                    </label>
-                  </div>
-                  <div class="checkbox checkbox-primary">
-                    <input class="styled" type="checkbox" value="" id="reqCheck2">
-                    <label class="" for="reqCheck2">
-                      Administrators
-                    </label>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <footer class="sideFilters-footer fixed-bottom">
-        <div class="my-5 mx-5">
-          <div class="input-group">
-            <input class="form-control filter-search mr-0" type="search" placeholder="Search all fields" aria-label="Search">
-            <div class="input-group-append">
-              <button class="btn btn-search" aria-label="sideNavFilters-search" type="submit">
-                <i class="fas fa-search" alt="all filters search"></i>
-              </button>
-            </div>
-          </div>
-          <div class="container p-0 mt-4">
-            <div class="row">
-              <div class="col-6">
-                <button class="btn m-0 w-100 btn-download-outline">Clear All</button>
+          <footer class="sideFilters-footer fixed-bottom">
+            <div class="my-5 mx-5">
+              <div class="input-group">
+                <input class="form-control filter-search mr-0" type="search" placeholder="Search all fields" aria-label="Search">
+                <div class="input-group-append">
+                  <button class="btn btn-search" aria-label="sideNavFilters-search" type="submit">
+                    <i class="fas fa-search" alt="all filters search"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="container p-0 mt-4">
+                <div class="row">
+                  <div class="col-6">
+                    <button class="btn m-0 w-100 btn-download-outline">Clear All</button>
 
-              </div>
-              <div class="col-6">
-                <button class="btn m-0 w-100 btn-download">Apply</button>
+                  </div>
+                  <div class="col-6">
+                    <button class="btn m-0 w-100 btn-download">Apply</button>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </footer>
-    </form>
-  </section>
+          </footer>
+        </form>
+      </section>
+    </div>
+  </div>
   <!-- //////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////// ********  END SIDE NAV FILTERS  ************ ////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -319,17 +325,18 @@
     </nav>
     <!--end nav -->
 
-    <div class="container-fluid">
+    <div class="container-fluid w-96">
       <table id="compass" class="table table-striped table-bordered dt-responsive nowrap dataTable dtr-inline collapsed" style="width: 100%;" role="grid" aria-describedby="compass">
         <thead>
           <tr role="row">
             <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Regulatory Citation: activate to sort column ascending">Regulatory Citation</th>
             <th></th><!-- hidden column-->
             <th>Effective Date </th>
+            <th>Related Courses </th>
             <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Effective Date: activate to sort column ascending">Governing Body</th>
             <th></th><!-- hidden column-->
             <th></th><!-- hidden column-->
-            <th></th><!-- actions column-->
+            <th>Actions</th><!-- actions column-->
           </tr>
         </thead>
 

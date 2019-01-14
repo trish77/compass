@@ -17278,7 +17278,7 @@ $(document).ready(function () {
       url: 'c_data.json',
       dataSrc: 'data'
     },
-    scrollY:        300,
+    scrollY:        '550px',
     //deferRender:    true,
     scroller:       true,
     lengthMenu: [
@@ -17289,6 +17289,7 @@ $(document).ready(function () {
       {"data": "course_title"},
       {"data": "course_summary"},
       {"data": "effective_date"},
+      {"data": "penalties"},
       {"data": "governing_body"},
       {"data": "care_settings"},
       {"data": "disciplines"},
@@ -17303,29 +17304,34 @@ $(document).ready(function () {
     columnDefs: [
       {
         targets: 0,
-        width: "60%",
+        width: "50%",
         data: null,
         render: function (data, columns, row, meta) {
           var summary = row.course_summary;
           var title = row.course_title;
-          console.log(title);
-          return '<h4><a href="details.html">' + data + '</a></h4><span>' + summary + '</span><div class="my-3"><a href="#" data-target="#modal-goal-add" style="margin:auto;" class="related" data-toggle="modal">[ Related Courses ]</a></div>'
+          return '<h4><a href="details.html">' + data + '</a></h4><span>' + summary + '</span></div>'
         }
       },
       {targets: 1, data: 'course_summary', visible: false, searchable: true},
       {targets: 2, data: 'effective_date'},
-      {targets: 3, data: 'governing_body'},
-      {targets: 4, data: 'care_settings', visible: false, searchable: true},
-      {targets: 5, data: 'disciplines', visible: false, searchable: true},
+      {targets: 3,
+        data: 'penalties',
+        render: function (data, columns, row, meta) {
+          return  '<a href="#" data-target="#modal-goal-add" style="margin:auto;" class="related" data-toggle="modal"> Related Courses</a>'
+        }
+      },
+      {targets: 4, data: 'governing_body'},
+      {targets: 5, data: 'care_settings', visible: false, searchable: true},
+      {targets: 6, data: 'disciplines', visible: false, searchable: true},
       {
-        targets: 6,
+        targets: 7,
         data: 'course_citation',
         render: function (data, type, row, meta) {
           return '<div class="text-center"><button class="btn btn-lg btn-default">More Details</button></div>'
         }
       },
       {order: [0, 2, 3]},
-      {orderable: false, targets: [1, 4, 5, 6]}
+      {orderable: false, targets: [1, 4, 5, 6, 7]}
     ],
     language: {
       sLengthMenu: "Show _MENU_ regulations",
@@ -17343,7 +17349,6 @@ $(document).ready(function () {
         }
       ]
     },
-
   });
 
   /*table.buttons().container()
@@ -17400,7 +17405,7 @@ $(document).ready(function () {
                 </div>
                 <!--end state select-->
 
-                <!-- #careSettings -->
+                <!-- #careSettings 
                 <div class="btn-group" role="group">
                 <span class="mx-2 align-self-center">Care Settings:</span>
                     <button id="careSettings" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
@@ -17464,10 +17469,10 @@ $(document).ready(function () {
                             </div>
                         </li>
                     </ul>
-                </div>
+                </div>-->
                 <!--end careSettings-->
     
-                <!-- #disciplines -->
+                <!-- #disciplines 
                 <div class="btn-group" role="group">
                     <span class="mx-2 align-self-center">Disciplines:</span>
                     <button id="disciplines" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
@@ -17503,11 +17508,12 @@ $(document).ready(function () {
                             </div>
                         </li>
                     </ul>
-                </div>
+                </div>-->
                 <!--end disciplines-->
                 <div class="border-sep d-inline-block">&nbsp;</div>
                 <button class="btn btn-lg btn-default ml-2">Apply Filters</button>
-                <button class="btn btn-lg btn-default reset mr-2">Reset Filters</a></button>
+                <div class="border-sep d-inline-block">&nbsp;</div>
+                <button class="btn btn-lg btn-default reset my-2">Reset Filters</a></button>
 
                 <!--button id="openSideFilters" type="button" class="btn btn-viewAll">View All Filters</button-->
             </div><div class="pillFilter"><button type="button" data-label="federal" class="btn btn-labeled pillbutton btn-primary">Federal: Yes<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button></div></div></div>`);
@@ -17578,13 +17584,16 @@ $(document).ready(function () {
     table.search(this.value).draw();
   });
 
+/*
   $('#careSettingsSearch').on('keyup', function () {
     table
       .columns(1)
       .search(this.value)
       .draw();
   });
+*/
 
+/*
   $('.column-filter').on('keyup click', function () {
     if (table.column(1).search() !== this.value) {
       table
@@ -17613,16 +17622,26 @@ $(document).ready(function () {
       $("#stateDropdown option:eq(0)").attr('selected', 'selected')
     }
   });
+*/
 
+/*
   $("#btnFederal").click(function () {
     $(this).toggleClass("active");
   });
+*/
 
 
-  /* ========== Side filterbar functions ==========
-   $("#openSideFilters").click(function () {
-      $("#sideNavFilters").css("width", "450px");
-      $("#main").css("marginLeft", "450px");
+  /* ========== Side filterbar functions ==========*/
+  $('.filter-chooser .toggler').on('click', function(event){
+    event.preventDefault();
+    $(this).closest('.filter-chooser').toggleClass('opened');
+  });
+
+
+
+  $("#btn-filters").click(function () {
+      $("#sideNavFilters").css("width", "350px");
+      $("#main").css("marginLeft", "350px");
       $("#cover").removeClass("d-none");
     });
 
@@ -17650,14 +17669,14 @@ $(document).ready(function () {
       if (!$this.hasClass('card-collapsed')) {
         $this.parents('.card').find('.card-body').slideUp();
         $this.addClass('card-collapsed');
-        $this.find('i').removeClass('fa fa-plus').addClass('fa fa-minus');
+        $this.find('i').removeClass('fa fa-minus').addClass('fa fa-plus');
 
       } else {
         $this.parents('.card').find('.card-body').slideDown();
         $this.removeClass('card-collapsed');
-        $this.find('i').removeClass('fa fa-minus').addClass('fa fa-plus');
+        $this.find('i').removeClass('fa fa-plus').addClass('fa fa-minus');
 
       }
-    });*/
+    });
 
 });

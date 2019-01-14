@@ -21,7 +21,7 @@
       "training_record-retention": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
       "ce-required": true,
       "frequency-scheduled": false,
-      "penalties": "Distributed incremental frame",
+      "": "Distributed incremental frame",
       "disciplines": [
         {
           "discipline": "congue risus"

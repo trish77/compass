@@ -36,6 +36,10 @@ body {
   width: 90%;
 }
 
+.w-96 {
+  width: 97%;
+}
+
 h1{
   color: #1e5477;
   font-size: 2.4rem;
@@ -232,13 +236,14 @@ input[type=checkbox] {
 
 .btn-download {
   margin: 0.5rem 1rem;
-  padding: 1.3rem 1rem;
+  padding: .3rem 1rem;
   border: 2px solid #5da6d5;
   border-radius: 3px;
   background-color: #5da6d5;
   box-shadow: 0 0 0 1px #5da6d5;
   color: white;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  /*line-height: 1.4rem;*/
 }
 
 .btn-download-outline {
@@ -345,6 +350,93 @@ input[type=checkbox] {
   color: #555;
 }
 
+
+.filter-chooser {
+  width: 350px;
+  left: -350px;
+  position: fixed;
+  top: 40%;
+  margin-top: -78px;
+  z-index: 99999;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.filter-chooser .toggler {
+  position: absolute;
+  top: 0;
+  right: -100px;
+  display: inline-block;
+  background-color: rgba(93, 166, 213, 0.5);
+  width: 144px;
+  height: 90px;
+  line-height: 130px;
+  text-align: center;
+  border-radius: 0 4px 4px 0;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 12px;
+  transform: translate(0,100%) rotate(-90deg);
+  transform-origin: 0 0;
+}
+
+.filter-chooser .toggler:hover {
+  background-color: #fff;
+  border: 1px solid rgba(12, 110, 173, 1);
+  color: rgba(12, 110, 173, 0.8);
+  text-decoration: none;
+}
+
+.filter-chooser.opened {
+  top: 80px;
+}
+
+.filter-chooser.opened .toggler {
+  top: 53px;
+  left: 652px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.fa.fa-filter.text-white:hover {
+  color:  rgba(12, 110, 173, 0.8)!important;
+}
+
+.filter-chooser.opened .filter-chooser-inner {
+  top: 80px;
+  width: 350px;
+  left: -350px;
+  position: fixed;
+  margin-top: -78px;
+  z-index: 99999;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.filter-chooser-inner {
+  position: relative;
+  background-color: rgba(155, 155, 155, 0.5);
+  padding: 15px 20px;
+}
+
+.filter-chooser.opened #sideNavFilters {
+  width: 350px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
 #sideNavFilters {
   z-index: 200 !important;
   height: 100%;
@@ -356,7 +448,7 @@ input[type=checkbox] {
   top: 0;
   /* Stay at the top */
   left: 0;
-  background-color: #0f2a3b;
+  background-color: #5185a6;
   overflow-x: hidden;
   /* Disable horizontal scroll */
   padding-top: 60px;
@@ -380,7 +472,7 @@ input[type=checkbox] {
   /* width: 90%; */
   background-color: #edeef0;
   color: #333;
-  margin: 1.2rem auto;
+  margin: 1rem auto;
   /* padding: 1rem; */
   /* text-align: center; */
 }
@@ -410,7 +502,7 @@ input[type=checkbox] {
 }
 
 #sideNavFilters .sideNavFilters-search {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   height: 100%;
   overflow-y: auto;
@@ -549,12 +641,12 @@ select::-ms-expand {
 }
 
 .card-body {
-  padding: 1.8rem 1rem 1rem 4.4rem;
+  padding: 1rem;
   background-color: #fff;
 }
 
 .card-title {
-  padding: 1rem 1rem 1rem 0;
+  padding: 1rem;
 }
 
 .darkBG{
@@ -612,7 +704,7 @@ select::-ms-expand {
 }
 
 .toptools {
-  /* margin-bottom: 25px */
+  margin-top:  15px;
 }
 
 .page-item.active .page-link {
@@ -650,7 +742,7 @@ div.dataTables_wrapper div.dataTables_info {
 table.dataTable thead th {
   position: relative;
   background-image: none !important;
-  background-color: #ddd;
+  border-top: 1px solid #ddd;
 }
 
 .table-bordered td, .table-bordered th {
@@ -698,8 +790,8 @@ table.dataTable thead th.sorting_desc:after {
 .btn-labeled {
   padding-top: 0;
   padding-bottom: 0;
-  border-radius: 3rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .pillFilter {
@@ -723,6 +815,7 @@ table.dataTable thead th.sorting_desc:after {
   color: #5da6d5;
   font-weight: 600;
   font-size: 1.6rem;
+  margin-bottom: 0;
 }
 
 .badge-success {
@@ -779,6 +872,9 @@ table.dataTable thead th.sorting_desc:after {
   box-shadow: none;
 }
 
+.btn-group-lg > .btn, .btn-lg {
+  padding: .3rem 1rem;
+}
 .btn:focus {
   outline: dotted thin;
   outline-offset: -2px;
