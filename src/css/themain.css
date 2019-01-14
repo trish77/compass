@@ -372,7 +372,7 @@ input[type=checkbox] {
   display: inline-block;
   background-color: rgba(93, 166, 213, 0.5);
   width: 144px;
-  height: 90px;
+  height: 81px;
   line-height: 130px;
   text-align: center;
   border-radius: 0 4px 4px 0;
@@ -385,7 +385,7 @@ input[type=checkbox] {
 
 .filter-chooser .toggler:hover {
   background-color: #fff;
-  border: 1px solid rgba(12, 110, 173, 1);
+  border: 1px solid rgba(12, 110, 173, 0.5);
   color: rgba(12, 110, 173, 0.8);
   text-decoration: none;
 }
@@ -404,8 +404,8 @@ input[type=checkbox] {
   transition: all 0.4s ease-in-out;
 }
 
-.fa.fa-filter.text-white:hover {
-  color:  rgba(12, 110, 173, 0.8)!important;
+.filter-chooser .toggler:hover  .fa.fa-filter.text-white {
+  color:  rgba(12, 110, 173, 0.5)!important;
 }
 
 .filter-chooser.opened .filter-chooser-inner {
@@ -436,6 +436,7 @@ input[type=checkbox] {
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+
 
 #sideNavFilters {
   z-index: 200 !important;
@@ -493,6 +494,11 @@ input[type=checkbox] {
   margin-left: 1rem;
   color: #333;
 }
+
+.card-collapsed .card-body {
+  display: none;
+}
+
 
 #sideNavFilters .sideFilters-footer {
   background-color: #edeef0;

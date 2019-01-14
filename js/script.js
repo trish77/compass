@@ -17632,7 +17632,7 @@ $(document).ready(function () {
 
 
   /* ========== Side filterbar functions ==========*/
-  $('.filter-chooser .toggler').on('click', function(event){
+  $('.filter-chooser .toggler, .closebtn').on('click', function(event){
     event.preventDefault();
     $(this).closest('.filter-chooser').toggleClass('opened');
   });
@@ -17645,11 +17645,11 @@ $(document).ready(function () {
       $("#cover").removeClass("d-none");
     });
 
-    $(".closebtn").click(function () {
-      $("#sideNavFilters").css("width", "0px");
-      $("#main").css("marginLeft", "0px");
-      $("#cover").addClass("d-none");
-    });
+    // $(".closebtn").click(function () {
+    //   $("#sideNavFilters").css("width", "0px");
+    //   $("#main").css("marginLeft", "0px");
+    //   $("#cover").addClass("d-none");
+    // });
 
     $(document).on('click', '.sideNavFilters-search', function () {
 
