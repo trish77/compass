@@ -394,7 +394,7 @@ $(document).ready(function () {
       } else {
         $btnFed.remove();
         $('#btnFederal').removeClass('active')
-      }
+      }y
     });
 
     $(document).on('click', '.clickable', function (e) {
@@ -408,8 +408,27 @@ $(document).ready(function () {
         $this.parents('.card').find('.card-body').slideDown();
         $this.removeClass('card-collapsed');
         $this.find('i').removeClass('fa fa-plus').addClass('fa fa-minus');
-
       }
     });
+  $(document).on('click', '.filterable', function (e) {
+    let $this = $(this);
+    let filtered = $('filtered');
+
+    if ($this.parents().siblings().hasClass('card-collapsed')) {
+      $this.parents('.card').find('.card-body').slideDown();
+      $this.removeClass('card-collapsed');
+      $this.text("Show All");
+      $this.parents().parents().find('i.fa.fa-plus').removeClass('fa fa-plus').addClass('fa fa-minus');
+      $this.parents().parents().parents('.card').find('.filtered').css('font-weight', 'bold');
+      $this.parents().parents().parents('.card').find('li').not('.filtered').css('display', 'none');
+
+    } else {
+      $this.parents('.card').find('.card-body').slideDown();
+      $this.removeClass('card-collapsed');
+      $this.find('i.fa.fa-minus').removeClass('fa fa-plus').addClass('fa fa-minus');
+
+    }
+
+  });
 
 });

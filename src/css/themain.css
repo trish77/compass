@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700");
-
 @import url("./all.css");
 
 
@@ -40,20 +39,20 @@ body {
   width: 97%;
 }
 
-h1{
+h1 {
   color: #1e5477;
   font-size: 2.4rem;
   font-weight: bold;
 }
 
-h3{
+h3 {
   font-size: 2.2rem;
   font-weight: 300;
   line-height: 1.1;
   color: #555;
 }
 
-.detailsHeading{
+.detailsHeading {
   color: #5DA6D5;
   font-size: 1.8rem;
   font-weight: bold;
@@ -62,7 +61,7 @@ h3{
   margin: 3rem 0 1rem;
 }
 
-.subinfo{
+.subinfo {
   color: #555;
 }
 
@@ -85,7 +84,7 @@ a:hover {
 }
 
 /*///////////// Navigation styles ///////////////*/
-.navbar{
+.navbar {
   border-top: 1px solid #ddd;
   padding: 0;
 }
@@ -103,17 +102,17 @@ a:hover {
   margin: auto 1em;
 }
 
-.navbar-nav .active > .nav-link{
+.navbar-nav .active > .nav-link {
   padding: 1.2rem;
   background-color: #ddd;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.4rem;
   font-weight: 400;
 }
 
-.backToResults{
+.backToResults {
   color: #719e29;
   font-weight: 500;
 }
@@ -126,7 +125,7 @@ input[type=checkbox] {
   line-height: 18px;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   border-color: #1e5477;
 }
 
@@ -177,7 +176,7 @@ input[type=checkbox] {
 }
 
 .pillFilter {
-  margin:  1rem 0;
+  margin: 1rem 0;
   line-height: 1rem;
 }
 
@@ -185,12 +184,12 @@ input[type=checkbox] {
   line-height: .8rem;
 }
 
-.paginate_button.next a, .paginate_button.previous a{
+.paginate_button.next a, .paginate_button.previous a {
   height: auto;
 }
 
 
-#filterBtns .btn,  #filterBtns .btn-state {
+#filterBtns .btn, #filterBtns .btn-state {
   margin: 0.5rem 0 0.5rem 0;
   padding: .8rem;
   line-height: 1.2rem;
@@ -208,8 +207,8 @@ input[type=checkbox] {
 }
 
 .border-sep {
-  border-left:  1px solid #5da6d5;
-  text-shadow: 0 1px 0  #5da6d5;
+  border-left: 1px solid #5da6d5;
+  text-shadow: 0 1px 0 #5da6d5;
   height: 28px;
   display: inline-block;
   margin-left: 15px;
@@ -329,7 +328,7 @@ input[type=checkbox] {
   display: flex;
 }
 
-#stateDropdown{
+#stateDropdown {
   margin-left: 1rem;
   background: #fff url("images/caret-down.png") no-repeat 90% 50%;
   background-size: 9px;
@@ -337,7 +336,7 @@ input[type=checkbox] {
   height: 32px;
 }
 
-.reset{
+.reset {
   margin: 1rem;
 }
 
@@ -379,7 +378,7 @@ input[type=checkbox] {
   white-space: nowrap;
   color: #fff;
   font-size: 12px;
-  transform: translate(0,100%) rotate(-90deg);
+  transform: translate(0, 100%) rotate(-90deg);
   transform-origin: 0 0;
 }
 
@@ -404,8 +403,8 @@ input[type=checkbox] {
   transition: all 0.4s ease-in-out;
 }
 
-.filter-chooser .toggler:hover  .fa.fa-filter.text-white {
-  color:  rgba(12, 110, 173, 0.5)!important;
+.filter-chooser .toggler:hover .fa.fa-filter.text-white {
+  color: rgba(12, 110, 173, 0.5) !important;
 }
 
 .filter-chooser.opened .filter-chooser-inner {
@@ -499,6 +498,14 @@ input[type=checkbox] {
   display: none;
 }
 
+.clickable {
+  padding: 1rem 1rem 1rem 8rem;
+}
+
+.clickable:focus, .clickable:hover {
+  cursor: pointer;
+}
+
 
 #sideNavFilters .sideFilters-footer {
   background-color: #edeef0;
@@ -529,11 +536,16 @@ input[type=checkbox] {
   box-shadow: none;
 }
 
-.filterDrawer .card-body ul li {
-    margin-bottom: 0;
+
+.filterDrawer .card-body ul {
+  list-style-type: none;
 }
 
-    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+.filterDrawer .card-body ul li {
+  margin-bottom: 0;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left 0.5s;
 }
@@ -659,7 +671,7 @@ select::-ms-expand {
   padding: 1rem;
 }
 
-.darkBG{
+.darkBG {
   background-color: #1E5477;
   color: #fff;
 }
@@ -681,7 +693,7 @@ select::-ms-expand {
   display: inline-block;
 }
 
-.dataTables_paginate{
+.dataTables_paginate {
   margin-left: 1rem !important;
 }
 
@@ -694,7 +706,7 @@ select::-ms-expand {
   color: #333;
   font-size: 1.6rem;
   height: 32px;
-  font-familyf:  "Open Sans", Helvetica, Arial, sans-serif;
+  font-familyf: "Open Sans", Helvetica, Arial, sans-serif;
   width: 120px;
 }
 
@@ -703,7 +715,7 @@ select::-ms-expand {
   padding: .5rem;
 }
 
-.pillFilter button{
+.pillFilter button {
   background-color: #fff;
   border-color: #5da6d5;
   color: #15394f;
@@ -714,7 +726,7 @@ select::-ms-expand {
 }
 
 .toptools {
-  margin-top:  15px;
+  margin-top: 15px;
 }
 
 .page-item.active .page-link {
@@ -852,7 +864,7 @@ table.dataTable thead th.sorting_desc:after {
 
 
 #filterBtns .btn-default, .btn-default,
- .buttons-html5.btn-default {
+.buttons-html5.btn-default {
   background-image: -webkit-linear-gradient(top, #fff 0, #e0e0e0 100%);
   background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
@@ -863,7 +875,7 @@ table.dataTable thead th.sorting_desc:after {
 }
 
 .btn-group .buttons-html5.btn-default,
-.btn-group .buttons-print.btn-default{
+.btn-group .buttons-print.btn-default {
   margin-right: 1rem;
 }
 
@@ -885,27 +897,28 @@ table.dataTable thead th.sorting_desc:after {
 .btn-group-lg > .btn, .btn-lg {
   padding: .3rem 1rem;
 }
+
 .btn:focus {
   outline: dotted thin;
   outline-offset: -2px;
 }
+
 /* ////////////// DETAILS PAGE ///////////////*/
-.card-body ul{
+.card-body ul {
   padding-inline-start: 0;
 }
 
-.card-body ul>li{
+.card-body ul > li {
   list-style: none;
   line-height: inherit;
-  margin-bottom: 1rem;
 }
 
-.card-title{
+.card-title {
   margin-bottom: 0;
 }
 
 /* ///////////////// modal styles so we don't have to bring in all of the healthstream bootstrap ///////////// */
-.modal-header{
+.modal-header {
   padding: 1.5rem;
   border-top: 3px solid #09c;
   border-bottom: 1px solid #e5e5e5;
@@ -914,11 +927,11 @@ table.dataTable thead th.sorting_desc:after {
   display: block;
 }
 
-.modal-header .close{
+.modal-header .close {
   margin-top: -2px;
 }
 
-button.close{
+button.close {
   padding: 0;
   cursor: pointer;
   background: 0 0;
@@ -926,7 +939,7 @@ button.close{
   -webkit-appearance: none;
 }
 
-.close{
+.close {
   font-size: 2.1rem;
   font-weight: 700;
   line-height: 1;
@@ -937,12 +950,12 @@ button.close{
   font-family: inherit;
 }
 
-.close:hover{
+.close:hover {
   text-decoration: none;
   opacity: .5;
 }
 
-.modal-title{
+.modal-title {
   font-size: 1.6rem;
   font-weight: 300;
   margin: 0;
@@ -968,11 +981,12 @@ button.close{
   content: '';
   height: 16px;
   margin-top: -8px;
-  position:absolute;
+  position: absolute;
   opacity: 0.3;
   transition: all 0.4s ease-in-out;
   width: 40px;
 }
+
 .material-switch > label::after {
   background: rgb(255, 255, 255);
   border-radius: 16px;
@@ -986,15 +1000,18 @@ button.close{
   transition: all 0.3s ease-in-out;
   width: 24px;
 }
+
 .material-switch > input[type="checkbox"]:checked + label::before {
   border-radius: 16px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
   opacity: 0.5;
 }
+
 .material-switch > input[type="checkbox"]:checked + label::after {
   background: inherit;
   left: 20px;
 }
+
 .label-info {
   background-color: #5da6d5;
 }

@@ -90,7 +90,7 @@ gulp.task('compile-js', function() {
       })
     }))
     // Min version
-    .pipe(uglify())
+   // .pipe(uglify())
 
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest(targetJSDir))
@@ -162,4 +162,4 @@ gulp.task('watch-dev', function() {
 
 
 // Default tasks
-gulp.task('default', ['compile-js', 'browserSync', 'css-concat',  'prettify'/*, 'watch'*/]);
+gulp.task('default', ['compile-js', 'browserSync', 'css-concat',  'prettify', 'watch']);
