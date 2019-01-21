@@ -17278,9 +17278,9 @@ $(document).ready(function () {
       url: 'c_data.json',
       dataSrc: 'data'
     },
-    scrollY:        '550px',
+    scrollY: '550px',
     //deferRender:    true,
-    scroller:       true,
+    scroller: true,
     lengthMenu: [
       [10, 25, 50, -1],
       ['10', '25', '50', 'All']
@@ -17314,10 +17314,11 @@ $(document).ready(function () {
       },
       {targets: 1, data: 'course_summary', visible: false, searchable: true},
       {targets: 2, data: 'effective_date'},
-      {targets: 3,
+      {
+        targets: 3,
         data: 'penalties',
         render: function (data, columns, row, meta) {
-          return  '<a href="#" data-target="#modal-goal-add" style="margin:auto;" class="related" data-toggle="modal"> Related Courses</a>'
+          return '<a href="#" data-target="#modal-goal-add" style="margin:auto;" class="related" data-toggle="modal"> Related Courses</a>'
         }
       },
       {targets: 4, data: 'governing_body'},
@@ -17584,118 +17585,149 @@ $(document).ready(function () {
     table.search(this.value).draw();
   });
 
-/*
-  $('#careSettingsSearch').on('keyup', function () {
-    table
-      .columns(1)
-      .search(this.value)
-      .draw();
-  });
-*/
-
-/*
-  $('.column-filter').on('keyup click', function () {
-    if (table.column(1).search() !== this.value) {
+  /*
+    $('#careSettingsSearch').on('keyup', function () {
       table
-        .column(1)
+        .columns(1)
         .search(this.value)
         .draw();
-    }
-  });
+    });
+  */
 
-  $('.pillFilter').on('click', '.reset', function () {
-    let pillButtons = $('#filterBtns button');
+  /*
+    $('.column-filter').on('keyup click', function () {
+      if (table.column(1).search() !== this.value) {
+        table
+          .column(1)
+          .search(this.value)
+          .draw();
+      }
+    });
 
-    table.column().search("", false, false).draw();
-    if ('.pillFilter') {
-      $('.pillFilter').remove();
-    }
-    if ((pillButtons).attr('disabled')) {
-      $(pillButtons).removeAttr('disabled')
-      console.log($(this))
-    }
-    if ((pillButtons.hasClass('active'))) {
-      $(pillButtons).removeClass('active')
-    }
-    if ((pillButtons).data('label' === 'state')) {
-      console.log('got it');
-      $("#stateDropdown option:eq(0)").attr('selected', 'selected')
-    }
-  });
-*/
+    $('.pillFilter').on('click', '.reset', function () {
+      let pillButtons = $('#filterBtns button');
 
-/*
-  $("#btnFederal").click(function () {
-    $(this).toggleClass("active");
-  });
-*/
+      table.column().search("", false, false).draw();
+      if ('.pillFilter') {
+        $('.pillFilter').remove();
+      }
+      if ((pillButtons).attr('disabled')) {
+        $(pillButtons).removeAttr('disabled')
+        console.log($(this))
+      }
+      if ((pillButtons.hasClass('active'))) {
+        $(pillButtons).removeClass('active')
+      }
+      if ((pillButtons).data('label' === 'state')) {
+        console.log('got it');
+        $("#stateDropdown option:eq(0)").attr('selected', 'selected')
+      }
+    });
+  */
+
+  /*
+    $("#btnFederal").click(function () {
+      $(this).toggleClass("active");
+    });
+  */
 
 
   /* ========== Side filterbar functions ==========*/
-  $('.filter-chooser .toggler, .closebtn').on('click', function(event){
+  $('.filter-chooser .toggler, .closebtn').on('click', function (event) {
     event.preventDefault();
     $(this).closest('.filter-chooser').toggleClass('opened');
   });
 
 
-
   $("#btn-filters").click(function () {
-      $("#sideNavFilters").css("width", "350px");
-      $("#main").css("marginLeft", "350px");
-      $("#cover").removeClass("d-none");
-    });
+    $("#sideNavFilters").css("width", "350px");
+    $("#main").css("marginLeft", "350px");
+    $("#cover").removeClass("d-none");
+  });
 
-    // $(".closebtn").click(function () {
-    //   $("#sideNavFilters").css("width", "0px");
-    //   $("#main").css("marginLeft", "0px");
-    //   $("#cover").addClass("d-none");
-    // });
+  // $(".closebtn").click(function () {
+  //   $("#sideNavFilters").css("width", "0px");
+  //   $("#main").css("marginLeft", "0px");
+  //   $("#cover").addClass("d-none");
+  // });
 
-    $(document).on('click', '.sideNavFilters-search', function () {
+  $(document).on('click', '.sideNavFilters-search', function () {
+    if ($(this).is(':checked')) {
+      let $thisText = $(this).val();
+      let $btnFed = $(".pillFilter").append('<button type="button" class="btn btn-labeled btn-primary">\n' +
+        'Federal<span class="btn-label"><i class="fas fa-times text-white"></i></span></button>');
+      $('#btnFederal').addClass('active');
+    } else {
+      $btnFed.remove();
+      $('#btnFederal').removeClass('active')
+    }
+    y
+  });
 
-      if ($(this).is(':checked')) {
-        let $thisText = $(this).val();
-        let $btnFed = $(".pillFilter").append('<button type="button" class="btn btn-labeled btn-primary">\n' +
-          'Federal<span class="btn-label"><i class="fas fa-times text-white"></i></span></button>');
-        $('#btnFederal').addClass('active');
-      } else {
-        $btnFed.remove();
-        $('#btnFederal').removeClass('active')
-      }y
-    });
-
-    $(document).on('click', '.clickable', function (e) {
-      let $this = $(this);
-      if (!$this.hasClass('card-collapsed')) {
-        $this.parents('.card').find('.card-body').slideUp();
-        $this.addClass('card-collapsed');
-        $this.find('i').removeClass('fa fa-minus').addClass('fa fa-plus');
-
-      } else {
-        $this.parents('.card').find('.card-body').slideDown();
-        $this.removeClass('card-collapsed');
-        $this.find('i').removeClass('fa fa-plus').addClass('fa fa-minus');
-      }
-    });
-  $(document).on('click', '.filterable', function (e) {
+  $(document).on('click', '.clickable', function (e) {
     let $this = $(this);
-    let filtered = $('filtered');
-
-    if ($this.parents().siblings().hasClass('card-collapsed')) {
-      $this.parents('.card').find('.card-body').slideDown();
-      $this.removeClass('card-collapsed');
-      $this.text("Show All");
-      $this.parents().parents().find('i.fa.fa-plus').removeClass('fa fa-plus').addClass('fa fa-minus');
-      $this.parents().parents().parents('.card').find('.filtered').css('font-weight', 'bold');
-      $this.parents().parents().parents('.card').find('li').not('.filtered').css('display', 'none');
+    if (!$this.hasClass('card-collapsed')) {
+      $this.parents('.card').find('.card-body').slideUp();
+      $this.addClass('card-collapsed');
+      $this.find('i').removeClass('fa fa-minus').addClass('fa fa-plus');
 
     } else {
       $this.parents('.card').find('.card-body').slideDown();
       $this.removeClass('card-collapsed');
-      $this.find('i.fa.fa-minus').removeClass('fa fa-plus').addClass('fa fa-minus');
+      $this.find('i').removeClass('fa fa-plus').addClass('fa fa-minus');
+    }
+  });
 
+  $(".card-title").on('click', '.filterable', function (e) {
+    e.preventDefault();
+    let $this = $(this);
+    let filtered = $('.filtered');
+    let theIconPlus = $this.siblings().find('.fa.fa-plus');
+    let theIconMinus = $this.siblings().find('.fa.fa-minus');
+    let theCard = $this.parents('.card').find('.card-body');
+    let theCardCollapsed = $('.clickable.card-collapsed');
+    let isFilteredAlready = $('<a href="#" class="isFiltered mr-auto ml-3">Show All</a>');
+    let isFilterable = $('<a href="#" class="filterable mr-auto ml-3"> (filtered) <i class="fa fa-filter"></i></a>');
+
+    console.log(theCard);
+    console.log(theCardCollapsed);
+    console.log(theIconPlus);
+
+
+    if (theCardCollapsed) {
+      $this.parents('.card').find('.card-body').slideDown();
+      theCardCollapsed.removeClass('card-collapsed');
+      theIconPlus.removeClass('fa fa-plus').addClass('fa fa-minus');
+
+      $this.replaceWith('<a href="#" class="isFiltered mr-auto ml-3">Show All</a>');
+      theCard.find(filtered).css('font-weight', 'bold');
+      theCard.find('li').not(filtered).css('display', 'none')
     }
 
+  else {
+      $this.replaceWith('<a href="#" class="isFiltered mr-auto ml-3">Show All</a>');
+      theCard.find(filtered).css('font-weight', 'bold');
+      theCard.find('li').not(filtered).css('display', 'none')
+    }
+
+  }).on('click', '.isFiltered', function (e) {
+    e.preventDefault();
+    let $this = $(this);
+    let filtered = $('.filtered');
+    let theIconPlus = $this.siblings().find('.fa.fa-plus');
+    let theIconMinus = $this.siblings().find('.fa.fa-minus');
+    let theCard = $this.parents('.card');
+    let theCardCollapsed = $this.siblings().hasClass('.card-collapsed');
+    let isFilteredAlready = $('<a href="#" class="isFiltered mr-auto ml-3">Show All</a>').html();
+    let isFilterable = $('<a href="#" class="filterable mr-auto ml-3"> (filtered) <i class="fa fa-filter"></i></a>');
+
+    console.log(isFilterable, isFilteredAlready);
+
+    $this.replaceWith(isFilterable);
+    theIconPlus.removeClass('fa fa-plus').addClass('fa fa-minus');
+    theCard.find(filtered).css('font-weight', 'normal');
+    theCard.find('li').not(filtered).css('display', 'block');
   });
+
 
 });

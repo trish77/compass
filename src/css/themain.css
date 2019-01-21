@@ -668,7 +668,7 @@ select::-ms-expand {
 }
 
 .card-title {
-  padding: .6rem;
+  padding: .6rem 1rem;
 }
 
 .darkBG {
@@ -678,7 +678,7 @@ select::-ms-expand {
 
 /* datatables */
 .dataTable div, .dataTable span, .dataTable p, .dataTable h4 {
-  white-space: normal
+  white-space: normal;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
