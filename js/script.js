@@ -17273,14 +17273,14 @@ g.ext.buttons["select"+c+"s"]={text:p("select"+c+"s","Select "+b+"s"),className:
 $(document).ready(function () {
 
   var table = $('#compass').DataTable({
-    "dom": '<"toptools"><"container-fluid p-0 d-flex justify-content-between" <"d-flex" li> <"d-flex" <"toolbar">>>t<"row py-2 text-white bg-secondary" <"col-3 mr-auto" li><"col-6 ml-auto text-right" B>>',
+    "dom": '<"toptools"><"container-fluid px-3 d-flex mt-3 justify-content-between" <"d-flex" li> <"d-flex"pB>>t<"row py-2 text-white bg-secondary" <"col-4 mr-auto" li><"col-6 ml-auto mt-2 text-right" pB>>',
     ajax: {
       url: 'c_data.json',
       dataSrc: 'data'
     },
-    scrollY: '550px',
+    //scrollY: '550px',
     //deferRender:    true,
-    scroller: true,
+    //scroller: true,
     lengthMenu: [
       [10, 25, 50, -1],
       ['10', '25', '50', 'All']
@@ -17356,13 +17356,16 @@ $(document).ready(function () {
     .appendTo($(table.table().container()));*/
 
 
-  $('.toptools').html(`<div class="card py-2 px-4"><div class="card-body p-0"><h2 class="card-title p-0">Filters</h2>
-<span class="text-warning font-weight-bold">Default settings: </span>Initially the results shows Federal, all Care Settings and all Disciplines. <span class="text-warning font-weight-bold">Note </span>: The Federal or State setting and at least one Care Setting and one Discipline is required for any search.</p><div id="filterBtns" class="flex flex-row" role="group" aria-label="filter button group">
-              <span class="mx-2 align-self-center">Federal:</span>  
-              <div class="material-switch d-inline-block pull-right">
-                  <input id="btnFederal" name="federal-switch" data-btn="federal" checked type="checkbox"/>
-                  <label for="btnFederal" class="label-info"></label>
-              </div>
+  $('.toptools').html(`<div class="pt-2 px-4">
+   <div id="filterBtns" class="flex flex-row" role="group" aria-label="filter button group">
+      <h3>Regulatory Citations</h3>
+               <ul class="tg-list">
+                  <li class="tg-list-item">
+                    Federal:
+                    <input id="cb2" type="checkbox"  checked class="tgl tgl-ios">
+                    <label for="cb2" class="tgl-btn"></label>
+                  </li>
+                </ul>
                 <!--<select id="stateDropdown" data-btn="state" class="custom-select">
                     <option value="State">State</option>
                     <option value="California">California</option>
@@ -17376,7 +17379,7 @@ $(document).ready(function () {
                         State
                     </button>
                     <ul id="state-items" class="dropdown-menu filterDropdown px-3" aria-labelledby="stateSettings">
-                    <li><span class="text-muted">Note you can filter by one state at a time</span></li>                 
+                    <li><em class="text-muted">Note you can filter by one state at a time</em></li>                 
                         <li class="filterCheckbox">
                             <div class="custom-control custom-radio">
                               <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
@@ -17511,32 +17514,47 @@ $(document).ready(function () {
                     </ul>
                 </div>-->
                 <!--end disciplines-->
-                <div class="border-sep d-inline-block">&nbsp;</div>
-                <button class="btn btn-lg btn-default ml-2">Apply Filters</button>
-                <div class="border-sep d-inline-block">&nbsp;</div>
-                <button class="btn btn-lg btn-default reset my-2">Reset Filters</a></button>
+              <!--  <div class="border-sep d-inline-block">&nbsp;</div>
+                <button class="btn btn-lg btn-default ml-2">Apply Filters</button>-->
+                <div class="border-sep mr-2 d-inline-block">&nbsp;</div>
+                <div class="resetDiv"><a href="#" id="openSideFilters" class="reset"><i class="fa fa-plus"> </i>  Additional Filters</a></div>
 
-                <!--button id="openSideFilters" type="button" class="btn btn-viewAll">View All Filters</button-->
-            </div><div class="pillFilter"><button type="button" data-label="federal" class="btn btn-labeled pillbutton btn-primary">Federal: Yes<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button></div></div></div>`);
-
-  $('.toolbar').html(`<div class="input-group mt-2">
+           
+            </div><h3>Filters</h3>
+            </div>
+            <div class="pillFilter d-flex justify-content-between w-80"><div><button type="button" data-label="federal" class="btn btn-labeled pillbutton btn-primary">Federal: Yes<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>
+            <button type="button" data-label="state" class="btn btn-labeled pillbutton btn-primary">State: California<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>
+            <button type="button" data-label="care-setting" class="btn btn-labeled pillbutton btn-primary">Care Setting: Rehabilitation Center<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>
+            <button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Anesthesiologist<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>
+            <button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Clinical Manager<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>
+                <button type="button" data-label="care-setting" class="btn btn-labeled pillbutton btn-primary">Care Setting: Rehabilitation Center<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>
+            <button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Anesthesiologist<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>
+            <button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Clinical Manager<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>
+               <div class="border-sep mr-3 d-inline-block">&nbsp;</div>
+                <div class="resetDiv"><a href="#" class="reset my-2"> Reset All</a></div>
+                <p class="warning-text"> <span class="text-warning font-weight-bold">Default Settings </span>: The Federal or State setting and at least one Care Setting and one Discipline is required for any search.</p>
+            </div>
+            
+            <div><div class="input-group">
                         <input class="search-blue form-control filter-search mr-0" type="search" placeholder="Search all fields"
                             aria-label="Search">
                         <div class="input-group-append">
                             <button class="btn btn-search" aria-label="sideNavFilters-search" type="submit">
-                                <i class="fas fa-search text-white" alt="all filters search"></i>
+                                <i class="fas fa-search" alt="all filters search"></i>
                             </button>
-                        </div>
-                    </div></div>`);
+                        </div></div></div>          
+                   </div></div></div>`);
+
+  //$('.toolbar').html(``);
 
   $('.toptools').find('#btnFederal').on('click', function () {
     //$(this).attr("disabled", "disabled");
-    $('<div class="pillFilter"><button type="button" data-label="federal" class="btn btn-labeled pillbutton btn-primary">Federal: Yes<span class="btn-label"><i id="close" class="fas fa-times text-white"></i></span></button></div>').insertAfter('.toptools');
+    $(`<div class="pillFilter"><button type="button" data-label="federal" class="btn btn-labeled pillbutton btn-primary">Federal: Yes<span class="btn-label"><i id="close" class="fas fa-times text-white"></i></span></button></div>`).insertAfter('.toptools');
   });
 
   $('.toptools').find('#stateDropdown').on("change", function () {
     var theText = $(this).val();
-    if (theText != 'State') {
+    if (theText !== 'State') {
       table.column().search(theText, false, false).draw();
     } else {
       table.column().search("", false, false).draw();
@@ -17633,17 +17651,17 @@ $(document).ready(function () {
 
 
   /* ========== Side filterbar functions ==========*/
-  $('.filter-chooser .toggler, .closebtn').on('click', function (event) {
+  $('#openSideFilters, .closebtn').on('click', function (event) {
     event.preventDefault();
-    $(this).closest('.filter-chooser').toggleClass('opened');
+    $('.filter-chooser').toggleClass('opened');
   });
 
 
-  $("#btn-filters").click(function () {
+/*  $("#btn-filters").click(function () {
     $("#sideNavFilters").css("width", "350px");
     $("#main").css("marginLeft", "350px");
     $("#cover").removeClass("d-none");
-  });
+  });*/
 
   // $(".closebtn").click(function () {
   //   $("#sideNavFilters").css("width", "0px");
@@ -17678,55 +17696,75 @@ $(document).ready(function () {
     }
   });
 
-  $(".card-title").on('click', '.filterable', function (e) {
+
+    $('.careSettings').on('click', '.more', function (e) {
+      e.preventDefault();
+      let $this = $(this);
+
+     // let filterer = $('.filters');
+      //let filtered = $('.filtered');
+      let notFiltered = $this.next('.allnotFiltered');
+      let more = $(`<a href="#" class="more">More <i class="fa fa-angle-down"></i></a>`);
+      let less = $(`<a href="#" class="less">Less <i class="fa fa-angle-up"></i></a>`);
+      console.log(less);
+
+      if (notFiltered.css('display', 'none')) {
+        notFiltered.css('display', 'block');
+        isFiltered = false;
+        $this.replaceWith(less);
+      }
+    });
+
+  $('.careSettings').on('click', '.less', function (e) {
     e.preventDefault();
     let $this = $(this);
-    let filtered = $('.filtered');
-    let theIconPlus = $this.siblings().find('.fa.fa-plus');
-    let theIconMinus = $this.siblings().find('.fa.fa-minus');
-    let theCard = $this.parents('.card').find('.card-body');
-    let theCardCollapsed = $('.clickable.card-collapsed');
-    let isFilteredAlready = $('<a href="#" class="isFiltered mr-auto ml-3">Show All</a>');
-    let isFilterable = $('<a href="#" class="filterable mr-auto ml-3"> (filtered) <i class="fa fa-filter"></i></a>');
 
-    console.log(theCard);
-    console.log(theCardCollapsed);
-    console.log(theIconPlus);
+    let notFiltered = $this.next('.allnotFiltered');
+    let more = $(`<a href="#" class="more">More <i class="fa fa-angle-down"></i></a>`);
+    let less = $(`<a href="#" class="less">Less <i class="fa fa-angle-up"></i></a>`);
+    console.log(less);
 
-
-    if (theCardCollapsed) {
-      $this.parents('.card').find('.card-body').slideDown();
-      theCardCollapsed.removeClass('card-collapsed');
-      theIconPlus.removeClass('fa fa-plus').addClass('fa fa-minus');
-
-      $this.replaceWith('<a href="#" class="isFiltered mr-auto ml-3">Show All</a>');
-      theCard.find(filtered).css('font-weight', 'bold');
-      theCard.find('li').not(filtered).css('display', 'none')
+    if (notFiltered.css('display', 'block')) {
+      //$this.prev().find(filtered).css('font-weight', 'bold');
+      notFiltered.css('display', 'none');
+      isFiltered = true;
+      $this.replaceWith(more);
     }
+  });
 
-  else {
-      $this.replaceWith('<a href="#" class="isFiltered mr-auto ml-3">Show All</a>');
-      theCard.find(filtered).css('font-weight', 'bold');
-      theCard.find('li').not(filtered).css('display', 'none')
-    }
-
-  }).on('click', '.isFiltered', function (e) {
+  $('.disciplines').on('click', '.more', function (e) {
     e.preventDefault();
     let $this = $(this);
-    let filtered = $('.filtered');
-    let theIconPlus = $this.siblings().find('.fa.fa-plus');
-    let theIconMinus = $this.siblings().find('.fa.fa-minus');
-    let theCard = $this.parents('.card');
-    let theCardCollapsed = $this.siblings().hasClass('.card-collapsed');
-    let isFilteredAlready = $('<a href="#" class="isFiltered mr-auto ml-3">Show All</a>').html();
-    let isFilterable = $('<a href="#" class="filterable mr-auto ml-3"> (filtered) <i class="fa fa-filter"></i></a>');
 
-    console.log(isFilterable, isFilteredAlready);
+    // let filterer = $('.filters');
+    //let filtered = $('.filtered');
+    let notFiltered = $this.next('.allnotFiltered');
+    let more = $(`<a href="#" class="more">More <i class="fa fa-angle-down"></i></a>`);
+    let less = $(`<a href="#" class="less">Less <i class="fa fa-angle-up"></i></a>`);
+    console.log(less);
 
-    $this.replaceWith(isFilterable);
-    theIconPlus.removeClass('fa fa-plus').addClass('fa fa-minus');
-    theCard.find(filtered).css('font-weight', 'normal');
-    theCard.find('li').not(filtered).css('display', 'block');
+    if (notFiltered.css('display', 'none')) {
+      notFiltered.css('display', 'block');
+      isFiltered = false;
+      $this.replaceWith(less);
+    }
+  });
+
+  $('.disciplines').on('click', '.less', function (e) {
+    e.preventDefault();
+    let $this = $(this);
+
+    let notFiltered = $this.next('.allnotFiltered');
+    let more = $(`<a href="#" class="more">More <i class="fa fa-angle-down"></i></a>`);
+    let less = $(`<a href="#" class="less">Less <i class="fa fa-angle-up"></i></a>`);
+    console.log(less);
+
+    if (notFiltered.css('display', 'block')) {
+      //$this.prev().find(filtered).css('font-weight', 'bold');
+      notFiltered.css('display', 'none');
+      isFiltered = true;
+      $this.replaceWith(more);
+    }
   });
 
 

@@ -68,8 +68,8 @@ var JSSourceFiles = [
 gulp.task('css-concat', function () {
   return gulp.src(cssSourceFiles)
     .pipe(concatCss('style.css'))
-    .pipe(cssmin())
-    .pipe(rename({suffix: '.min'}))
+   // .pipe(cssmin())
+   // .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest(targetCSSDir))
 
 });
@@ -142,7 +142,7 @@ gulp.task('browserSync', function() {
       baseDir: './'
     },
   })
-})
+});
 
 
 // ---------------------------
@@ -150,13 +150,13 @@ gulp.task('browserSync', function() {
 // ---------------------------
 gulp.task('watch', ['browserSync', 'css-concat', 'copy', 'compile-js'], function() {
   gulp.watch(cssWatchedFiles, ['css-concat'], browserSync.reload);
-  gulp.watch(cssDir + '/*.css',  ['css-concat'],  browserSync.reload);
+  gulp.watch(cssDir + '/**/*.css',  ['css-concat'],  browserSync.reload);
   gulp.watch('*.html').on('change', browserSync.reload);
   gulp.watch(JSDir + '/**/*.js', ['compile-js', browserSync.reload]);
 });
 
 gulp.task('watch-dev', function() {
-  gulp.watch(scssWatchedFiles, ['compile-scss-dev', browserSync.reload]);
+  //gulp.watch(scssWatchedFiles, ['compile-scss-dev', browserSync.reload]);
   gulp.watch(JSDir + '/src/**/*.js', ['compile-js', browserSync.reload]);
 });
 
