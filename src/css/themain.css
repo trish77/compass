@@ -1400,3 +1400,12 @@ button.close {
   height: 100% !important;
   overflow: visible;
 }
+
+.pillbutton {
+  line-height: .8rem;
+  border-width: 1px;
+  margin-right: .5rem;
+  margin-top: 10px;
+  padding: 0 .5rem;
+  font-weight: 500;
+}
