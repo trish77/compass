@@ -1,0 +1,44 @@
+.nav-link{
+	padding: 1.2rem;
+}
+
+.nav-link-admin{
+	position:absolute;
+	right:10px;	
+}
+
+/* Admin Tab */
+#admin{ padding:10px; }
+
+#admin a{ cursor:pointer; color:#09c; }
+#admin a:hover{ text-decoration:underline; }
+
+#admin table{ margin-top:10px; font-size:10px; border:1px solid #ccc; border-collapse:collapse; width:100%; clear:both; }
+#admin thead td{ border:1px solid #ccc; font-weight:bold; background-color:#eee; }
+#admin td{ border:1px solid #ccc; padding:4px 8px; }
+
+#add-client{ display:none; border:1px solid #ccc; padding:10px; margin:10px 0; }
+#add-client h4{ margin-top:0; }
+#add-client form{ margin:0; padding:0; }
+#add-client input[type="text"]{ margin-bottom:5px; border:1px solid #ccc; border-radius:4px; width:100%; }
+#add-client input[type="button"], #addUserWrapper input[type="submit"]{ font-weight:bold; margin-top:8px; background-color:#f3f3f3; cursor:pointer; color:#090; border:1px solid #090; border-radius:4px; padding:2px 6px; }
+#add-client input[type="button"]:hover, #addUserWrapper input[type="submit"]:hover{ background-color:#f9f9f9; color:#0c0; border-color:#0c0; }
+.if-available{ color:#999; font-size:8pt; text-transform:uppercase; }
+
+.add-client{ float:right; cursor:pointer; text-decoration:none; color:#09c !important; }
+.add-client:hover{ text-decoration:underline; }
+
+.freemium-client{ font-size:8pt; color:#f00; text-transform:uppercase; }
+.login-as{ font-size:8pt; text-transform:uppercase; cursor:pointer; text-decoration:none; }
+.login-as:hover{ text-decoration:none; }
+
+
+/* IE 11 Specific CSS */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .filterDropdown {
+    transform:none !important;
+    position:absolute;
+    top:40px !important;
+    left:10px !important;
+  }
+}

@@ -6,7 +6,7 @@
 $(document).ready(function () {
 
   var table = $('#compass').DataTable({
-    "dom": '<"toptools"><"container-fluid px-3 d-flex mt-3 justify-content-between" <"d-flex" li> <"d-flex"pB>>t<"row py-2 text-white bg-secondary" <"col-4 mr-auto" li><"col-6 ml-auto mt-2 text-right" pB>>',
+    "dom": '<"toptools"><"container-fluid px-0 d-flex mt-3 justify-content-between" <"d-flex" i> <"d-flex"B>>t<"row py-2 text-white bg-secondary" <"col-4 mr-auto" i><"col-6 ml-auto mt-2 text-right" B>>',
     ajax: {
       url: 'c_data.json',
       dataSrc: 'data'
@@ -22,7 +22,6 @@ $(document).ready(function () {
       {"data": "course_title"},
       {"data": "course_summary"},
       {"data": "effective_date"},
-      {"data": "penalties"},
       {"data": "governing_body"},
       {"data": "care_settings"},
       {"data": "disciplines"},
@@ -42,30 +41,23 @@ $(document).ready(function () {
         render: function (data, columns, row, meta) {
           var summary = row.course_summary;
           var title = row.course_title;
-          return '<h4><a href="details.html">' + data + '</a></h4><span>' + summary + '</span></div>'
+          return '<h4><a href="details.html">' + data + '</a></h4><span>' + summary + '</span><div> <a href="#" data-target="#modal-goal-add" style="margin:auto;" class="related" data-toggle="modal"> Related Courses</a></div>'
         }
       },
       {targets: 1, data: 'course_summary', visible: false, searchable: true},
       {targets: 2, data: 'effective_date'},
+      {targets: 3, data: 'governing_body'},
+      {targets: 4, data: 'care_settings', visible: false, searchable: true},
+      {targets: 5, data: 'disciplines', visible: false, searchable: true},
       {
-        targets: 3,
-        data: 'penalties',
-        render: function (data, columns, row, meta) {
-          return '<a href="#" data-target="#modal-goal-add" style="margin:auto;" class="related" data-toggle="modal"> Related Courses</a>'
-        }
-      },
-      {targets: 4, data: 'governing_body'},
-      {targets: 5, data: 'care_settings', visible: false, searchable: true},
-      {targets: 6, data: 'disciplines', visible: false, searchable: true},
-      {
-        targets: 7,
+        targets: 6,
         data: 'course_citation',
         render: function (data, type, row, meta) {
           return '<div class="text-center"><button class="btn btn-lg btn-default">More Details</button></div>'
         }
       },
       {order: [0, 2, 3]},
-      {orderable: false, targets: [1, 4, 5, 6, 7]}
+      {orderable: false, targets: [1, 4, 5, 6]}
     ],
     language: {
       sLengthMenu: "Show _MENU_ regulations",
@@ -89,9 +81,11 @@ $(document).ready(function () {
     .appendTo($(table.table().container()));*/
 
 
-  $('.toptools').html('<div class="pt-2 px-4">\n' +
+  $('.toptools').html('<div class="filters">\n' +
     '   <div id="filterBtns" class="flex flex-row" role="group" aria-label="filter button group">\n' +
-    '      <h3>Regulatory Citations</h3>\n' +
+    '      <h3>Filters</h3>\n' +
+    '<p><span class="text-warning">Default settings:</span> Initially the results show Federal, all Care Settings and all Disciplines.<br>\n' +
+    '<span class="text-warning">Note:</span> The Federal or a State selection and at least one Care Setting and one Discipline is required for any search.</p>\n' +
     '               <ul class="tg-list">\n' +
     '                  <li class="tg-list-item">\n' +
     '                    Federal:\n' +
@@ -99,13 +93,7 @@ $(document).ready(function () {
     '                    <label for="cb2" class="tgl-btn"></label>\n' +
     '                  </li>\n' +
     '                </ul>\n' +
-    '                <!--<select id="stateDropdown" data-btn="state" class="custom-select">\n' +
-    '                    <option value="State">State</option>\n' +
-    '                    <option value="California">California</option>\n' +
-    '                    <option value="Florida">Florida</option>\n' +
-    '                    <option value="Alabama">Alabama</option>\n' +
-    '                </select>-->\n' +
-    '                <div class="btn-group" role="group">\n' +
+    '                <div class="btn-group pt-2" role="group">\n' +
     '                    <span class="mx-2 align-self-center">State:</span>\n' +
     '                    <button id="stateDropdown" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"\n' +
     '                        aria-haspopup="true" aria-expanded="false">\n' +
@@ -142,7 +130,7 @@ $(document).ready(function () {
     '                </div>\n' +
     '                <!--end state select-->\n' +
     '\n' +
-    '                <!-- #careSettings \n' +
+    '                <!-- #careSettings-->\n' +
     '                <div class="btn-group" role="group">\n' +
     '                <span class="mx-2 align-self-center">Care Settings:</span>\n' +
     '                    <button id="careSettings" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"\n' +
@@ -206,12 +194,12 @@ $(document).ready(function () {
     '                            </div>\n' +
     '                        </li>\n' +
     '                    </ul>\n' +
-    '                </div>-->\n' +
+    '                </div>\n' +
     '                <!--end careSettings-->\n' +
     '    \n' +
-    '                <!-- #disciplines \n' +
+    '                <!-- #disciplines--> \n' +
     '                <div class="btn-group" role="group">\n' +
-    '                    <span class="mx-2 align-self-center">Disciplines:</span>\n' +
+    '                    &nbsp;Disciplines\n' +
     '                    <button id="disciplines" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"\n' +
     '                        aria-haspopup="true" aria-expanded="false">\n' +
     '                        All\n' +
@@ -245,17 +233,18 @@ $(document).ready(function () {
     '                            </div>\n' +
     '                        </li>\n' +
     '                    </ul>\n' +
-    '                </div>-->\n' +
+    '                </div>\n' +
     '                <!--end disciplines-->\n' +
     '              <!--  <div class="border-sep d-inline-block">&nbsp;</div>\n' +
     '                <button class="btn btn-lg btn-default ml-2">Apply Filters</button>-->\n' +
     '                <div class="border-sep mr-2 d-inline-block">&nbsp;</div>\n' +
-    '                <div class="resetDiv"><a href="#" id="openSideFilters" class="reset"><i class="fa fa-plus"> </i>  Additional Filters</a></div>\n' +
-    '\n' +
-    '           \n' +
-    '            </div><h3>Filters</h3>\n' +
-    '            </div>\n' +
-    '            <div class="pillFilter d-flex justify-content-between w-80"><div><button type="button" data-label="federal" class="btn btn-labeled pillbutton btn-primary">Federal: Yes<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
+    ' <button class="btn btn-lg btn-default ml-2">Apply Filters</button>\n' +
+    '               <div class="border-sep mr-3 d-inline-block">&nbsp;</div>\n' +
+    '                <div class="resetDiv"><a href="#" class="reset my-2"> Reset All</a></div></div>\n' +
+    '            </div><div class="mt-3"><h4 class="float-left mt-2">Applied Filters</h4>\n' +
+    '               <div class="border-sep mr-3 d-inline-block">&nbsp;</div>\n' +
+    '   <a href="#" class="reset my-2 showAll" role="button"> All Applied Filters</a></div>\n' +
+    '            <div id="showFilter" class="pillFilter  border-bottom"><div><button type="button" data-label="federal" class="btn btn-labeled pillbutton btn-primary">Federal: Yes<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
     '            <button type="button" data-label="state" class="btn btn-labeled pillbutton btn-primary">State: California<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
     '            <button type="button" data-label="care-setting" class="btn btn-labeled pillbutton btn-primary">Care Setting: Rehabilitation Center<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
     '            <button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Anesthesiologist<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
@@ -263,20 +252,13 @@ $(document).ready(function () {
     '                <button type="button" data-label="care-setting" class="btn btn-labeled pillbutton btn-primary">Care Setting: Rehabilitation Center<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
     '            <button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Anesthesiologist<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
     '            <button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Clinical Manager<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
-    '               <div class="border-sep mr-3 d-inline-block">&nbsp;</div>\n' +
-    '                <div class="resetDiv"><a href="#" class="reset my-2"> Reset All</a></div>\n' +
-    '                <p class="warning-text"> <span class="text-warning font-weight-bold">Default Settings </span>: The Federal or State setting and at least one Care Setting and one Discipline is required for any search.</p>\n' +
-    '            </div>\n' +
-    '            \n' +
-    '            <div><div class="input-group">\n' +
-    '                        <input class="search-blue form-control filter-search mr-0" type="search" placeholder="Search all fields"\n' +
-    '                            aria-label="Search">\n' +
-    '                        <div class="input-group-append">\n' +
-    '                            <button class="btn btn-search" aria-label="sideNavFilters-search" type="submit">\n' +
-    '                                <i class="fas fa-search" alt="all filters search"></i>\n' +
-    '                            </button>\n' +
-    '                        </div></div></div>          \n' +
-    '                   </div></div></div>');
+   ' <button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Clinical Manager<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
+  '<button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Athletic Trainer<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
+ ' <button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Audiologist<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
+ ' <button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Billing Personnel<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
+    ' <button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Audiologist<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
+    ' <button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Billing Personnel<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>\n' +
+  '<button type="button" data-label="discipline" class="btn btn-labeled pillbutton btn-primary">Discipline: Biomedical Engineer<span class="btn-label"><i id="close" class="fas fa-times"></i></span></button>');
 
   //$('.toolbar').html(``);
 
@@ -384,10 +366,12 @@ $(document).ready(function () {
 
 
   /* ========== Side filterbar functions ==========*/
+/*
   $('#openSideFilters, .closebtn').on('click', function (event) {
     event.preventDefault();
     $('.filter-chooser').toggleClass('opened');
   });
+*/
 
 
 /*  $("#btn-filters").click(function () {
@@ -429,8 +413,18 @@ $(document).ready(function () {
     }
   });
 
+  $('.showAll').on('click', function (e) {
+    e.preventDefault();
+    var $this = $(this);
+    console.log($this);
 
-    $('.careSettings').on('click', '.more', function (e) {
+    var pillWrapper = $this.parent().next('#showFilter');
+    pillWrapper.toggleClass('openAll');
+
+  });
+
+
+  $('.careSettings').on('click', '.more', function (e) {
       e.preventDefault();
       var $this = $(this);
 

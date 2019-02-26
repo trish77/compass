@@ -39,11 +39,12 @@ var browserSync = require('browser-sync').create();
 // ---------------------------
 
 var scssDir = './scss';
-var cssWatchedFiles = [cssDir + '/*.css', cssDir + '/**/*.css'];
+
 var targetCSSDir = './css';
 var targetJSDir = './js';
 var JSDir = './src';
 var cssDir = JSDir + '/css';
+var cssWatchedFiles = [cssDir + '/*.css', cssDir + '/**/*.css'];
 
 
 var cssSourceFiles = [
@@ -51,6 +52,7 @@ var cssSourceFiles = [
   cssDir + '/all.css',
   cssDir + '/datatables.min.css',
   cssDir + '/custom-checkbox.css',
+  cssDir + '/include.css',
   cssDir + '/themain.css'
 ];
 var JSSource =  JSDir + '/js';
@@ -68,10 +70,10 @@ var JSSourceFiles = [
 gulp.task('css-concat', function () {
   return gulp.src(cssSourceFiles)
     .pipe(concatCss('style.css'))
-   // .pipe(cssmin())
-   // .pipe(rename({suffix: '.min'}))
+    .pipe(cssmin())
+    .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest(targetCSSDir))
-
+    .pipe(notify('css minified'));
 });
 
 // Task compile JS
@@ -149,9 +151,9 @@ gulp.task('browserSync', function() {
 // Watch
 // ---------------------------
 gulp.task('watch', ['browserSync', 'css-concat', 'copy', 'compile-js'], function() {
-  gulp.watch(cssWatchedFiles, ['css-concat'], browserSync.reload);
-  gulp.watch(cssDir + '/**/*.css',  ['css-concat'],  browserSync.reload);
-  gulp.watch('*.html').on('change', browserSync.reload);
+  gulp.watch(cssWatchedFiles, ['css-concat'],  browserSync.reload);
+ // gulp.watch(cssDir + '/**/*.css',  ['css-concat'],  browserSync.reload);
+ // gulp.watch('*.html').on('change', browserSync.reload);
   gulp.watch(JSDir + '/**/*.js', ['compile-js', browserSync.reload]);
 });
 
