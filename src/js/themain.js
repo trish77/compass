@@ -11,10 +11,11 @@ $(document).ready(function () {
       url: 'c_data.json',
       dataSrc: 'data'
     },
+    "paging": false,
     initComplete: function () {
       this.api().columns(['.filter-search']).every( function () {
         var column = this;
-        var select = $('<br><select><option value="Governing Body"></option></select>')
+        var select = $('<br><select><option value=""></option></select>')
           .appendTo( $('.filter-search') )
           .on( 'change', function () {
             var val = $.fn.dataTable.util.escapeRegex(
@@ -78,7 +79,7 @@ $(document).ready(function () {
       {orderable: false, targets: [1, 3, 4, 5, 6]}
     ],
     language: {
-      sLengthMenu: "Show _MENU_ regulations",
+      //sLengthMenu: "Show _MENU_ regulations",
       "info": "_START_ &ndash; _END_ of _TOTAL_ matching regulations"
     },
     pagingType: "full_numbers",
