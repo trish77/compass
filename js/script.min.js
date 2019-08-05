@@ -17278,13 +17278,31 @@ $(document).ready(function () {
       url: 'c_data.json',
       dataSrc: 'data'
     },
+    initComplete: function () {
+      this.api().columns(['.filter-search']).every( function () {
+        var column = this;
+        var select = $('<br><select><option value="Governing Body"></option></select>')
+          .appendTo( $('.filter-search') )
+          .on( 'change', function () {
+            var val = $.fn.dataTable.util.escapeRegex(
+              $(this).val()
+            );
+
+            column
+              .search( val ? val : '', false, true )
+              .draw();
+          } );
+
+        column.data().unique().sort().each( function ( d, j ) {
+          select.append( '<option value="'+d+'">'+d+'</option>' )
+        } );
+      } );
+    },
+
     //scrollY: '550px',
     //deferRender:    true,
     //scroller: true,
-    lengthMenu: [
-      [10, 25, 50, -1],
-      ['10', '25', '50', 'All']
-    ],
+
     columns: [
       {"data": "course_title"},
       {"data": "course_summary"},
@@ -17313,7 +17331,7 @@ $(document).ready(function () {
       },
       {targets: 1, data: 'course_summary', visible: false, searchable: true},
       {targets: 2, data: 'effective_date'},
-      {targets: 3, data: 'governing_body'},
+      {targets: 3, data: 'governing_body', searchable: true},
       {targets: 4, data: 'care_settings', visible: false, searchable: true},
       {targets: 5, data: 'disciplines', visible: false, searchable: true},
       {
@@ -17324,7 +17342,7 @@ $(document).ready(function () {
         }
       },
       {order: [0, 2, 3]},
-      {orderable: false, targets: [1, 4, 5, 6]}
+      {orderable: false, targets: [1, 3, 4, 5, 6]}
     ],
     language: {
       sLengthMenu: "Show _MENU_ regulations",
@@ -17342,7 +17360,9 @@ $(document).ready(function () {
         }
       ]
     },
+
   });
+
 
   /*table.buttons().container()
     .appendTo($(table.table().container()));*/
@@ -17551,7 +17571,30 @@ $(document).ready(function () {
 
     })
   });
+/*  console.log(table);
+  table.columns( '.filter-search' ).every( function () {
+    var that = this;
 
+    // Create the select list and search operation
+    var select = $('<select><option value="Governing Body"></option></select>')
+      .appendTo(
+        this.header()
+      )
+      .on( 'change', function () {
+        that
+          .search( $(this).val() )
+          .draw();
+      } );
+
+    // Get the search data for the first column and add to the select list
+    this
+      .cache( 'search' )
+      .sort()
+      .unique()
+      .each( function ( d ) {
+        select.append( $('<option value="'+d+'">'+d+'</option>') );
+      } );
+  } );*/
 
   $('.compass_wrapper').on('click', '#close', function () {
     var pillButton = $('.pillbutton');
@@ -17667,7 +17710,8 @@ $(document).ready(function () {
 
   });
 
-  $(document).on('click', '.clickable', function (e) {
+  $('.filterDrawer ').on('click', '.clickable', function (e) {
+    e.preventDefault();
     var $this = $(this);
     if (!$this.hasClass('card-collapsed')) {
       $this.parents('.card').find('.card-body').slideUp();
@@ -17692,7 +17736,7 @@ $(document).ready(function () {
   });
 
 
-  $('.careSettings').on('click', '.more', function (e) {
+  $('.careSettings', '.disciplines').on('click', '.more', function (e) {
       e.preventDefault();
       var $this = $(this);
 
@@ -17709,7 +17753,7 @@ $(document).ready(function () {
       }
     });
 
-  $('.careSettings').on('click', '.less', function (e) {
+  $('.careSettings', '.disciplines').on('click', '.less', function (e) {
     e.preventDefault();
     var $this = $(this);
 
@@ -17725,38 +17769,7 @@ $(document).ready(function () {
     }
   });
 
-  $('.disciplines').on('click', '.more', function (e) {
-    e.preventDefault();
-    var $this = $(this);
 
-    // let filterer = $('.filters');
-    //let filtered = $('.filtered');
-    var notFiltered = $this.next('.allnotFiltered');
-    var more = $('<a href="#" class="more">More <i class="fa fa-angle-down"></i></a>');
-    var less = $('<a href="#" class="less">Less <i class="fa fa-angle-up"></i></a>');
-    console.log(less);
-
-    if (notFiltered.css('display', 'none')) {
-      notFiltered.css('display', 'block');
-      $this.replaceWith(less);
-    }
-  });
-
-  $('.disciplines').on('click', '.less', function (e) {
-    e.preventDefault();
-    var $this = $(this);
-
-    var notFiltered = $this.next('.allnotFiltered');
-    var more = $('<a href="#" class="more">More <i class="fa fa-angle-down"></i></a>');
-    var less = $('<a href="#" class="less">Less <i class="fa fa-angle-up"></i></a>');
-    console.log(less);
-
-    if (notFiltered.css('display', 'block')) {
-      //$this.prev().find(filtered).css('font-weight', 'bold');
-      notFiltered.css('display', 'none');
-      $this.replaceWith(more);
-    }
-  });
 
 
 });
